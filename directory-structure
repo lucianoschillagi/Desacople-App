@@ -1,0 +1,170 @@
+desacople-2021 
+   |
+   |__ backend
+   |
+   |__ frontend
+         |
+         |__ node_modules (a lot of folders here)
+         |
+         |__ public
+         |     |__ index.html (⬅️ ⬅️ ⬅️  the entry point)
+         |     |__ robots.txt
+         |
+         |__ src
+               |
+               |__ assets (images, icons..) ------------------------------------------------------
+               |     |
+               |     |__ desacople-logo.png
+               |     |__ pause-button.png
+               |     |__ play-button.png
+
+               |__ firebase (webservices)------------------------------------------------------
+               |     |
+               |     |__ config.js
+               |     |__ firebase.utils.js
+               |
+               |__ ui (the views & its logics)
+                    |
+                    |__ components (pieces of UI) -----------------------------------------------------
+                              |
+                              |__ available-song folder
+                              |       |__ available-song.component.jsx
+                              |       |__ available-song.styles.js
+                              |
+                              |__ available-songs folder
+                              |        |__ available-songs.component.jsx
+                              |        |__ available-songs.styles.js 
+                              |
+                              |__ footer folder
+                              |        |__ footer.component.jsx
+                              |        |__ footer.styles.js                             
+                              |
+                              |__ header folder
+                              |        |__ header.component.jsx
+                              |        |__ header.styles.js
+                  |           |
+                  |           |__ marketing-text folder
+                  |           |        |__ marketing-text.component.jsx
+                  |           |        |__ marketing-text.styles.js
+                  |           |
+                  |           |__ song-option folder 
+                  |           |        |__ song-option.component.jsx
+                  |           |        |__ song-option.styles.js
+
+
+                     |
+                     |__ sections (analysis page's sections) ----------------------------------------------
+                     |        |
+                     |        |__ actors folder
+                     |        |        |__ actors.component.jsx
+                     |        |        |__ actors.styles.js
+                     |        |        |__ card-detail.component.jsx
+                     |        |        |__ card-detail.styles.js
+                     |        |        |__ card.component.jsx
+                     |        |        |__ card.styles.js
+                     |        |        |__ cards.component.jsx
+                     |        |        |__ cards.styles.js 
+                     |        |
+                     |        |__ associated-material folder
+                     |        |        |__ associated-material.component.jsx
+                     |        |        |__ associated-material.styles.js
+                     |        |        |__ associated-material-item.component.jsx
+                     |        |        |__ associated-material-item.styles.js
+                     |        |
+                     |        |__ black-hole folder
+                     |        |        |__ black-hole.component.jsx
+                     |        |        |__ black-hole.styles.js
+                     |        |
+                     |        |__ cover folder
+                     |                 |__ cover.component.jsx
+                     |        |        |__ cover.styles.js
+                     |        |
+                     |        |__ highlighted folder
+                     |        |        |__ highlighted.component.jsx
+                     |        |        |__ highlighted.styles.js
+                     |        |        |__ highlighted-cover.component.jsx
+                     |        |        |__ highlighted-cover.styles.js
+                     |        |        |__ highlighted-item.component.jsx
+                     |        |        |__ highlighted-item.styles.js
+                     |        |
+                     |        |__ listen folder
+                     |        |        |__ listen.component.jsx
+                     |        |        |__ listen.styles.js
+                     |        |        |__ play-song.component.jsx
+                     |        |        |__ play-song.styles.js
+                     |        |        |__ play-song-control.component.jsx
+                     |        |        |__ play-song-control.styles.js
+                     |        |
+                     |        |__ lyrics folder
+                     |        |        |__ lyrics.component.jsx
+                     |        |        |__ lyrics.styles.js
+                     |
+                     |__ pages (analysis page's sections) ----------------------------------------------
+                     |        |
+                     |        |__ home folder
+                     |        |        |__ home.component.jsx
+                     |        |        |__ home.styles.js
+                     |        |
+                     |        |__ analysis folder
+                     |                 |
+                     |                 |__ v.1.0
+                     |                        |__ 1.Another 
+                                                      |__another-one-bites-the-dust.component.jsx
+                                                      |__another-one-bites-the-dust-cover.component.jsx
+                                                      |__another-one-bites-the-dust-actors.component.jsx
+                                                      |__another-one-bites-the-dust-listen.component.jsx
+                                                      |__another-one-bites-the-dust-lyrics.component.jsx
+                                                      |__another-one-bites-the-dust-highlighted.component.jsx
+                                                      |__another-one-bites-the-dust-associated.component.jsx
+                                                      |__another-one-bites-the-dust-black-hole.component.jsx
+
+                     |                        |__ 2.Satisfaction 
+                                                      |__satisfaction.component.jsx
+                                                      |__satisfaction-cover.component.jsx
+                                                      |__satisfaction-actors.component.jsx
+                                                      |__satisfaction-listen.component.jsx
+                                                      |__satisfaction-lyrics.component.jsx
+                                                      |__satisfaction-highlighted.component.jsx
+                                                      |__satisfaction-associated.component.jsx
+                                                      |__satisfaction-black-hole.component.jsx
+
+                     |                        |__ 3.The-Good 
+                                                      |__the-good.component.jsx
+                                                      |__the-good-cover.component.jsx
+                                                      |__the-good-actors.component.jsx
+                                                      |__the-good-listen.component.jsx
+                                                      |__the-good-lyrics.component.jsx
+                                                      |__the-good-highlighted.component.jsx
+                                                      |__the-good-associated.component.jsx
+                                                      |__the-good-black-hole.component.jsx
+                                                                                 |                 
+                     |        |        |__ analysis.component.jsx
+                     |        |        |__ analysis.styles.js
+                     |        |        |__ firebase-functions.js 🚨🚨🚨 (API)
+                     |
+                     |__ utils -------------------------------------------------------------------------
+                     |        |
+                     |        |__ spinner.js
+                     |       
+                     |   
+                     |__ firebase -------------------------------------------------------------------------
+                     |        |
+                     |        |__ config.js 🚨🚨🚨 (Firebase Service)
+                     |        |__ firebase.utils.js 🚨🚨🚨 (Firebase Service)
+                  |  
+                  |__ App.js
+                  |__ App.css
+                  |__ index.js ⬅️ ⬅️ ⬅️ ⬅️ 
+                  |__ index.css
+                  |__ reportWebVitals.js 
+                  |__ setupTests.js (Jest)
+         |
+         |__ package.json
+         |__ package-lock.json
+         |__ README.md
+
+   |__ .gitignore
+   |__ directory-structure
+
+
+

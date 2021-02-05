@@ -1,0 +1,14 @@
+/* Global CSS Rules */
+html,body {
+  margin:0;
+  padding:0;
+}
+
+.App {
+  text-align: center;
+  font-family: ff-meta-correspondence-web-p, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  background-color: #2f4870;
+}
