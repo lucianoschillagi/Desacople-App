@@ -93,10 +93,10 @@ class AnotherOneBitesTheDust_Page extends Component {
 				<Header/>
 				<Another_CoverSection/>
 				<Another_ActorsSection/>
-				<Another_ListenSection/>
+				{/* <Another_ListenSection/> */}
 				<Another_LyricsSection/>
 				<Another_AssociatedSection/>
-				<Another_HighlightedSection/>
+				<Another_HighlightedSection/> 
 				<BlackHoleSection/>
 			</div>
     );
@@ -104,3 +104,4 @@ class AnotherOneBitesTheDust_Page extends Component {
 }
 
 export default AnotherOneBitesTheDust_Page;
+

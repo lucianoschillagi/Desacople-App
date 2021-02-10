@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from '../../../../sections/lyrics/lyrics.styles.js';
-
+import Another_LyricsSource from './another-one-bites-the-dust-lyrics-source.component';
 
 class Another_LyricsSection extends Component {
 
@@ -99,13 +98,11 @@ class Another_LyricsSection extends Component {
 	 ];
 
 	return ( 
-				<Container>
+				<div>
 
-					<Estrofas estrofas={estrofas[0]} /> 
-					<Estrofas estrofas={estrofas[1]} /> 
-					<Estrofas estrofas={estrofas[2]} /> 
+					<Another_LyricsSource/>
 
-				</Container>
+				</div>
 			 );
 
 

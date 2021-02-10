@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from '../../../../sections/lyrics/lyrics.styles.js';
+import Satisfaction_LyricsSource from './satisfaction-lyrics-source.component';
 
 
 class Satisfaction_LyricsSection extends Component {
@@ -88,15 +89,7 @@ class Satisfaction_LyricsSection extends Component {
 
 	return ( 
 				<Container>
-
-					<ul>
-                  <li>verse one</li>
-                  <li>verse two</li>
-                  <li>verse three</li>
-                  <li>verse four</li>
-               </ul>
-            
-
+					<Satisfaction_LyricsSource/>
 				</Container>
 			 );
 

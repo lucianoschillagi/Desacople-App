@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import CardDetail from './card-detail.component'
-import Cards from './cards.component'
-import { Container } from './actors.styles.js'
+import React, { Component } from 'react';
+import CardDetail from './card-detail.component';
+import Cards from './cards.component';
+import { Container } from './actors.styles.js';
 
 class ActorsSection extends Component {
-
    render() {
 		return (
 			<Container>
@@ -15,5 +14,5 @@ class ActorsSection extends Component {
    }
 }
 
-export default ActorsSection
+export default ActorsSection;
 

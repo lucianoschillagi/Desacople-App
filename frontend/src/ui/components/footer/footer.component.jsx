@@ -9,7 +9,7 @@ class Footer extends Component {
 					<Link href="mailto:luko.web@gmail.com?Subject=desacople-my-feedback">
 						<Text>send feedback!</Text>
 					</Link>
-					<Copyright>© 2 0 2 0  ~ D e s a c o p l e</Copyright>
+					<Copyright>© 2 0 2 1  ~ D e s a c o p l e</Copyright>
       </Container>
     )
   }

@@ -3,7 +3,7 @@ import { Container,
          ContainerCentered,
          QuoteSong,
          SongTitle,
-			Composers,
+			Composers as SongComposer,
 			SongInfoContainer,
          SongInfo,
          FromYears
@@ -30,9 +30,9 @@ class CoverSection extends Component {
 						{this.props.coverSectionData.song_title}
 					</SongTitle>
 
-					<Composers>
+					<SongComposer>
 						Written by {this.props.coverSectionData.song_composer}
-					</Composers>
+					</SongComposer>
 
 					<SongInfoContainer>
 						<SongInfo>
@@ -63,7 +63,7 @@ class CoverSection extends Component {
   }
 }
 
-export default CoverSection
+export default CoverSection;
 
 
 

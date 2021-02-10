@@ -100,7 +100,7 @@ class LyricsSection extends Component {
 					<Estrofas estrofas={estrofas[2]} /> 
 
 				</div>
-			 )
+			 );
 
 
 

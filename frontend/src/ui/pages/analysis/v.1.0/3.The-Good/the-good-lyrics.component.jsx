@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from '../../../../sections/lyrics/lyrics.styles.js';
+import TheGood_LyricsSource from './the-good-lyrics-source.component';
 
 class TheGood_LyricsSection extends Component {
 
@@ -86,16 +86,10 @@ class TheGood_LyricsSection extends Component {
 	 ];
 
 	return ( 
-				<Container>
-					<ul>
-                  <li>verse one</li>
-                  <li>verse two</li>
-                  <li>verse three</li>
-                  <li>verse four</li>
-               </ul>
-				</Container>
+				<div>
+					<TheGood_LyricsSource/>
+				</div>
 			 );
-
    }
 }
 
