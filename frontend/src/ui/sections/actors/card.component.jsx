@@ -15,7 +15,7 @@ class Card extends Component {
 	}
 }
 
-export default Card
+export default Card;
 
             //   {/* Card name */}
             //   <h1 className="Card_name"
