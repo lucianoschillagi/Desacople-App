@@ -30,9 +30,8 @@ class Header extends Component {
 						<Link to={{
 							pathname: "/",
 							data: "song_001" }}>
-							<Logo
-									src={logo}
-									alt="logo-desacople"
+							<Logo src={logo}
+								  alt="logo-desacople"
 							/>
 						</Link> 
 					</LogoContainer>
@@ -43,6 +42,8 @@ class Header extends Component {
 							desacople
 						</ProductName>
 					</ProductContainer>
+
+					<LogoContainer/>
 
 				</Container> 
 			

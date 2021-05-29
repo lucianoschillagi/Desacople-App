@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PlaySong from '../../../../sections/listen/play-song.component.jsx';
 import { Container, ContainerCentered } from '../../../../sections/listen/listen-section.styles.js';
 
-class Another_ListenSection extends Component {
+class TheGood_ListenSection extends Component {
 
 	render() {
 		return (
@@ -13,6 +13,7 @@ class Another_ListenSection extends Component {
 								 getCurrentTimeSong={this.props.getCurrentTimeSong}
 								 coverSectionData={this.props.coverSectionData}
 					/>
+					<h1>hola</h1>
 				</ContainerCentered>
 			</Container>
 
@@ -20,8 +21,4 @@ class Another_ListenSection extends Component {
    }
 }
 
-export default Another_ListenSection;
-
-
-
-
+export default TheGood_ListenSection;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, CardTitle, CardDescription } from './card-detail.styles'
+import { Container, CardDetailTitle, CardDetailDescription } from './card-detail.styles'
 
 class CardDetail extends Component {
 
@@ -7,13 +7,13 @@ class CardDetail extends Component {
 		return (
 			<Container>
 
-				<CardTitle>
+				<CardDetailTitle>
 					{this.props.actorsSectionData.card_01}
-				</CardTitle>
+				</CardDetailTitle>
 
-				<CardDescription>
+				<CardDetailDescription>
 					{this.props.actorsSectionData.card_01}
-				</CardDescription>
+				</CardDetailDescription>
 				
          </Container>
 		)

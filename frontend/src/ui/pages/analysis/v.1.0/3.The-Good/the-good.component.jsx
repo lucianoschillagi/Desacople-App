@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Header from '../../../../components/header/header.component.jsx';
 import TheGood_CoverSection from './the-good-cover.component';
 import TheGood_ActorsSection from './the-good-actors.component';
+import TheGood_ListenSection from './the-good-listen.component';
 import TheGood_LyricsSection from './the-good-lyrics.component';
 import TheGood_AssociatedSection from './the-good-associated.component';
 import TheGood_HighlightedSection from './the-good-highlighted.component';
@@ -94,6 +95,7 @@ class TheGoodTheBadAndTheUgly_Page extends Component {
 				<Header/>
 				<TheGood_CoverSection/>
 				<TheGood_ActorsSection/>
+				<TheGood_ListenSection/>
 				<TheGood_LyricsSection/>
 				<TheGood_AssociatedSection/>
 				<TheGood_HighlightedSection/>

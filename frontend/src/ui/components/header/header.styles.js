@@ -31,7 +31,6 @@ justify-content: center;
 align-items: center;
 width: 80%;
 height: 55px;
-// background-color: red;
 `
 
 export const ProductName = styled.h1`

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from '../../../../sections/actors/card.styles.js';
+import { Container, CardTitle, CardDescription } from '../../../../sections/actors/card.styles.js';
 
 class Satisfaction_Card extends Component {
 
@@ -7,9 +7,14 @@ class Satisfaction_Card extends Component {
 		return (
 			<Container>
 				{/* Title */}
-				<h3>{this.props.title}</h3>
+				<CardTitle>
+					Voice
+				</CardTitle>
+
 				{/* Description */}
-				<p>{this.props.desc}</p>
+				<CardDescription>
+					Card description goes here
+				</CardDescription>
 			</Container>
 		);
 	}

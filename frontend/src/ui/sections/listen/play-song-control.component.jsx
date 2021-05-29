@@ -24,12 +24,12 @@ class PlaySongControl extends Component {
 				<TimerContainer>
 					{/*  song title info */}
 					<PlaySongName>
-						{this.props.coverSectionData.song_title}
+						{/* {this.props.coverSectionData.song_title} */}
 					</PlaySongName>
 
 					{/* timer */}
 					<PlaySongControlTimer>
-						{minutes}:{seconds}:{centiseconds}
+						{/* {minutes}:{seconds}:{centiseconds} */}
 					</PlaySongControlTimer>
 
 				</TimerContainer>

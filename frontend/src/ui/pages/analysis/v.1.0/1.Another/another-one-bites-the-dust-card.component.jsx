@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
-import { Container } from '../../../../sections/actors/card.styles.js';
+import { Container, CardTitle, CardDescription } from '../../../../sections/actors/card.styles.js';
 
 class Another_Card extends Component {
 
 	render() {
 		return (
 			<Container>
+				
 				{/* Title */}
-				<h3>{this.props.title}</h3>
+				<CardTitle>
+					Guitar
+				</CardTitle>
+				
 				{/* Description */}
-				<p>{this.props.desc}</p>
+				<CardDescription>
+					Card guitar description goes here
+				</CardDescription>
+
 			</Container>
 		);
 	}

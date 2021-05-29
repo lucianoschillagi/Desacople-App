@@ -1,5 +1,7 @@
 // Imported Modules
 import React, { Component } from 'react';
+
+// Imported Components
 import Another_CoverSection from './another-one-bites-the-dust-cover.component.jsx';
 import Another_ActorsSection from './another-one-bites-the-dust-actors.component.jsx';
 import Another_ListenSection from './another-one-bites-the-dust-listen.component.jsx';
@@ -93,7 +95,7 @@ class AnotherOneBitesTheDust_Page extends Component {
 				<Header/>
 				<Another_CoverSection/>
 				<Another_ActorsSection/>
-				{/* <Another_ListenSection/> */}
+				<Another_ListenSection/>
 				<Another_LyricsSection/>
 				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 

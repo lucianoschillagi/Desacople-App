@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
 display: flex;
@@ -14,18 +14,10 @@ margin-bottom: 50px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 `
 
-export const CardTitle = styled.div`
-height: 25%;
-font-size: 1em;
-padding-top: 10%;
-align-items: center;
-color: white;
+export const CardDetailTitle = styled.h1`
+font-size: 20;
 `
 
-export const CardDescription = styled.div`
-width: 100%;
-height: 25%;
-text-align: center;
-padding: 10px;
-font-size: 0.5em;
+export const CardDetailDescription = styled.p`
+font-size: 12;
 `
