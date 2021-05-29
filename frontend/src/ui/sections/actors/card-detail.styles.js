@@ -15,9 +15,10 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 `
 
 export const CardDetailTitle = styled.h1`
-font-size: 20;
+font-size: 2.2rem;
 `
 
 export const CardDetailDescription = styled.p`
-font-size: 12;
+font-size: 1.2rem;
+font-weight: lighter;
 `
