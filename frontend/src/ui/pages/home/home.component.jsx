@@ -6,13 +6,10 @@ import Footer from '../../components/footer/footer.component';
 import { Container } from './home.styles';
 
 class HomePage extends Component {
-   
-// Task: Ejecutar una vez que el componente se haya montado
-  componentDidMount() {
-
-   // Pone la ventana del navegador en el tope
-   window.scrollTo(0, 0);
- }
+  
+   componentDidMount() {
+      window.scrollTo(0, 0);
+   } 
 
    render() {
       return (

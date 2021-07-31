@@ -1,12 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Container, 
-		 TimerContainer,
-		 PlaySongName,
-		 PlaySongControlTimer,
-		 PlayPauseBtnContainer,
-		 PlayButton,
-		 PauseButton,
-		 Pulse } from './play-song-control.styles'
+			TimerContainer,
+			PlaySongName,
+			PlaySongControlTimer,
+			PlayPauseBtnContainer,
+			PlayButton,
+			PauseButton,
+			Pulse } from './play-song-control.styles';
+
+import playButtonIcon from '../../../assets/play-button.png';
+import pauseButtonIcon from '../../../assets/pause-button.png';
 
 class PlaySongControl extends Component {
 
@@ -25,11 +28,12 @@ class PlaySongControl extends Component {
 					{/*  song title info */}
 					<PlaySongName>
 						{/* {this.props.coverSectionData.song_title} */}
+						Another Ones Bites The Dust
 					</PlaySongName>
 
 					{/* timer */}
 					<PlaySongControlTimer>
-						{/* {minutes}:{seconds}:{centiseconds} */}
+						{minutes}:{seconds}:{centiseconds}
 					</PlaySongControlTimer>
 
 				</TimerContainer>
@@ -41,7 +45,9 @@ class PlaySongControl extends Component {
 					{/* PAUSE BUTTON */}
 					<PauseButton id="pause-button">
 						<img
-							src={require('../../../assets/pause-button.png')}
+							src={pauseButtonIcon}
+							width={25}
+							heigth={17}
 							alt="PAUSE"
 					  />
 					</PauseButton>
@@ -49,7 +55,9 @@ class PlaySongControl extends Component {
 					{/* PLAY BUTTON */}
 					<PlayButton id="play-button">
 						<img
-							src={require('../../../assets/play-button.png')}
+							src={playButtonIcon}
+							width={25}
+							heigth={17}
 							alt="PLAY"
 					  />
 					</PlayButton>
@@ -63,5 +71,5 @@ class PlaySongControl extends Component {
    }
 }
 
-export default PlaySongControl
+export default PlaySongControl;
 
