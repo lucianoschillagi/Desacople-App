@@ -1,11 +1,8 @@
-// Imported Modules
 import React, { Component } from 'react';
-// Firebase
 import firebase from 'firebase';
 import functions from 'firebase-functions';
 import admin from 'firebase-admin';
 
-// Imported Components
 import Header from '../../components/header/header.component';
 import CoverSection from '../../sections/cover/cover.component';
 import ActorsSection from '../../sections/actors/actors.component';
@@ -15,7 +12,6 @@ import AssociatedMaterialSection from '../../sections/associated-material/associ
 import HighlightedSection from '../../sections/highlighted/highlighted.component';
 import BlackHoleSection from '../../sections/black-hole/black-hole.component';
 
-// Imported Styles
 import { Container } from './analysis.styles';
 import { StyledSpinner } from '../../../utils/spinner';
 
@@ -35,40 +31,40 @@ class AnalysisPage extends Component {
    constructor(props) {
 		super(props);
 		this.state = { 
-							// Loading...
-							loading: true, // indica que la página se está cargando aún
-							
-							// Song Timer
-							currentTimeSong: 0,  // el tiempo actual de la canción
-							timerOn: null,// indica si el timer está prendido o no
+			// Loading...
+			loading: true, // indica que la página se está cargando aún
+			
+			// Song Timer
+			currentTimeSong: 0,  // el tiempo actual de la canción
+			timerOn: null,// indica si el timer está prendido o no
 
-							// Cover Section Info
-							coverSectionData: {},
+			// Cover Section Info
+			coverSectionData: {},
 
-							// Actors Section Info
-							actorsSectionData: {},
+			// Actors Section Info
+			actorsSectionData: {},
 
-							// Lyrics Section Info
-							lyricsSectionData: {},
+			// Lyrics Section Info
+			lyricsSectionData: {},
 
-							// Associated Section Info
-							associatedSectionData: {},
+			// Associated Section Info
+			associatedSectionData: {},
 
-							// Highlighted Section Info
-							highlightedSectionData: {},
+			// Highlighted Section Info
+			highlightedSectionData: {},
 
-							blackHoleSectionData: {},
-							
-							// las "cartas" de la canción seleccionada
-							cardsData: {},
+			blackHoleSectionData: {},
+			
+			// las "cartas" de la canción seleccionada
+			cardsData: {},
 
-							// las estrofas de la canción seleccionada
-							estrofasArray: [],
+			// las estrofas de la canción seleccionada
+			estrofasArray: [],
 
-							// las "marcas de tiempo" de la canción seleccionada
-							timestamps: {}
+			// las "marcas de tiempo" de la canción seleccionada
+			timestamps: {}
 
-					}
+		}
   
 		this.getCurrentTimeSong = this.getCurrentTimeSong.bind(this);
 		this.getTimerInfo = this.getTimerInfo.bind(this);
@@ -434,14 +430,14 @@ class AnalysisPage extends Component {
 
 				{/* LISTEN */}
 				<ListenSection 
-									getCurrentTimeSong={this.getCurrentTimeSong}
-									getTimerInfo={this.getTimerInfo}
-									currentTimeSong={this.state.currentTimeSong}
-									timerOn={this.state.timerOn}
-									coverSectionData={this.state.coverSectionData}/> 
+					getCurrentTimeSong={this.getCurrentTimeSong}
+					getTimerInfo={this.getTimerInfo}
+					currentTimeSong={this.state.currentTimeSong}
+					timerOn={this.state.timerOn}
+					coverSectionData={this.state.coverSectionData}/> 
 
 				{/* LYRICS */}
-          	<LyricsSection currentTimeSong={this.state.currentTimeSong}
+          		<LyricsSection currentTimeSong={this.state.currentTimeSong}
 				  			  	   lyricsSectionData={this.state.lyricsSectionData}/>
 
 				 {/* HIGHLIGHTED */}

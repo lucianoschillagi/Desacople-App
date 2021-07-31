@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
 position: fixed;
@@ -46,13 +46,11 @@ display: flex;
 align-self: center;
 top: 5px;
 left: 0px;
-/* width: 50px;
-height: 50px; */
 padding: 10px;
 margin-left: -10px;
 z-index: 2;
 align-self: center;
-background-color: black;
+background-color: blue;
 /* opacity: 0.6; */
 border: 0px solid !important;
 `
@@ -63,8 +61,6 @@ display: flex;
 align-self: center;
 top: 5px;
 left: 0px;
-/* width: 50px;
-height: 50px; */
 padding: 10px;
 margin-left: -10px;
 z-index: 2;

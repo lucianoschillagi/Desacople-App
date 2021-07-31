@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Card from './card.component'
-import { Container } from './cards.styles'
+import React, { Component } from 'react';
+import Card from './card.component';
+import { Container } from './cards.styles';
 
 class Cards extends Component {
 
@@ -32,4 +32,4 @@ class Cards extends Component {
 	}
 }
 
-export default Cards
+export default Cards;
