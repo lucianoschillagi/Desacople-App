@@ -18,8 +18,8 @@ class Satisfaction_Page extends Component {
 			<div>
 				<Header/>
 				<Satisfaction_CoverSection/>
-					{/* <Satisfaction_ActorsSection/>
-				<Satisfaction_ListenSection/> */}
+				<Satisfaction_ActorsSection/>
+				{/* <Satisfaction_ListenSection/> */}
 				<Satisfaction_LyricsSection/>
 				{/* <Satisfaction_AssociatedSection/>
 				<Satisfaction_Highlighted/>

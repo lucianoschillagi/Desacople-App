@@ -91,8 +91,8 @@ class AnotherOneBitesTheDust_Page extends Component {
 			<div>
 				<Header/>
 				<Another_CoverSection/>
-				{/* <Another_ActorsSection/>
-				<Another_ListenSection/> */}
+				<Another_ActorsSection/>
+				{/* <Another_ListenSection/> */}
 				<Another_LyricsSection/>
 				{/* <Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
