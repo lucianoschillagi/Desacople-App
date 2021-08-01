@@ -7,10 +7,11 @@ import { LyricsSourceContainer,
          LyricsVerse
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
-class Satisfaction_LyricsSource extends Component {
+   class Satisfaction_LyricsSource extends Component {
 
    render() {
       return ( 
+         
          <LyricsSourceContainer>
 
             <LyricsTitle>
@@ -20,6 +21,8 @@ class Satisfaction_LyricsSource extends Component {
             <LyricsAuthor>
                Author: Jagger - Richards
             </LyricsAuthor>
+
+   
 
             <LyricsContainer>
 
