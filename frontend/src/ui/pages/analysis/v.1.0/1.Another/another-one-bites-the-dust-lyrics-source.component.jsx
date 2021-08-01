@@ -1,23 +1,18 @@
 import React, { Component } from 'react';
-
-
-       import { LyricsSourceContainer,
-         LyricsTitle,
-         LyricsAuthor,
-         LyricsContainer,
-         LyricsParagraph,
-         LyricsVerse
+import { LyricsSourceContainer,
+			LyricsTitle,
+			LyricsAuthor,
+			LyricsContainer,
+			LyricsParagraph,
+			LyricsVerse
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
 class Another_LyricsSource extends Component {
 
    render() {
       return ( 
-
          
          <LyricsSourceContainer>
-
-            <h1>HOLA</h1>
 
             <LyricsTitle>
                Another One Bites the Dust
@@ -108,7 +103,6 @@ class Another_LyricsSource extends Component {
                </LyricsParagraph>  
                
             </LyricsContainer>
-
 
          </LyricsSourceContainer>
        );

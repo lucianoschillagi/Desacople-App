@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-
 import Another_LyricsSource from './another-one-bites-the-dust-lyrics-source.component';
-
-import { Container, ContainerCentered } from '../../../../sections/listen/listen-section.styles';
+import { Container } from '../../../../sections/listen/listen-section.styles';
 
 class Another_LyricsSection extends Component {
 
