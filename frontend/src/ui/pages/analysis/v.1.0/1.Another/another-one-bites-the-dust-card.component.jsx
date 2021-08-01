@@ -3,18 +3,20 @@ import { Container, CardTitle, CardDescription } from '../../../../sections/acto
 
 class Another_Card extends Component {
 
+	handleClick(cardTitle, cardDescription) {
+		this.props.getSelectedCardInfo(cardTitle, cardDescription)
+	  }
+
 	render() {
 		return (
-			<Container>
-				
-				{/* Title */}
+			<Container onClick={(e) => this.handleClick(this.props.cardTitle,this.props.cardDescription, e)}>
+
 				<CardTitle>
-					Guitar
+					{this.props.cardTitle}
 				</CardTitle>
-				
-				{/* Description */}
+
 				<CardDescription>
-					Card guitar description goes here
+					{this.props.cardDescription}
 				</CardDescription>
 
 			</Container>

@@ -21,4 +21,5 @@ font-size: 2.2rem;
 export const CardDetailDescription = styled.p`
 font-size: 1.2rem;
 font-weight: lighter;
+color: red;
 `

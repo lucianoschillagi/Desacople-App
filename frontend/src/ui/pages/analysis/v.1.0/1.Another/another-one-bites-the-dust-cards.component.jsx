@@ -9,17 +9,42 @@ class Another_Cards extends Component {
 		return (
 			<Container>
 				
-				<Another_Card title="Guitar"
-								  desc="guitar desc goes here"/>
+				<Another_Card 
+					cardTitle={this.props.cards[0].cardTitle}
+					cardDescription={this.props.cards[0].cardDescription}
+					getSelectedCardInfo={this.props.getSelectedCardInfo}
+				/>
 
-				<Another_Card title="Piano"
-								  desc="piano desc goes here"/>
+				<Another_Card 
+					cardTitle={this.props.cards[1].cardTitle}
+					cardDescription={this.props.cards[1].cardDescription}
+					getSelectedCardInfo={this.props.getSelectedCardInfo}
+				/>
 
-				<Another_Card title="Drums"
-								  desc="drums desc goes here"/>
+				<Another_Card 
+					cardTitle={this.props.cards[2].cardTitle}
+					cardDescription={this.props.cards[2].cardDescription}
+					getSelectedCardInfo={this.props.getSelectedCardInfo}
+				/>
 
-				<Another_Card title="Bass"
-								  desc="bass desc goes here"/>
+				<Another_Card 
+					cardTitle={this.props.cards[3].cardTitle}
+					cardDescription={this.props.cards[3].cardDescription}
+					getSelectedCardInfo={this.props.getSelectedCardInfo}
+				/>
+
+				<Another_Card 
+					cardTitle={this.props.cards[4].cardTitle}
+					cardDescription={this.props.cards[4].cardDescription}
+					getSelectedCardInfo={this.props.getSelectedCardInfo}
+				/>
+
+				<Another_Card 
+					cardTitle={this.props.cards[5].cardTitle}
+					cardDescription={this.props.cards[5].cardDescription}
+					getSelectedCardInfo={this.props.getSelectedCardInfo}
+				/>
+
 
 			</Container>
 		)
