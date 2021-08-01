@@ -10,8 +10,8 @@ class Anoher_HighlightedItem extends Component {
 		return (
 			<Container>
 				<ContainerDescription>
-               <Title>{this.props.highlightedSongTitle}</Title>
-               <Content>{this.props.highlightedSongContent}</Content>
+               <Title>{this.props.hightlightedSectionItemData}</Title>
+               <Content>{this.props.hightlightedSectionItemData}</Content>
             </ContainerDescription>
 			</Container>
 		)
