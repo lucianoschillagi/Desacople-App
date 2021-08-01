@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, 
-		CardDetailTitle, 
-		CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
+		 CardDetailTitle, 
+		 CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
 
 class Another_CardDetail extends Component {
 
@@ -10,11 +10,11 @@ class Another_CardDetail extends Component {
 			<Container>
 
 				<CardDetailTitle>
-					Guitar
+					{this.props.cardTitle}
 				</CardDetailTitle>
 
 				<CardDetailDescription>
-					guitar description goes here
+					{this.props.cardDescription}
 				</CardDetailDescription>
 				 
          </Container>
