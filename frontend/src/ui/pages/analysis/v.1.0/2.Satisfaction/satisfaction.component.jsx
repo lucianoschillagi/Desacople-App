@@ -21,7 +21,7 @@ class Satisfaction_Page extends Component {
 				<Satisfaction_ActorsSection/>
 				{/* <Satisfaction_ListenSection/> */}
 				<Satisfaction_LyricsSection/>
-				{/* {<Satisfaction_AssociatedSection/> */}
+				<Satisfaction_AssociatedSection/>
 				<Satisfaction_Highlighted/>
 				{/* <BlackHoleSection/>  */}
 			</div>
