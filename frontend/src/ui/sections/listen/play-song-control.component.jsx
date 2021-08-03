@@ -25,50 +25,44 @@ class PlaySongControl extends Component {
 			<Container>
 
 				<TimerContainer>
-					{/*  song title info */}
+
 					<PlaySongName>
-						{/* {this.props.coverSectionData.song_title} */}
 						Another Ones Bites The Dust
 					</PlaySongName>
 
-					{/* timer */}
 					<PlaySongControlTimer>
 						{minutes}:{seconds}:{centiseconds}
 					</PlaySongControlTimer>
 
 				</TimerContainer>
 
-
-				{/* remote button play-pause youtube video */}
 				<PlayPauseBtnContainer>
 				
-					{/* PAUSE BUTTON */}
 					<PauseButton id="pause-button">
 						<img
 							src={pauseButtonIcon}
 							width={25}
 							heigth={17}
 							alt="PAUSE"
-					  />
+						/>
 					</PauseButton>
 
-					{/* PLAY BUTTON */}
 					<PlayButton id="play-button">
-						<img
-							src={playButtonIcon}
-							width={25}
-							heigth={17}
-							alt="PLAY"
-					  />
-					</PlayButton>
-	
+							<img
+								src={playButtonIcon}
+								width={25}
+								heigth={17}
+								alt="PLAY"
+							/>
+						</PlayButton>
+		
 				</PlayPauseBtnContainer>
 
-				<Pulse/>
+				{/* <Pulse/> */}
 				
 			</Container>
-		)
-   }
+	    );
+    }
 }
 
 export default PlaySongControl;

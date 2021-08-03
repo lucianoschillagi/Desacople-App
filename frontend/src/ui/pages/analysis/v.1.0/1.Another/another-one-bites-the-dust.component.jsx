@@ -24,52 +24,24 @@ import { Container,
 
 class AnotherOneBitesTheDust_Page extends Component {
 
-   // constructor(props) {
-	// 	super(props);
-	// 	this.state = { 
-	// 						// Loading...
-	// 						loading: true, // indica que la página se está cargando aún
+   constructor(props) {
+		super(props);
+		this.state = { 
+							// Loading...
+							loading: true, // indica que la página se está cargando aún
 							
-	// 						// Song Timer
-	// 						currentTimeSong: 0,  // el tiempo actual de la canción
-	// 						timerOn: null,// indica si el timer está prendido o no
-
-	// 						// Cover Section Info
-	// 						coverSectionData: {},
-
-	// 						// Actors Section Info
-	// 						actorsSectionData: {},
-
-	// 						// Lyrics Section Info
-	// 						lyricsSectionData: {},
-
-	// 						// Associated Section Info
-	// 						associatedSectionData: {},
-
-	// 						// Highlighted Section Info
-	// 						highlightedSectionData: {},
-
-	// 						blackHoleSectionData: {},
-							
-	// 						// las "cartas" de la canción seleccionada
-	// 						cardsData: {},
-
-	// 						// las estrofas de la canción seleccionada
-	// 						estrofasArray: [],
-
-	// 						// las "marcas de tiempo" de la canción seleccionada
-	// 						timestamps: {}
-
-	// 				}
+							// Song Timer
+							currentTimeSong: 0,  // el tiempo actual de la canción
+							timerOn: null,// indica si el timer está prendido o no
+					}
   
-	// 	this.getCurrentTimeSong = this.getCurrentTimeSong.bind(this);
-	// 	this.getTimerInfo = this.getTimerInfo.bind(this);
-	// 	this.getDataSong = this.getDataSong.bind(this);
-   // }
+		this.getCurrentTimeSong = this.getCurrentTimeSong.bind(this);
+		this.getTimerInfo = this.getTimerInfo.bind(this);
+		// this.getDataSong = this.getDataSong.bind(this);
+   }
 
 	// Task: Ejecutar una vez que el componente se haya montado
 	componentDidMount() {
-
 		window.scrollTo(0, 0); // Pone la ventana en el tope
 	}
 
@@ -92,7 +64,13 @@ class AnotherOneBitesTheDust_Page extends Component {
 				<Header/>
 				<Another_CoverSection/>
 				<Another_ActorsSection/>
-				{/* <Another_ListenSection/> */}
+				<Another_ListenSection 
+					getCurrentTimeSong={this.getCurrentTimeSong}
+					getTimerInfo={this.getTimerInfo}
+					currentTimeSong={this.state.currentTimeSong}
+					timerOn={this.state.timerOn}
+					coverSectionData={this.state.coverSectionData}
+				/> 
 				<Another_LyricsSection/>
 				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
