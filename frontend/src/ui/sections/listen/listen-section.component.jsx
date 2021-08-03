@@ -44,12 +44,11 @@ class ListenSection extends Component {
                <Elements/>
 
                {/* PlaySong component instance, the YouTube video */}
-               {/* <PlaySong currentTimeSong={this.props.currentTimeSong}
-                        getTimerInfo={this.props.getTimerInfo}
-                        getCurrentTimeSong={this.props.getCurrentTimeSong}
-                        coverSongTitle={this.props.coverSongTitle}/> */}
-
-               <PlaySong/>
+               <PlaySong 
+                  currentTimeSong={this.props.currentTimeSong}
+                  getTimerInfo={this.props.getTimerInfo}
+                  getCurrentTimeSong={this.props.getCurrentTimeSong}
+                  coverSongTitle={this.props.coverSongTitle}/>
 
 				</ContainerCentered>
 			</Container>

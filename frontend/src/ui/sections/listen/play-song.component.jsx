@@ -1,14 +1,9 @@
-// Imported Modules
-import React, { Component } from 'react'
+import React from 'react'
 import YouTube from 'react-youtube'
-
-// Imported Components
 import PlaySongControl from './play-song-control.component.jsx'
-
-// Imported Styles
 import { Container, InvisibleContainer } from './play-song.styles'
 
-class PlaySong extends Component {
+class PlaySong extends React.Component {
 
 	// PlaySong props:
     // getCurrentTimeSong {function}
@@ -18,7 +13,7 @@ class PlaySong extends Component {
 	 constructor(props) {
 		super(props);
 		this.state = {
-							 timerOn: false,
+						  timerOn: false, //???????
 						 };
 
 	 // Youtube methods
@@ -32,7 +27,7 @@ class PlaySong extends Component {
    onReady(event) {
     
 		var playButton = document.getElementById('play-button');
-		var pulse = document.getElementById('pulse');
+		// var pulse = document.getElementById('pulse');
 		// Add event listener to the play button
 		playButton.addEventListener("click", () => 
 		  {
@@ -51,7 +46,7 @@ class PlaySong extends Component {
 			event.target.pauseVideo();
 			playButton.style.visibility = "visible";
 			pauseButton.style.visibility = "hidden";
-			pulse.style.animationPlayState = "paused"; 
+			// pulse.style.animationPlayState = "paused"; 
 		 }
 	  );
 	}
@@ -78,19 +73,15 @@ class PlaySong extends Component {
 		  console.log(event.data);
 	}
 
-   //////////////////////////////////////////////////////////////////////
-   // Youtube methods section ///////////////////////////////////////////
-
    // task: Instruir qué hacer cada vez que el usuario da play al video
    _onPlay(event) {
-		// this.setState({ timerOn: this.props.getTimerInfo(true) });
+		this.setState({ timerOn: this.props.getTimerInfo(true) });
 		this.timer = setInterval(() => {
-				  this.props.getCurrentTimeSong(event.target.getCurrentTime())
-				  }, 10);
+			this.props.getCurrentTimeSong(event.target.getCurrentTime())
+			}, 10);
 
 		// var pulse = document.getElementById('pulse');
 		// pulse.style.animationPlayState = "running";
-
 
 		console.log(event.target.getCurrentTime())
 
@@ -98,14 +89,14 @@ class PlaySong extends Component {
  
 	//    task: Instruir qué hacer cada vez que el usuario da pause al video
 	_onPause(event) {
-			// // poner el valor de 'timerOn' a false
-			// // apagar el timer
-			// this.setState({ timerOn: this.props.getTimerInfo(false) });
-			// // dejar de llamar en intervalos de 1cs a Date.now()
-			// clearInterval(this.timer);
+		// poner el valor de 'timerOn' a false
+		// apagar el timer
+		this.setState({ timerOn: this.props.getTimerInfo(false) });
+		// dejar de llamar en intervalos de 1cs a Date.now()
+		clearInterval(this.timer);
 
-			// var pulse = document.getElementById('pulse');
-			// pulse.style.animationPlayState = "paused";
+		// var pulse = document.getElementById('pulse');
+		// pulse.style.animationPlayState = "paused";
 	}
 
   // task: Instruir qué hacer cuando el video finaliza
@@ -150,9 +141,10 @@ class PlaySong extends Component {
 				</InvisibleContainer>
 
 				{/* PlaySongControl component instance */}
-				<PlaySongControl currentTimeSong={this.props.currentTimeSong}
-									  coverSongTitle={this.props.coverSongTitle}
-									  coverSectionData={this.props.coverSectionData}
+				<PlaySongControl 
+					currentTimeSong={this.props.currentTimeSong}
+					coverSongTitle={this.props.coverSongTitle}
+					coverSectionData={this.props.coverSectionData}
 				/>
          </Container>
 

@@ -8,10 +8,11 @@ class Another_ListenSection extends Component {
 		return (
 			<Container>
 				<ContainerCentered>
-					<PlaySong currentTimeSong={this.props.currentTimeSong}
-								 getTimerInfo={this.props.getTimerInfo}
-								 getCurrentTimeSong={this.props.getCurrentTimeSong}
-								 coverSectionData={this.props.coverSectionData}
+					<PlaySong 
+						currentTimeSong={this.props.currentTimeSong}
+						getTimerInfo={this.props.getTimerInfo}
+						getCurrentTimeSong={this.props.getCurrentTimeSong}
+						coverSectionData={this.props.coverSectionData}
 					/>
 				</ContainerCentered>
 			</Container>

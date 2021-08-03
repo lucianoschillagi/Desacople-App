@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import firebase from 'firebase';
 import functions from 'firebase-functions';
 import admin from 'firebase-admin';
@@ -26,7 +26,7 @@ import { StyledSpinner } from '../../../utils/spinner';
 
 // });
 
-class AnalysisPage extends Component {
+class AnalysisPage extends React.Component {
 
    constructor(props) {
 		super(props);
@@ -416,37 +416,39 @@ class AnalysisPage extends Component {
 		return (
 			<Container>
 
-				{/* LOADER */}
 				<StyledSpinner/>
 
-				{/* HEADER */}
 				<Header/>
 
-				{/* COVER */}
-				<CoverSection coverSectionData={this.state.coverSectionData}/>
+				<CoverSection 
+					coverSectionData={this.state.coverSectionData}
+				/>
 
-				{/* ACTORS */}
-				<ActorsSection actorsSectionData={this.state.actorsSectionData}/> 
+				<ActorsSection
+					actorsSectionData={this.state.actorsSectionData}
+				/> 
 
-				{/* LISTEN */}
 				<ListenSection 
 					getCurrentTimeSong={this.getCurrentTimeSong}
 					getTimerInfo={this.getTimerInfo}
 					currentTimeSong={this.state.currentTimeSong}
 					timerOn={this.state.timerOn}
-					coverSectionData={this.state.coverSectionData}/> 
+					coverSectionData={this.state.coverSectionData}
+				/> 
 
-				{/* LYRICS */}
-          		<LyricsSection currentTimeSong={this.state.currentTimeSong}
-				  			  	   lyricsSectionData={this.state.lyricsSectionData}/>
+				<LyricsSection 
+					currentTimeSong={this.state.currentTimeSong}
+					lyricsSectionData={this.state.lyricsSectionData}
+				/>
 
-				 {/* HIGHLIGHTED */}
-				<HighlightedSection highlightedSectionData={this.state.highlightedSectionData}/> 
+				<HighlightedSection 
+					highlightedSectionData={this.state.highlightedSectionData}
+				/> 
 
-				{/* ASSOCIATED MATERIAL */}
-				<AssociatedMaterialSection associatedSectionData={this.state.associatedSectionData}/>
+				<AssociatedMaterialSection 
+					associatedSectionData={this.state.associatedSectionData}
+				/>
 
-				{/* BLACK HOLE */}
 				<BlackHoleSection/>
 				
 			</Container>
