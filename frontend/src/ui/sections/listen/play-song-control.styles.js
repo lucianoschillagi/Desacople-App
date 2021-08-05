@@ -50,7 +50,7 @@ padding: 10px;
 margin-left: -10px;
 z-index: 2;
 align-self: center;
-background-color: blue;
+background-color: black;
 /* opacity: 0.6; */
 border: 0px solid !important;
 `
@@ -70,14 +70,6 @@ background-color: black;
 border: 0px solid !important;
 `
 
-const breatheAnimation = keyframes`
- 0%   {top: 0px;}
- 25%  {top: 10;}
- 75%  {top: 5px}
- 100% {top: 10px;}
-
-`
-
 const PulseAnimation = keyframes`
 from { transform: scale(0.7); }
 50% { transform: scale(1); }
@@ -85,14 +77,13 @@ to { transform: scale(0.7); }
 `
 
 export const Pulse = styled.div`
-align-self: center;
-width: 20px;
-height: 20px;
-border-radius: 10px;
+height: 30px;
+width: 30px;
+opacity: 0.8;
 background-color: white;
-opacity: 0.65;
-animation-name: ${PulseAnimation}
-/* animation-play-state: running; */
+border-radius: 50%;
+animation-name: ${PulseAnimation};
+animation-play-state: paused;
 /* 0.54s = 110 bpm */
 animation-duration: 0.54s; 
 animation-iteration-count: infinite;

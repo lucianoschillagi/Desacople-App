@@ -27,14 +27,14 @@ class PlaySong extends React.Component {
    onReady(event) {
     
 		var playButton = document.getElementById('play-button');
-		// var pulse = document.getElementById('pulse');
+		var pulse = document.getElementById('pulse');
 		// Add event listener to the play button
 		playButton.addEventListener("click", () => 
 		  {
 			 event.target.playVideo(); // access to player in all event handlers via event.target
 			 playButton.style.visibility = "hidden";
 			 pauseButton.style.visibility = "visible";
-			 //pulse.style.animationPlayState = "running"; 
+			 pulse.style.animationPlayState = "running"; 
   
 		  }
 		);
@@ -46,7 +46,7 @@ class PlaySong extends React.Component {
 			event.target.pauseVideo();
 			playButton.style.visibility = "visible";
 			pauseButton.style.visibility = "hidden";
-			// pulse.style.animationPlayState = "paused"; 
+			pulse.style.animationPlayState = "paused"; 
 		 }
 	  );
 	}
@@ -84,7 +84,6 @@ class PlaySong extends React.Component {
 		pulse.style.animationPlayState = "running";
 
 		console.log(event.target.getCurrentTime())
-
 	}
  
 	// task: Instruir qué hacer cada vez que el usuario da pause al video
