@@ -10,7 +10,7 @@ class PlaySong extends React.Component {
     // getTimerInfo {function}
     // currentTimeSong {number}
 
-	 constructor(props) {
+	constructor(props) {
 		super(props);
 		this.state = {
 						  timerOn: false, //???????
@@ -27,14 +27,14 @@ class PlaySong extends React.Component {
    onReady(event) {
     
 		var playButton = document.getElementById('play-button');
-		// var pulse = document.getElementById('pulse');
+		var pulse = document.getElementById('pulse');
 		// Add event listener to the play button
 		playButton.addEventListener("click", () => 
 		  {
 			 event.target.playVideo(); // access to player in all event handlers via event.target
 			 playButton.style.visibility = "hidden";
 			 pauseButton.style.visibility = "visible";
-			 //pulse.style.animationPlayState = "running"; 
+			 pulse.style.animationPlayState = "running"; 
   
 		  }
 		);
@@ -46,7 +46,7 @@ class PlaySong extends React.Component {
 			event.target.pauseVideo();
 			playButton.style.visibility = "visible";
 			pauseButton.style.visibility = "hidden";
-			// pulse.style.animationPlayState = "paused"; 
+			pulse.style.animationPlayState = "paused"; 
 		 }
 	  );
 	}
@@ -80,14 +80,13 @@ class PlaySong extends React.Component {
 			this.props.getCurrentTimeSong(event.target.getCurrentTime())
 			}, 10);
 
-		// var pulse = document.getElementById('pulse');
-		// pulse.style.animationPlayState = "running";
+		var pulse = document.getElementById('pulse');
+		pulse.style.animationPlayState = "running";
 
 		console.log(event.target.getCurrentTime())
-
 	}
  
-	//    task: Instruir qué hacer cada vez que el usuario da pause al video
+	// task: Instruir qué hacer cada vez que el usuario da pause al video
 	_onPause(event) {
 		// poner el valor de 'timerOn' a false
 		// apagar el timer
@@ -95,8 +94,8 @@ class PlaySong extends React.Component {
 		// dejar de llamar en intervalos de 1cs a Date.now()
 		clearInterval(this.timer);
 
-		// var pulse = document.getElementById('pulse');
-		// pulse.style.animationPlayState = "paused";
+		var pulse = document.getElementById('pulse');
+		pulse.style.animationPlayState = "paused";
 	}
 
   // task: Instruir qué hacer cuando el video finaliza

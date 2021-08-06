@@ -6,7 +6,7 @@ import { Container,
 			PlayPauseBtnContainer,
 			PlayButton,
 			PauseButton,
-			Pulse } from './play-song-control.styles';
+		 	Pulse } from './play-song-control.styles';
 
 import playButtonIcon from '../../../assets/play-button.png';
 import pauseButtonIcon from '../../../assets/pause-button.png';
@@ -48,18 +48,18 @@ class PlaySongControl extends Component {
 					</PauseButton>
 
 					<PlayButton id="play-button">
-							<img
-								src={playButtonIcon}
-								width={25}
-								heigth={17}
-								alt="PLAY"
-							/>
-						</PlayButton>
+						<img
+							src={playButtonIcon}
+							width={25}
+							heigth={17}
+							alt="PLAY"
+						/>
+					</PlayButton>
 		
 				</PlayPauseBtnContainer>
 
-				{/* <Pulse/> */}
-				
+				<Pulse id="pulse"/>
+
 			</Container>
 	    );
     }
