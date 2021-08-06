@@ -23,7 +23,7 @@ class Satisfaction_Page extends Component {
 				<Satisfaction_LyricsSection/>
 				<Satisfaction_AssociatedSection/>
 				<Satisfaction_Highlighted/>
-				{/* <BlackHoleSection/>  */}
+				<BlackHoleSection/> 
 			</div>
 		);
 	}

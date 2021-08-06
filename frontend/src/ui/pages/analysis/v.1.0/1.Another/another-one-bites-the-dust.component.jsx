@@ -74,7 +74,7 @@ class AnotherOneBitesTheDust_Page extends Component {
 				<Another_LyricsSection/>
 				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
-				{/* <BlackHoleSection/> */}
+				<BlackHoleSection/>
 			</div>
     );
   }
