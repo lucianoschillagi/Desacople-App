@@ -60,10 +60,6 @@ class PlaySongControl extends Component {
 
 				<Pulse id="pulse"/>
 
-				{/* <Breathe id="pulse"/> */}
-
-
-				
 			</Container>
 	    );
     }
