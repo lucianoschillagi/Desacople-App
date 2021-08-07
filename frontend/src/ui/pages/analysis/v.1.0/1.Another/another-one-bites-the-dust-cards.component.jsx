@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Container } from './cards.styles'
 import Another_Card from './another-one-bites-the-dust-card.component';
 import { Container } from '../../../../sections/actors/cards.styles.js';
 
