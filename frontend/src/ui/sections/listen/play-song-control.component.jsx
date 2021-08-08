@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, 
 			TimerContainer,
 			PlaySongName,
@@ -6,12 +6,16 @@ import { Container,
 			PlayPauseBtnContainer,
 			PlayButton,
 			PauseButton,
-		 	Pulse } from './play-song-control.styles';
+			PulseContainer,
+		 	Pulse,
+			PlayIcon,
+			PauseIcon,
+			TC } from './play-song-control.styles';
 
 import playButtonIcon from '../../../assets/play-button.png';
 import pauseButtonIcon from '../../../assets/pause-button.png';
 
-class PlaySongControl extends Component {
+class PlaySongControl extends React.Component {
 
 	render() {
 
@@ -26,40 +30,41 @@ class PlaySongControl extends Component {
 
 				<TimerContainer>
 
-					<PlaySongName>
-						Another Ones Bites The Dust
-					</PlaySongName>
+					<TC>
+						<PlaySongName>
+							Another Ones Bites The Dust
+						</PlaySongName>
 
-					<PlaySongControlTimer>
-						{minutes}:{seconds}:{centiseconds}
-					</PlaySongControlTimer>
+						<PlaySongControlTimer>
+							{minutes}:{seconds}:{centiseconds}
+						</PlaySongControlTimer> 
+					</TC>
+
 
 				</TimerContainer>
 
 				<PlayPauseBtnContainer>
 				
 					<PauseButton id="pause-button">
-						<img
+						<PauseIcon
 							src={pauseButtonIcon}
-							width={25}
-							heigth={17}
 							alt="PAUSE"
 						/>
-					</PauseButton>
+						</PauseButton>
 
 					<PlayButton id="play-button">
-						<img
+						<PlayIcon
 							src={playButtonIcon}
-							width={25}
-							heigth={17}
 							alt="PLAY"
 						/>
 					</PlayButton>
 		
 				</PlayPauseBtnContainer>
-
-				<Pulse id="pulse"/>
-
+				
+				<PulseContainer>
+					<Pulse id="pulse"/>
+				</PulseContainer>
+				
 			</Container>
 	    );
     }

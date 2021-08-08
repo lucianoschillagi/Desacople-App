@@ -7,7 +7,7 @@ justify-content: space-around;
 bottom: 0px;
 left: 0px;
 width: 100%;
-height: 60px;
+// height: 100px;
 background-color:black;
 backdrop-filter: blur(5px);
 opacity: 0.8;
@@ -15,22 +15,33 @@ z-index: 3;
 `
 
 export const TimerContainer = styled.div`
+float: left;
 display: flex;
-flex-direction: column;
-align-self: center;
-// background-color: red;
+justify-content: center;
+align-items: center;
+width: 33%;
+height: 90px;
+// background-color: blue;
+`
+
+export const TC = styled.div`
+// background-color: orange;
+// height: 200px;
 `
 
 export const PlaySongName = styled.p`
-font-size: 12px;
-text-align: center;
-align-self: center;
+// background-color: red;
+padding-top: 20px;
+padding-right: 10px;
+padding-left: 10px;
+font-size: 13px;
 `
 
 export const PlaySongControlTimer = styled.div`
 font-size: 14px;
-align-self: center;
 opacity: 0.6;
+background-color: black;
+padding-bottom: 30px;
 `
 
 export const PlayPauseBtnContainer = styled.div`
@@ -42,38 +53,48 @@ align-self: center;
 
 export const PlayButton = styled.button`
 position: absolute;
-display: flex;
-align-self: center;
-top: 5px;
-left: 0px;
+margin: 0 auto;
 padding: 10px;
-margin-left: -10px;
+// margin-left: -10px;
 z-index: 2;
-align-self: center;
 background-color: black;
 /* opacity: 0.6; */
 border: 0px solid !important;
 `
+export const PlayIcon = styled.img`
+width: 40px;
+height: 50px;
+`
 
 export const PauseButton = styled.button`
 position: absolute;
-display: flex;
-align-self: center;
-top: 5px;
-left: 0px;
+margin: 0 auto;
 padding: 10px;
-margin-left: -10px;
-z-index: 2;
-align-self: center;
+// margin-left: -10px;
+z-index: 1;
 background-color: black;
 /* opacity: 0.6; */
 border: 0px solid !important;
+`
+export const PauseIcon = styled.img`
+width: 26px;
+height: 50px;
 `
 
 const PulseAnimation = keyframes`
 from { transform: scale(0.7); }
 50% { transform: scale(1); }
 to { transform: scale(0.7); }
+`
+
+export const PulseContainer = styled.div`
+// background-color: orange;
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 33%;
+height: 90px;
 `
 
 export const Pulse = styled.div`
@@ -88,6 +109,3 @@ animation-play-state: paused;
 animation-duration: 0.54s; 
 animation-iteration-count: infinite;
 `
-
-
-
