@@ -37,7 +37,7 @@ background-color: black;
 padding-bottom: 30px;
 `
 
-// Play & Pause Button Container
+// Play and Pause Button Container
 export const PlayPauseBtnContainer = styled.div`
 float: left;
 display: flex;
