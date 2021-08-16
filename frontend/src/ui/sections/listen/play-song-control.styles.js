@@ -7,30 +7,23 @@ justify-content: space-around;
 bottom: 0px;
 left: 0px;
 width: 100%;
-// height: 100px;
+height: 90px;
 background-color:black;
 backdrop-filter: blur(5px);
-opacity: 0.8;
+opacity: 0.9;
 z-index: 3;
 `
 
+// Timer Container
 export const TimerContainer = styled.div`
 float: left;
 display: flex;
 justify-content: center;
 align-items: center;
 width: 33%;
-height: 90px;
-// background-color: blue;
-`
-
-export const TC = styled.div`
-// background-color: orange;
-// height: 200px;
 `
 
 export const PlaySongName = styled.p`
-// background-color: red;
 padding-top: 20px;
 padding-right: 10px;
 padding-left: 10px;
@@ -44,18 +37,20 @@ background-color: black;
 padding-bottom: 30px;
 `
 
+// Play and Pause Button Container
 export const PlayPauseBtnContainer = styled.div`
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
 position: relative;
-width: 60px;
-height: 60px;
-align-self: center;
+width: 34%;
 `
 
 export const PlayButton = styled.button`
 position: absolute;
 margin: 0 auto;
 padding: 10px;
-// margin-left: -10px;
 z-index: 2;
 background-color: black;
 /* opacity: 0.6; */
@@ -70,10 +65,8 @@ export const PauseButton = styled.button`
 position: absolute;
 margin: 0 auto;
 padding: 10px;
-// margin-left: -10px;
 z-index: 1;
 background-color: black;
-/* opacity: 0.6; */
 border: 0px solid !important;
 `
 export const PauseIcon = styled.img`
@@ -81,20 +74,19 @@ width: 26px;
 height: 50px;
 `
 
-const PulseAnimation = keyframes`
-from { transform: scale(0.7); }
-50% { transform: scale(1); }
-to { transform: scale(0.7); }
-`
-
+// Pulse Container
 export const PulseContainer = styled.div`
-// background-color: orange;
 float: left;
 display: flex;
 justify-content: center;
 align-items: center;
 width: 33%;
-height: 90px;
+`
+
+const PulseAnimation = keyframes`
+from { transform: scale(0.7); }
+50% { transform: scale(1); }
+to { transform: scale(0.7); }
 `
 
 export const Pulse = styled.div`
