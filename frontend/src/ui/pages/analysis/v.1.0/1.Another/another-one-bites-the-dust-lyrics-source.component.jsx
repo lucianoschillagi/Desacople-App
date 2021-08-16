@@ -479,79 +479,79 @@ class Another_LyricsSource extends Component {
                <LyricsParagraph>
                   <LyricsVerse id="line_1">Let's go</LyricsVerse>
                   <LyricsVerse id="line_2">Steve walks warily down the street</LyricsVerse>
-                  <LyricsVerse>With his brim pulled way down low</LyricsVerse>
-                  <LyricsVerse>Ain't no sound but the sound of his feet</LyricsVerse>
-                  <LyricsVerse>Machine guns ready to go</LyricsVerse>
+                  <LyricsVerse id="line_3">With his brim pulled way down low</LyricsVerse>
+                  <LyricsVerse id="line_4">Ain't no sound but the sound of his feet</LyricsVerse>
+                  <LyricsVerse id="line_5">Machine guns ready to go</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse>Are you ready hey are you ready for this?</LyricsVerse>
-                  <LyricsVerse>Are you hanging on the edge of your seat?</LyricsVerse>
-                  <LyricsVerse>Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse>To the sound of the beat yeah</LyricsVerse>
-                  <LyricsVerse>To the sound of the beat yeah</LyricsVerse>
+                  <LyricsVerse id="line_6">Are you ready hey are you ready for this?</LyricsVerse>
+                  <LyricsVerse id="line_7">Are you hanging on the edge of your seat?</LyricsVerse>
+                  <LyricsVerse id="line_8">Out of the doorway the bullets rip</LyricsVerse>
+                  <LyricsVerse id="line_9">To the sound of the beat yeah</LyricsVerse>
+                  <LyricsVerse id="line_10">To the sound of the beat yeah</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_11">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_12">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_13">And another one gone and another one gone</LyricsVerse>
+                  <LyricsVerse id="line_14">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_15">Hey I'm gonna get you too</LyricsVerse>
+                  <LyricsVerse id="line_16">Another one bites the dust</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse>How do you think I'm going to get along</LyricsVerse>
-                  <LyricsVerse>Without you when you're gone</LyricsVerse>
-                  <LyricsVerse>You took me for everything that I had</LyricsVerse>
-                  <LyricsVerse>And kicked me out on my own</LyricsVerse>
+                  <LyricsVerse id="line_17">How do you think I'm going to get along</LyricsVerse>
+                  <LyricsVerse id="line_18">Without you when you're gone</LyricsVerse>
+                  <LyricsVerse id="line_19">You took me for everything that I had</LyricsVerse>
+                  <LyricsVerse id="line_20">And kicked me out on my own</LyricsVerse>
                </LyricsParagraph>            
                
                <LyricsParagraph>
-                  <LyricsVerse>Are you happy are you satisfied?</LyricsVerse>
-                  <LyricsVerse>How long can you stand the heat</LyricsVerse>
-                  <LyricsVerse>Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse>To the sound of the beat look out</LyricsVerse>
+                  <LyricsVerse id="line_21">Are you happy are you satisfied?</LyricsVerse>
+                  <LyricsVerse id="line_22">How long can you stand the heat</LyricsVerse>
+                  <LyricsVerse id="line_23">Out of the doorway the bullets rip</LyricsVerse>
+                  <LyricsVerse id="line_24">To the sound of the beat look out</LyricsVerse>
                </LyricsParagraph>    
 
                <LyricsParagraph>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Hey</LyricsVerse>
-                  <LyricsVerse>Oh take it - Bite the dust bite the dust</LyricsVerse>
-                  <LyricsVerse>Hey Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust ow</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust he he</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust haaaa</LyricsVerse>
-                  <LyricsVerse>Ooh shoot out</LyricsVerse>
+                  <LyricsVerse id="line_25">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_26">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_27">And another one gone and another one gone</LyricsVerse>
+                  <LyricsVerse id="line_28">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_29">Hey I'm gonna get you too</LyricsVerse>
+                  <LyricsVerse id="line_30">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_31">Hey</LyricsVerse>
+                  <LyricsVerse id="line_32">Oh take it - Bite the dust bite the dust</LyricsVerse>
+                  <LyricsVerse id="line_33">Hey Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_34">Another one bites the dust ow</LyricsVerse>
+                  <LyricsVerse id="line_35">Another one bites the dust he he</LyricsVerse>
+                  <LyricsVerse id="line_36">Another one bites the dust haaaa</LyricsVerse>
+                  <LyricsVerse id="line_37">Ooh shoot out</LyricsVerse>
                </LyricsParagraph>  
 
                <LyricsParagraph>
-                  <LyricsVerse>There are plenty of ways that you can hurt a man</LyricsVerse>
-                  <LyricsVerse>And bring him to the ground</LyricsVerse>
-                  <LyricsVerse>You can beat him</LyricsVerse>
-                  <LyricsVerse>You can cheat him</LyricsVerse>
-                  <LyricsVerse>You can treat him bad and leave him</LyricsVerse>
-                  <LyricsVerse>When he's down</LyricsVerse>
-                  <LyricsVerse>But I'm ready yes I'm ready for you</LyricsVerse>
-                  <LyricsVerse>I'm standing on my own two feet</LyricsVerse>
-                  <LyricsVerse>Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse>Repeating to the sound of the beat</LyricsVerse>
+                  <LyricsVerse id="line_38">There are plenty of ways that you can hurt a man</LyricsVerse>
+                  <LyricsVerse id="line_39">And bring him to the ground</LyricsVerse>
+                  <LyricsVerse id="line_40">You can beat him</LyricsVerse>
+                  <LyricsVerse id="line_41">You can cheat him</LyricsVerse>
+                  <LyricsVerse id="line_42">You can treat him bad and leave him</LyricsVerse>
+                  <LyricsVerse id="line_43">When he's down</LyricsVerse>
+                  <LyricsVerse id="line_44">But I'm ready yes I'm ready for you</LyricsVerse>
+                  <LyricsVerse id="line_45">I'm standing on my own two feet</LyricsVerse>
+                  <LyricsVerse id="line_46">Out of the doorway the bullets rip</LyricsVerse>
+                  <LyricsVerse id="line_47">Repeating to the sound of the beat</LyricsVerse>
                </LyricsParagraph>  
 
                <LyricsParagraph>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust yeah</LyricsVerse>
-                  <LyricsVerse>Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Shoot out</LyricsVerse>
+                  <LyricsVerse id="line_48">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_49">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_50">And another one gone and another one gone</LyricsVerse>
+                  <LyricsVerse id="line_51">Another one bites the dust yeah</LyricsVerse>
+                  <LyricsVerse id="line_52">Hey I'm gonna get you too</LyricsVerse>
+                  <LyricsVerse id="line_53">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_54">Shoot out</LyricsVerse>
                </LyricsParagraph>  
                
             </LyricsContainer>
