@@ -71,7 +71,7 @@ class AnotherOneBitesTheDust_Page extends Component {
 					timerOn={this.state.timerOn}
 					coverSectionData={this.state.coverSectionData}
 				/> 
-				<Another_LyricsSection/>
+				<Another_LyricsSection currentTimeSong={this.state.currentTimeSong}/>
 				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
 				<BlackHoleSection/>

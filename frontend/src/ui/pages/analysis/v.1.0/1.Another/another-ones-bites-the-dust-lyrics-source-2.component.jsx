@@ -1,20 +1,15 @@
-import React, { Component } from 'react';
-import { LyricsSourceContainer,
-			LyricsTitle,
-			LyricsAuthor,
-			LyricsContainer,
-			LyricsParagraph,
-			LyricsVerse
-       } from '../../../../sections/lyrics/lyrics-source.styles';
+import React, { Component } from 'react'
+import './LyricsSource.css';
 
-class Another_LyricsSource extends Component {
+// Abstract: the lyrics of the song (col left)
+class LyricsSource extends Component {
 
   // LyricsSource props
   // currentTimeSong {number}
 
   color = "#EF9AC3"
 
-   render() {
+  render() {
 
     // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
     var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
@@ -462,103 +457,97 @@ class Another_LyricsSource extends Component {
         line55.style.opacity = "0.5"; ;
         break;
     } 
-      return ( 
-         
-         <LyricsSourceContainer>
+    
+    return (
+      <div className="LyricsSource_container">
 
-            <LyricsTitle>
-               Another One Bites the Dust
-            </LyricsTitle>
+        <h1 className="Lyrics_title">
+          {this.props.lyricsSongTitle}
+          {/* <em className="Lyrics_release_year">[1980]</em> */}
+        </h1>
+        
+		    <a href="https://en.wikipedia.org/wiki/John_Deacon"
+				   target="_blank">
+			    <h2 className="Lyrics_authors">
+            {this.props.lyricsSongComposer}
+          </h2>
+		    </a>
+        
+        {/* Song Lyrics Paragraph One */}
+        <div>
+        {this.props.lyricsSongLyricsVerseOne.map( line => {
+          return (
+                    <li id="line_1">{line}</li>
+                 )
+          })
+        }
+        </div>
 
-            <LyricsAuthor>
-               Author: John Deacon
-            </LyricsAuthor>
+        {/* Song Lyrics Paragraph Two */}
+        <div style={{paddingTop: "20px"}}> 
+        {this.props.lyricsSongLyricsVerseTwo.map( line => {
+          return (
+                    <li>{line}</li>
+                  )
+          })
+        }
+        </div>
+      
+        {/* Song Lyrics Paragraph Three */}
+        <div style={{paddingTop: "20px"}}> 
+        {this.props.lyricsSongLyricsVerseThree.map( line => {
+          return (
+                    <li>{line}</li>
+                  )
+          })
+        }
+        </div>
 
-            <LyricsContainer>
+        {/* Song Lyrics Paragraph Four */}
+        <div style={{paddingTop: "20px"}}> 
+        {this.props.lyricsSongLyricsVerseFour.map( line => {
+          return (
+                    <li>{line}</li>
+                  )
+          })
+        }
+        </div>
 
-               <LyricsParagraph>
-                  <LyricsVerse id="line_1">Let's go</LyricsVerse>
-                  <LyricsVerse id="line_2">Steve walks warily down the street</LyricsVerse>
-                  <LyricsVerse>With his brim pulled way down low</LyricsVerse>
-                  <LyricsVerse>Ain't no sound but the sound of his feet</LyricsVerse>
-                  <LyricsVerse>Machine guns ready to go</LyricsVerse>
-               </LyricsParagraph>
+        {/* Song Lyrics Paragraph Five */}
+        <div style={{paddingTop: "20px"}}> 
+        {this.props.lyricsSongLyricsVerseFive.map( line => {
+          return (
+                    <li>{line}</li>
+                  )
+          })
+        }
+        </div>
+  
+        {/* Song Lyrics Paragraph Six */}
+        <div style={{paddingTop: "20px"}}> 
+        {this.props.lyricsSongLyricsVerseSix.map( line => {
+          return (
+                    <li>{line}</li>
+                  )
+          })
+        }
+        </div>
 
-               <LyricsParagraph>
-                  <LyricsVerse>Are you ready hey are you ready for this?</LyricsVerse>
-                  <LyricsVerse>Are you hanging on the edge of your seat?</LyricsVerse>
-                  <LyricsVerse>Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse>To the sound of the beat yeah</LyricsVerse>
-                  <LyricsVerse>To the sound of the beat yeah</LyricsVerse>
-               </LyricsParagraph>
+        {/* Song Lyrics Paragraph Seven */}
+        <div style={{paddingTop: "20px"}}> 
+        {this.props.lyricsSongLyricsVerseSeven.map( line => {
+          return (
+                    <li>{line}</li>
+                  )
+          })
+        }
+        </div>
 
-               <LyricsParagraph>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-               </LyricsParagraph>
-
-               <LyricsParagraph>
-                  <LyricsVerse>How do you think I'm going to get along</LyricsVerse>
-                  <LyricsVerse>Without you when you're gone</LyricsVerse>
-                  <LyricsVerse>You took me for everything that I had</LyricsVerse>
-                  <LyricsVerse>And kicked me out on my own</LyricsVerse>
-               </LyricsParagraph>            
-               
-               <LyricsParagraph>
-                  <LyricsVerse>Are you happy are you satisfied?</LyricsVerse>
-                  <LyricsVerse>How long can you stand the heat</LyricsVerse>
-                  <LyricsVerse>Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse>To the sound of the beat look out</LyricsVerse>
-               </LyricsParagraph>    
-
-               <LyricsParagraph>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Hey</LyricsVerse>
-                  <LyricsVerse>Oh take it - Bite the dust bite the dust</LyricsVerse>
-                  <LyricsVerse>Hey Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust ow</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust he he</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust haaaa</LyricsVerse>
-                  <LyricsVerse>Ooh shoot out</LyricsVerse>
-               </LyricsParagraph>  
-
-               <LyricsParagraph>
-                  <LyricsVerse>There are plenty of ways that you can hurt a man</LyricsVerse>
-                  <LyricsVerse>And bring him to the ground</LyricsVerse>
-                  <LyricsVerse>You can beat him</LyricsVerse>
-                  <LyricsVerse>You can cheat him</LyricsVerse>
-                  <LyricsVerse>You can treat him bad and leave him</LyricsVerse>
-                  <LyricsVerse>When he's down</LyricsVerse>
-                  <LyricsVerse>But I'm ready yes I'm ready for you</LyricsVerse>
-                  <LyricsVerse>I'm standing on my own two feet</LyricsVerse>
-                  <LyricsVerse>Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse>Repeating to the sound of the beat</LyricsVerse>
-               </LyricsParagraph>  
-
-               <LyricsParagraph>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust yeah</LyricsVerse>
-                  <LyricsVerse>Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse>Another one bites the dust</LyricsVerse>
-                  <LyricsVerse>Shoot out</LyricsVerse>
-               </LyricsParagraph>  
-               
-            </LyricsContainer>
-
-         </LyricsSourceContainer>
-       );
-   }
+      </div>
+    )
+  }
 }
 
-export default Another_LyricsSource;
+export default LyricsSource;
+
+

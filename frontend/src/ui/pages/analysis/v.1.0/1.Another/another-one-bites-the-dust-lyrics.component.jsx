@@ -40,7 +40,7 @@ class Another_LyricsSection extends Component {
 	render() {
 		return (
 			<Container>
-				<Another_LyricsSource/>
+				<Another_LyricsSource currentTimeSong={this.props.currentTimeSong}/>
 			</Container>
 		);
    }
