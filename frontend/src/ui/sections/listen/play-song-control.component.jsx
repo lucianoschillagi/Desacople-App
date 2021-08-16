@@ -9,8 +9,7 @@ import { Container,
 			PulseContainer,
 		 	Pulse,
 			PlayIcon,
-			PauseIcon,
-			TC } from './play-song-control.styles';
+			PauseIcon } from './play-song-control.styles';
 
 import playButtonIcon from '../../../assets/play-button.png';
 import pauseButtonIcon from '../../../assets/pause-button.png';
@@ -29,8 +28,7 @@ class PlaySongControl extends React.Component {
 			<Container>
 
 				<TimerContainer>
-
-					<TC>
+					<div>
 						<PlaySongName>
 							Another Ones Bites The Dust
 						</PlaySongName>
@@ -38,9 +36,7 @@ class PlaySongControl extends React.Component {
 						<PlaySongControlTimer>
 							{minutes}:{seconds}:{centiseconds}
 						</PlaySongControlTimer> 
-					</TC>
-
-
+					</div>
 				</TimerContainer>
 
 				<PlayPauseBtnContainer>
@@ -66,8 +62,8 @@ class PlaySongControl extends React.Component {
 				</PulseContainer>
 				
 			</Container>
-	    );
-    }
+	   );
+   }
 }
 
 export default PlaySongControl;
