@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './Sections.css'
+import './sections.styles.css';
 
 // Abstract: represents the different sections of the song
 class Sections extends Component {
@@ -12,7 +12,7 @@ class Sections extends Component {
     render() {
 
         // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
-      //   var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
+        var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
         
         // test
       //   console.log(`😇 ${currentTimeSongPrecision}`);
@@ -36,65 +36,65 @@ class Sections extends Component {
         const tabLetterOpacity = "1"
 
         // Conditional rendering
-      //   switch (currentTimeSongPrecision) {
-      //   case 0.5:
-      //   intro.style.borderBottom = borderBottomStyleOn
-      //   intro.style.opacity = tabLetterOpacity
-      //   break;
+        switch (currentTimeSongPrecision) {
+        case 0.5:
+        intro.style.borderBottom = borderBottomStyleOn
+        intro.style.opacity = tabLetterOpacity
+        break;
 
-      //   case 22.5:
-      //   A1.style.borderBottom = borderBottomStyleOn
-      //   A1.style.opacity = tabLetterOpacity
-      //   A1.style.fontWeight = "bold"
-      //   intro.style.borderBottom = borderBottomStyleOff
-      //   intro.style.opacity = "0.2"
-      //   break;
+        case 22.5:
+        A1.style.borderBottom = borderBottomStyleOn
+        A1.style.opacity = tabLetterOpacity
+        A1.style.fontWeight = "bold"
+        intro.style.borderBottom = borderBottomStyleOff
+        intro.style.opacity = "0.2"
+        break;
 
-      //   case 40:
-      //   B1.style.borderBottom = borderBottomStyleOn
-      //   A1.style.borderBottom = borderBottomStyleOff
-      //   break;
+        case 40:
+        B1.style.borderBottom = borderBottomStyleOn
+        A1.style.borderBottom = borderBottomStyleOff
+        break;
 
-      //   case 57.2:
-      //   inter1.style.borderBottom = borderBottomStyleOn
-      //   B1.style.borderBottom = borderBottomStyleOff
-      //   break;
+        case 57.2:
+        inter1.style.borderBottom = borderBottomStyleOn
+        B1.style.borderBottom = borderBottomStyleOff
+        break;
 
-      //   case 66:
-      //   A2.style.borderBottom = borderBottomStyleOn
-      //   inter1.style.borderBottom = borderBottomStyleOff
-      //   break;
+        case 66:
+        A2.style.borderBottom = borderBottomStyleOn
+        inter1.style.borderBottom = borderBottomStyleOff
+        break;
 
-      //   case 84:
-      //   B2.style.borderBottom = borderBottomStyleOn
-      //   A2.style.borderBottom = borderBottomStyleOff
-      //   break;
+        case 84:
+        B2.style.borderBottom = borderBottomStyleOn
+        A2.style.borderBottom = borderBottomStyleOff
+        break;
 
-      //   case 101:
-      //   inter2.style.borderBottom = borderBottomStyleOn
-      //   B2.style.borderBottom = borderBottomStyleOff
-      //   break;
+        case 101:
+        inter2.style.borderBottom = borderBottomStyleOn
+        B2.style.borderBottom = borderBottomStyleOff
+        break;
 
-      //   case 140:
-      //   B3.style.borderBottom = borderBottomStyleOn
-      //   inter2.style.borderBottom = borderBottomStyleOff
-      //   break;
+        case 140:
+        B3.style.borderBottom = borderBottomStyleOn
+        inter2.style.borderBottom = borderBottomStyleOff
+        break;
 
-      //    case 158:
-      //    A3.style.borderBottom = borderBottomStyleOn
-      //    B3.style.borderBottom = borderBottomStyleOff
-      //    break;
+         case 158:
+         A3.style.borderBottom = borderBottomStyleOn
+         B3.style.borderBottom = borderBottomStyleOff
+         break;
 
-      //    case 175:
-      //    B4.style.borderBottom = borderBottomStyleOn
-      //    A3.style.borderBottom = borderBottomStyleOff
-      //    break;
+         case 175:
+         B4.style.borderBottom = borderBottomStyleOn
+         A3.style.borderBottom = borderBottomStyleOff
+         break;
 
-      //    case 193:
-      //    final.style.borderBottom = borderBottomStyleOn
-      //    B4.style.borderBottom = borderBottomStyleOff
-      //    break;
-      //   }
+         case 193:
+         final.style.borderBottom = borderBottomStyleOn
+         B4.style.borderBottom = borderBottomStyleOff
+         break;
+        }
         
         // Draw this UI elements..
         return (

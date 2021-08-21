@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './TimelineTotal.css';
+import './timeline-total.styles.css';
 
 // import styled, { keyframes } from "styled-components";
 
