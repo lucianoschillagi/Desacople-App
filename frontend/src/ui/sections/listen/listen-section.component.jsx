@@ -18,7 +18,7 @@ class ListenSection extends Component {
                {/* <TimelinePartial currentTimeSong={this.props.currentTimeSong}
                timerOn={this.props.timerOn}/> */}
 
-               {/* <BigSection currentTimeSong={this.props.currentTimeSong} timerOn={this.props.timerOn}></BigSection> */}
+               <BigSection currentTimeSong={this.props.currentTimeSong} timerOn={this.props.timerOn}></BigSection>
 
                <BigSection/>
 

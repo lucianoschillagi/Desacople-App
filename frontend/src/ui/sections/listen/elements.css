@@ -1,0 +1,73 @@
+.Elements_container {
+	display: grid;
+  grid-template-columns: auto auto auto;
+	font-size: 0.75rem;
+	font-family: ff-meta-correspondence-web-p, sans-serif;
+	text-align: center;
+	border-top: 1px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.Element {
+	font-size: 0.8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	opacity: 0.15;
+}
+
+/* Elements Colors */
+/* TODO: Refactor this later */
+.Element_one_color {
+  width: 18px;
+  height: 5px;
+  margin: 10px;
+  background-color: red;
+	border-radius: 5px;
+}
+
+.Element_two_color {
+	width: 18px;
+  height: 5px;
+  margin: 10px;
+  background-color: blue;
+	border-radius: 5px;
+}
+
+.Element_three_color {
+	width: 18px;
+  height: 5px;
+  margin: 10px;
+  background-color: yellow;
+	border-radius: 5px;
+}
+
+.Element_four_color {
+	width: 18px;
+  height: 5px;
+  margin: 10px;
+  background-color: orange;
+	border-radius: 5px;
+}
+
+.Element_five_color {
+	width: 18px;
+  height: 5px;
+  margin: 10px;
+  background-color: orangered;
+	border-radius: 5px;
+}
+
+.Element_six_color {
+	width: 18px;
+  height: 5px;
+  margin: 10px;
+  background-color: cyan;
+	border-radius: 5px;
+}

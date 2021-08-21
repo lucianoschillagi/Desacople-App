@@ -8,16 +8,6 @@ import Another_AssociatedSection from './another-one-bites-the-dust-associated.c
 import Another_HighlightedSection from './another-one-bites-the-dust-highlighted.component.jsx';
 import BlackHoleSection from '../../../../sections/black-hole/black-hole.component.jsx';
 
-import { Container,
-	ContainerCentered,
-	QuoteSong,
-	SongTitle,
-	Composers,
-	SongInfoContainer,
-	SongInfo,
-	FromYears
-} from '../../../../sections/cover/cover.styles.js';
-
 // Imported Styles
 // import { Container } from './analysis.styles';
 // import { StyledSpinner } from '../../../utils/spinner';
@@ -71,7 +61,8 @@ class AnotherOneBitesTheDust_Page extends Component {
 					timerOn={this.state.timerOn}
 					coverSectionData={this.state.coverSectionData}
 				/> 
-				<Another_LyricsSection/>
+				<Another_LyricsSection 
+					currentTimeSong={this.state.currentTimeSong}/>
 				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
 				<BlackHoleSection/>
