@@ -63,7 +63,7 @@ class AnalysisPage extends React.Component {
 	render() {
 		return (
 			<Container>
-
+				
 				<StyledSpinner/>
 
 				<Header/>
