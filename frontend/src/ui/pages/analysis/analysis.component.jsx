@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Header from '../../components/header/header.component';
 import CoverSection from '../../sections/cover/cover.component';
 import ActorsSection from '../../sections/actors/actors.component';
@@ -8,7 +7,6 @@ import LyricsSection from '../../sections/lyrics/lyrics.component';
 import AssociatedMaterialSection from '../../sections/associated-material/associated-material.component';
 import HighlightedSection from '../../sections/highlighted/highlighted.component';
 import BlackHoleSection from '../../sections/black-hole/black-hole.component';
-
 import { Container } from './analysis.styles';
 import { StyledSpinner } from '../../../utils/spinner';
 
@@ -63,7 +61,7 @@ class AnalysisPage extends React.Component {
 	render() {
 		return (
 			<Container>
-				
+
 				<StyledSpinner/>
 
 				<Header/>
