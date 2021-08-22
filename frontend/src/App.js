@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
-import firebase from "firebase";
-import firestore from "./firebase/firebase.utils.js";
-import config from './firebase/config';
 
 import './App.css'
 import HomePage from './ui//pages/home/home.component';
@@ -27,7 +24,6 @@ class App extends Component {
           <Route exact path='/another-one-bites-the-dust' component={AnotherOneBitesTheDust_Page} />
           <Route exact path='/satisfaction' component={Satisfaction_Page} />
           <Route exact path='/the-good-the-bad-and-the-ugly' component={TheGoodTheBadAndTheUgly_Page} />
-
 
           {/* For v.1.1. */}
           <Route path='/analysis' component={AnalysisPage} />    
