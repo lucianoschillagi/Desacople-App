@@ -30,9 +30,8 @@ class AnotherOneBitesTheDust_Page extends Component {
 		// this.getDataSong = this.getDataSong.bind(this);
    }
 
-	// Task: Ejecutar una vez que el componente se haya montado
 	componentDidMount() {
-		window.scrollTo(0, 0); // Pone la ventana en el tope
+		window.scrollTo(0, 0); 
 	}
 
 	// Task: Obtener el tiempo actual de la canción

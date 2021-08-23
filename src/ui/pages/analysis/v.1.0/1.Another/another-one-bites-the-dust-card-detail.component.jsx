@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, 
-		 CardDetailTitle, 
-		 CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
+			CardDetailTitle, 
+			CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
 
 class Another_CardDetail extends Component {
 

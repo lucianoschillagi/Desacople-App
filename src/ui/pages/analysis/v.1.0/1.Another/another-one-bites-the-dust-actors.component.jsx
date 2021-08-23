@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container } from '../../../../sections/actors/actors.styles.js';
 import Another_CardDetail from './another-one-bites-the-dust-card-detail.component';
 import Another_Cards from './another-one-bites-the-dust-cards.component';
 
-class Another_ActorsSection extends Component {
+class Another_ActorsSection extends React.Component {
 
 	constructor(props) {
 		super(props);
@@ -11,34 +11,33 @@ class Another_ActorsSection extends Component {
 		this.state = {
 			cardTitle: "Card One",
 			cardDescription: "fasdfhjaksd fkjlsdaf klads"
-
 		};
 	  }	
 
-  getSelectedCardInfo(cardTitle, cardDescription) {
-	this.setState({cardTitle: cardTitle, cardDescription: cardDescription})
+  	getSelectedCardInfo(cardTitle, cardDescription) {
+		this.setState({cardTitle: cardTitle, cardDescription: cardDescription})
  }
 
 	actorsSectionCards =  [
 		{ 
 		  cardTitle: "Card One",
-		  cardDescription: "fasdfhjaksd fkjlsdaf klads"
+		  cardDescription: "dfsadfdfhjaksd fkjlsdaf klads"
 		},
 		{
 		  cardTitle: "Card Two",
-		  cardDescription: "fasdfhjaksd fkjlsdaf klads"
+		  cardDescription: "hfhkdsfhjaksd fkjlsdaf klads"
 		},
 		{
 		  cardTitle: "Card Thrre",
-		  cardDescription: "fasdfhjaksd fkjlsdaf klads"
+		  cardDescription: "243234fhjaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Card Four",
-			cardDescription: "fasdfhjaksd fkjlsdaf klads"
+			cardDescription: "f654654jaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Card Five",
-			cardDescription: "fasdfhjaksd fkjlsdaf klads"
+			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Card Six",
