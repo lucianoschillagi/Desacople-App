@@ -13,7 +13,9 @@ class Another_CoverSection extends React.Component {
 
 	render() {
 		return (
+
 			<Container>
+
 				<ContainerCentered>
 
 					<QuoteSong>
@@ -53,9 +55,10 @@ class Another_CoverSection extends React.Component {
 					</FromYears>
 						
 				</ContainerCentered>
+
 			</Container>
-    );
-  }
+      );
+   }
 }
 
 export default Another_CoverSection;
