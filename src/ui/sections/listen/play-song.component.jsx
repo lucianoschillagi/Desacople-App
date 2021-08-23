@@ -13,7 +13,7 @@ class PlaySong extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-						  timerOn: false, //???????
+						  timerOn: false, 
 						 };
 
 	 // Youtube methods
@@ -88,8 +88,6 @@ class PlaySong extends React.Component {
  
 	// task: Instruir qué hacer cada vez que el usuario da pause al video
 	_onPause(event) {
-		// poner el valor de 'timerOn' a false
-		// apagar el timer
 		this.setState({ timerOn: this.props.getTimerInfo(false) });
 		// dejar de llamar en intervalos de 1cs a Date.now()
 		clearInterval(this.timer);
@@ -100,11 +98,12 @@ class PlaySong extends React.Component {
 
   // task: Instruir qué hacer cuando el video finaliza
 	_onEnd(event) {
-			// poner el valor de 'timerOn' a false
-			// apagar el timer
 			this.setState({ timerOn: this.props.getTimerInfo(false) });
 			// dejar de llamar en intervalos de 1cs a Date.now()
 			clearInterval(this.timer);
+
+			var pulse = document.getElementById('pulse');
+			pulse.style.animationPlayState = "paused";
 	}
 
 	render() {
@@ -143,6 +142,7 @@ class PlaySong extends React.Component {
 				<PlaySongControl 
 					currentTimeSong={this.props.currentTimeSong}
 					coverSongTitle={this.props.coverSongTitle}
+					timerOn={this.state.timerOn}
 					coverSectionData={this.props.coverSectionData}
 				/>
          </Container>
