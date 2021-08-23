@@ -1,19 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-width: 100%;
-height: auto;
-display: flex;
-justify-content: center;
-align-items: left;
-padding-top: 50px;
+padding-top: 20px;
 `
 
 export const ContainerCentered = styled.div`
-display: flex;
-flex-direction: column;
-width: 75%;
-font-size: 15px;
+margin: 0 auto;
+width: calc( 80vw );
+height: calc( 80vh );
 text-align: left;
 `
 
@@ -26,31 +20,28 @@ font-weight: lighter;
 `
 
 export const SongTitle = styled.h1`
-font-size: 3.5rem;
+font-size: 14vw;
 `
 
 export const Composers = styled.h2`
-font-size: 1.5em;
-padding-top: 10px;
-padding-left: 5px;
-font-size: 1.1em;
+font-size: 6vw;
 font-weight: lighter;
+padding-left: 5px;
 `
 
 export const SongInfoContainer = styled.div`
-height: auto;
 `
 
 export const SongInfo = styled.h2`
-font-size: 1rem;
-padding-left: 5px;
+font-size: 4vw;
 font-weight: lighter;
+padding-left: 5px;
 `
 
 export const FromYears = styled.em`
 padding-top: 15px;
 margin-bottom: 100px;
-font-size: 0.8rem;
+font-size: 4vw;
 font-weight: lighter;
 padding-left: 5px;
 opacity: 0.4;
