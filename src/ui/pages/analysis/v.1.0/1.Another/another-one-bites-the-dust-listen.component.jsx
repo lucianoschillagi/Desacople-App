@@ -14,7 +14,6 @@ class Another_ListenSection extends Component {
 			<Container>
 				<ContainerCentered>
 
-					{/* Timeline partial component instance */}
                {/* <TimelinePartial currentTimeSong={this.props.currentTimeSong}
                timerOn={this.props.timerOn}/> */}
 
@@ -23,28 +22,15 @@ class Another_ListenSection extends Component {
 						timerOn={this.props.timerOn}
 					/>
 
-               {/* <BigSection/> */}
-
-               {/* Timeline total component instance */}
                <TimelineTotal 
 			   		currentTimeSong={this.props.currentTimeSong}
                   timerOn={this.props.timerOn}/>
            
-
-               {/* Sections component instance */}
                <Sections currentTimeSong={this.props.currentTimeSong}/>
 
-               {/* <Sections/> */}
-
-               {/* SectionContent component instance */}
                <SectionContent currentTimeSong={this.props.currentTimeSong}/>
 
-         
-
-               {/* Instruments component instance */}
                <Elements currentTimeSong={this.props.currentTimeSong}/>
-
-               {/* <Elements/> */}
 
 					<PlaySong 
 						currentTimeSong={this.props.currentTimeSong}
