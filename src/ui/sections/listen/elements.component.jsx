@@ -54,108 +54,108 @@ class Elements extends Component {
 				egEffects.style.opacity = "0.15";
 			break;
 
-			// 36.2 seconds - Electric Guitar Effects - ON 🎸
-			case 36:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "1";
-			break;
+			// // 36.2 seconds - Electric Guitar Effects - ON 🎸
+			// case 36:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "1";
+			// break;
 
-			// 39 seconds - Electric Guitar Effects - OFF 🎸
-			case 39:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "0.15";
-			break;
+			// // 39 seconds - Electric Guitar Effects - OFF 🎸
+			// case 39:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "0.15";
+			// break;
 
-			// 58 seconds
-			case 58:
-				var egNormal = document.getElementById("electric-guitar-normal");
-				egNormal.style.opacity = "0.15";
-			break;
+			// // 58 seconds
+			// case 58:
+			// 	var egNormal = document.getElementById("electric-guitar-normal");
+			// 	egNormal.style.opacity = "0.15";
+			// break;
 
-			// 61.8 seconds - Electric Guitar Effects - ON 🎸
-			case 61.8:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "1";
-			break;
+			// // 61.8 seconds - Electric Guitar Effects - ON 🎸
+			// case 61.8:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "1";
+			// break;
 
-			// 66.3 seconds - Electric Guitar Effects - OFF 🎸
-			case 66.3:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "0.15";
-			break;
+			// // 66.3 seconds - Electric Guitar Effects - OFF 🎸
+			// case 66.3:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "0.15";
+			// break;
 
-			// 65 seconds
-			case 65:
-				var egNormal = document.getElementById("electric-guitar-normal");
-				egNormal.style.opacity = "1";
-			break;
+			// // 65 seconds
+			// case 65:
+			// 	var egNormal = document.getElementById("electric-guitar-normal");
+			// 	egNormal.style.opacity = "1";
+			// break;
 
-			// 74 seconds
-			case 74:
-				var egNormal = document.getElementById("electric-guitar-normal");
-				egNormal.style.opacity = "0.15";
-			break;
+			// // 74 seconds
+			// case 74:
+			// 	var egNormal = document.getElementById("electric-guitar-normal");
+			// 	egNormal.style.opacity = "0.15";
+			// break;
 
-			// 76.7 seconds - Electric Guitar Effects - ON 🎸
-			case 76.7:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "1";
-			break;
+			// // 76.7 seconds - Electric Guitar Effects - ON 🎸
+			// case 76.7:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "1";
+			// break;
 
-			// 82.9 seconds - Electric Guitar Effects - OFF 🎸
-			case 82.9:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "0.15";
-			break;
+			// // 82.9 seconds - Electric Guitar Effects - OFF 🎸
+			// case 82.9:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "0.15";
+			// break;
 
-			// 89.2 seconds - Electric Guitar Effects - ON 🎸
-			case 89.2:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "1";
-			break;
+			// // 89.2 seconds - Electric Guitar Effects - ON 🎸
+			// case 89.2:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "1";
+			// break;
 
-			// 141.6 seconds - Electric Guitar Effects - OFF 🎸
-			case 141.6:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "0.15";
-			break;
+			// // 141.6 seconds - Electric Guitar Effects - OFF 🎸
+			// case 141.6:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "0.15";
+			// break;
 			
-			// 151 seconds - Electric Guitar Effects - ON 🎸
-			case 151:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "1";
-			break;
+			// // 151 seconds - Electric Guitar Effects - ON 🎸
+			// case 151:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "1";
+			// break;
 
-			// 157.7 seconds - Electric Guitar Effects - OFF 🎸
-			case 157.7:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "0.15";
-			break;
+			// // 157.7 seconds - Electric Guitar Effects - OFF 🎸
+			// case 157.7:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "0.15";
+			// break;
 
-			// 166.2 seconds - Electric Guitar Effects - ON 🎸
-			case 166.2:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "1";
-			break;
+			// // 166.2 seconds - Electric Guitar Effects - ON 🎸
+			// case 166.2:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "1";
+			// break;
 
-			// 174.3 seconds - Electric Guitar Effects - OFF 🎸
-			case 174.3:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "0.15";
-			break;
+			// // 174.3 seconds - Electric Guitar Effects - OFF 🎸
+			// case 174.3:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "0.15";
+			// break;
 
 
-			// 208.8 seconds - Electric Guitar Effects - ON 🎸
-			case 208.8:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "1";
-			break;
+			// // 208.8 seconds - Electric Guitar Effects - ON 🎸
+			// case 208.8:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "1";
+			// break;
 
-			// 212 seconds - Electric Guitar Effects - OFF 🎸
-			case 212:
-				var egEffects = document.getElementById("electric-guitar-effects");
-				egEffects.style.opacity = "0.15";
-			break;
+			// // 212 seconds - Electric Guitar Effects - OFF 🎸
+			// case 212:
+			// 	var egEffects = document.getElementById("electric-guitar-effects");
+			// 	egEffects.style.opacity = "0.15";
+			// break;
 
 		}
 

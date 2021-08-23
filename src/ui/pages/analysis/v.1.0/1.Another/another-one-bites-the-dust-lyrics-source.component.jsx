@@ -449,18 +449,18 @@ class Another_LyricsSource extends Component {
       break;
 
       // Line 55 "Alright"
-      case 200.3:
-      var line54 = document.getElementById("line_54");
-      var line55 = document.getElementById("line_55");
-      line54.style.opacity = "0.5"; 
-      line55.style.color = this.color;
-      break;
+      // case 200.3:
+      // var line54 = document.getElementById("line_54");
+      // var line55 = document.getElementById("line_55");
+      // line54.style.opacity = "0.5"; 
+      // line55.style.color = this.color;
+      // break;
 
       // Line 56 (End)
-      case 203:
-        var line55 = document.getElementById("line_55");
-        line55.style.opacity = "0.5"; ;
-        break;
+      // case 203:
+      //   var line55 = document.getElementById("line_55");
+      //   line55.style.opacity = "0.5"; ;
+      //   break;
     } 
       return ( 
          
