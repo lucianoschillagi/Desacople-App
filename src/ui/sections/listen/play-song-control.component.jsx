@@ -32,7 +32,7 @@ class PlaySongControl extends React.Component {
 						</PlaySongName>
 
 						<PlaySongControlTimer>
-							{minutes}:{seconds}:{centiseconds}
+							{minutes}:{seconds}:{centiseconds} 
 						</PlaySongControlTimer> 
 					</div>
 				</TimerContainer>
