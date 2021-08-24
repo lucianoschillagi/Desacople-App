@@ -1,9 +1,9 @@
 import React from 'react';
 import YouTube from 'react-youtube';
-import PlaySongControl from './play-song-control.component.jsx';
-import { Container, InvisibleContainer } from './play-song.styles';
+import PlaySongControl from '../../../../sections/listen/play-song-control.component.jsx';
+import { Container, InvisibleContainer } from '../../../../sections/listen/play-song.styles';
 
-class PlaySong extends React.Component {
+class Another_PlaySong extends React.Component {
 
 	// PlaySong props:
     // getCurrentTimeSong {function}
@@ -149,4 +149,4 @@ class PlaySong extends React.Component {
    }
 }
 
-export default PlaySong;
+export default Another_PlaySong;

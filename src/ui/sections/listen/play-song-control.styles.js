@@ -11,7 +11,6 @@ height: 90px;
 background-color:black;
 backdrop-filter: blur(5px);
 opacity: 0.95;
-z-index: 4;
 `
 
 // Timer Container

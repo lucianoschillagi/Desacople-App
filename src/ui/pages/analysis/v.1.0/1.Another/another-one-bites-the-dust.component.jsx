@@ -7,23 +7,17 @@ import Another_LyricsSection from './another-one-bites-the-dust-lyrics.component
 import Another_AssociatedSection from './another-one-bites-the-dust-associated.component.jsx';
 import Another_HighlightedSection from './another-one-bites-the-dust-highlighted.component.jsx';
 import BlackHoleSection from '../../../../sections/black-hole/black-hole.component.jsx';
-
-// Imported Styles
-// import { Container } from './analysis.styles';
-// import { StyledSpinner } from '../../../utils/spinner';
+import Another_PlaySong from './another-one-bites-the-dust-play-song.component';
 
 class AnotherOneBitesTheDust_Page extends Component {
 
    constructor(props) {
 		super(props);
 		this.state = { 
-							// Loading...
-							loading: true, // indica que la página se está cargando aún
-							
-							// Song Timer
-							currentTimeSong: 0,  // el tiempo actual de la canción
-							timerOn: null,// indica si el timer está prendido o no
-					}
+							pageLoading: false,
+							currentTimeSong: 0, // esta info en principio a 0
+							timerOn: null // esta info en principio a null
+						 }
   
 		this.getCurrentTimeSong = this.getCurrentTimeSong.bind(this);
 		this.getTimerInfo = this.getTimerInfo.bind(this);
@@ -65,6 +59,14 @@ class AnotherOneBitesTheDust_Page extends Component {
 				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
 				<BlackHoleSection/>
+				<Another_PlaySong 
+					timerOn={this.state.timerOn}
+					currentTimeSong={this.state.currentTimeSong}
+					// getTimerInfo={this.props.getTimerInfo}
+					// getCurrentTimeSong={this.props.getCurrentTimeSong}
+					getCurrentTimeSong={this.getCurrentTimeSong}
+					getTimerInfo={this.getTimerInfo}
+				/>
 			</div>
     );
   }

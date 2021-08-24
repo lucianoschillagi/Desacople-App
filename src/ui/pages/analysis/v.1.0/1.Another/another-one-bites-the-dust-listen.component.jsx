@@ -32,12 +32,6 @@ class Another_ListenSection extends Component {
 
                <Elements currentTimeSong={this.props.currentTimeSong}/>
 
-					<PlaySong 
-						currentTimeSong={this.props.currentTimeSong}
-						getTimerInfo={this.props.getTimerInfo}
-						getCurrentTimeSong={this.props.getCurrentTimeSong}
-						coverSectionData={this.props.coverSectionData}
-					/>
 				</ContainerCentered>
 			</Container>
 
