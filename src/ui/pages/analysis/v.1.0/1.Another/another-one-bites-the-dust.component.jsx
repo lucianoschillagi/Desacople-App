@@ -62,8 +62,6 @@ class AnotherOneBitesTheDust_Page extends Component {
 				<Another_PlaySong 
 					timerOn={this.state.timerOn}
 					currentTimeSong={this.state.currentTimeSong}
-					// getTimerInfo={this.props.getTimerInfo}
-					// getCurrentTimeSong={this.props.getCurrentTimeSong}
 					getCurrentTimeSong={this.getCurrentTimeSong}
 					getTimerInfo={this.getTimerInfo}
 				/>

@@ -5,16 +5,9 @@ import { Container, InvisibleContainer } from '../../../../sections/listen/play-
 
 class Another_PlaySong extends React.Component {
 
-	// PlaySong props:
-    // getCurrentTimeSong {function}
-    // getTimerInfo {function}
-    // currentTimeSong {number}
-
 	constructor(props) {
 		super(props);
-		this.state = {
-						  timerOn: false, 
-						 };
+		this.state = { timerOn: false };
 
 	 // Youtube methods
 		this._onPlay = this._onPlay.bind(this);
@@ -107,7 +100,6 @@ class Another_PlaySong extends React.Component {
 	}
 
 	render() {
-	  
       const opts = {
 			width: '300', 
 			height: '200',

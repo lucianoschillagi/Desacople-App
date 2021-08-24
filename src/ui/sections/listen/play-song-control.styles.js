@@ -7,7 +7,7 @@ justify-content: space-around;
 bottom: 0px;
 left: 0px;
 width: 100%;
-height: 90px;
+height: 80px;
 background-color:black;
 backdrop-filter: blur(5px);
 opacity: 0.95;
