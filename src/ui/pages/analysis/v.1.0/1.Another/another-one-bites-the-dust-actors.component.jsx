@@ -9,38 +9,38 @@ class Another_ActorsSection extends React.Component {
 		super(props);
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
-			cardTitle: "Card One",
+			cardTitle: "Guitar",
 			cardDescription: "fasdfhjaksd fkjlsdaf klads"
 		};
 	  }	
 
   	getSelectedCardInfo(cardTitle, cardDescription) {
-		this.setState({cardTitle: cardTitle, cardDescription: cardDescription})
+		this.setState({ cardTitle, cardDescription })
  }
 
 	actorsSectionCards =  [
 		{ 
-		  cardTitle: "Card One",
+		  cardTitle: "Piano",
 		  cardDescription: "dfsadfdfhjaksd fkjlsdaf klads"
 		},
 		{
-		  cardTitle: "Card Two",
+		  cardTitle: "Guitar",
 		  cardDescription: "hfhkdsfhjaksd fkjlsdaf klads"
 		},
 		{
-		  cardTitle: "Card Thrre",
+		  cardTitle: "Drums",
 		  cardDescription: "243234fhjaksd fkjlsdaf klads"
 		},
 		{
-			cardTitle: "Card Four",
+			cardTitle: "Xilofon",
 			cardDescription: "f654654jaksd fkjlsdaf klads"
 		},
 		{
-			cardTitle: "Card Five",
+			cardTitle: "Bass",
 			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads"
 		},
 		{
-			cardTitle: "Card Six",
+			cardTitle: "Voice",
 			cardDescription: "fasdfhjaksd fkjlsdaf klads"
 		}
 	]
