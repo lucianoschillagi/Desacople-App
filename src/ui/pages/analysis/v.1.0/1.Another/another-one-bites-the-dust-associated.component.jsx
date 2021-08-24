@@ -33,11 +33,6 @@ class Another_AssociatedSection extends Component {
 						source="YouTube"
 						externalPage="https://www.youtube.com"/>
 
-					<Another_AssociatedItem 
-						title="Link three" 
-						description="fhsalhfdjks" 
-						source="source desc goes here"
-						externalPage="https://www.fightpandemics.com"/>
 				</ContainerCentered>
 			</Container>
 		);
