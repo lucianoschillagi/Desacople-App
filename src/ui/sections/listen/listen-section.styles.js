@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 width: 100%;
+background-color: black;
+opacity: 0.8;
 `
 
 export const ContainerCentered = styled.div`

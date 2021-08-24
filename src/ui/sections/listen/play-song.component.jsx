@@ -138,7 +138,6 @@ class PlaySong extends React.Component {
 					/>
 				</InvisibleContainer>
 
-				{/* PlaySongControl component instance */}
 				<PlaySongControl 
 					currentTimeSong={this.props.currentTimeSong}
 					coverSongTitle={this.props.coverSongTitle}

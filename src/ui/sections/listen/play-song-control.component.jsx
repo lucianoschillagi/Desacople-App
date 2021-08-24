@@ -17,8 +17,6 @@ import pauseButtonIcon from '../../../assets/pause-button.png';
 class PlaySongControl extends React.Component {
 
 	render() {
-
-		const { timerOn } = this.props;
 		const { currentTimeSong } = this.props;
 		let seconds = ("0" + (Math.floor(currentTimeSong) % 60)).slice(-2);
 		let minutes = ("0" + (Math.floor(currentTimeSong / 60) % 60)).slice(-2);
