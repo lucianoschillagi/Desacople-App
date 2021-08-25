@@ -20,10 +20,9 @@ opacity: 0.8;
 background-color: white;
 border-radius: 50%;
 animation-name: ${CircleAnimation};
-animation-play-state: played;
+animation-play-state: paused;
 /* 0.54s = 110 bpm */
 animation-duration: 0.54s; 
 animation-iteration-count: infinite;
-
 `
 

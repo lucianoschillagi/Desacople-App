@@ -1,36 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './timeline-total.styles.css';
 
-// import styled, { keyframes } from "styled-components";
-
 // Abstract: represents the song's TimelineTotal
-class TimelineTotal extends Component {
-
-    // TimelineTotal's props...
-    // currentTimeSong [number] 
-    // onPlayYoutubeVideo [method]
-    // timerOn [Bool]
-
-    constructor(props) {
-        super(props);
-        this.state = { popUpOn: false }
-        this.handleClick = this.handleClick.bind(this);
-    } 
-
-    handleClick() {
-            // this.setState({ popUpOn: true });
-            // const toolTipTextOn = document.querySelector(TooltipText);
-            // toolTipTextOn.style.visibility = "visible";
-            
-            // // Conditional
-            // if (this.state.popUpOn === true) {
-            //     this.setState({ popUpOn: false });
-            //     const toolTipTextOff = document.querySelector(TooltipText);
-            //     toolTipTextOff.style.visibility = "hidden";
-            // }
-    }
-
-    // Render method
+class TimelineTotal extends React.Component {
+	
     render() {
 
         // Timeline animation
