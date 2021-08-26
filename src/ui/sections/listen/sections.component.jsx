@@ -4,11 +4,6 @@ import './sections.styles.css';
 // Abstract: represents the different sections of the song
 class Sections extends Component {
 
-    // Sections's props:
-    // onChangeSectionContent {Function}
-    // currentTimeSong {Number}
-    // timerOn {Bool}
-
     render() {
 
         // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4

@@ -1,13 +1,8 @@
 .SectionContent_container {
 	width: 100%;
 	height: 180px;
-	/* border-radius: 0px 0px 15px 15px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #2E2E2F; */
 	font-family: ff-meta-correspondence-web-p, sans-serif;
 	font-size: 0.9rem;
-	border-left: 2px solid white;
-	border-right: 2px solid white;
 }
 
 .SectionContent_content_of {

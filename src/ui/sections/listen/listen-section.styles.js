@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 width: 100%;
-background-color: black;
 opacity: 0.8;
 `
 
@@ -13,5 +12,9 @@ margin: 0 auto;
 width: 90%;
 padding: 20px 0px 0px 0px;
 font-size: 18px;
+border-style: solid;
+border-width: 2px;  
+border-color: white;
+border-radius: 18px;
 `
 

@@ -55,10 +55,14 @@ class AnotherOneBitesTheDust_Page extends Component {
 					coverSectionData={this.state.coverSectionData}
 				/> 
 				<Another_LyricsSection 
-					currentTimeSong={this.state.currentTimeSong}/>
+					currentTimeSong={this.state.currentTimeSong}
+				/>
 				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
-				<BlackHoleSection/>
+				<BlackHoleSection
+					timerOn={this.state.timerOn}
+					currentTimeSong={this.state.currentTimeSong}
+				/>
 				<Another_PlaySong 
 					timerOn={this.state.timerOn}
 					currentTimeSong={this.state.currentTimeSong}
@@ -66,8 +70,8 @@ class AnotherOneBitesTheDust_Page extends Component {
 					getTimerInfo={this.getTimerInfo}
 				/>
 			</div>
-    );
-  }
+      );
+   }
 }
 
 export default AnotherOneBitesTheDust_Page;

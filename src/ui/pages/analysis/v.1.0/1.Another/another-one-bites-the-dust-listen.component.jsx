@@ -12,7 +12,7 @@ class Another_ListenSection extends Component {
 	render() {
 		return (
 			<Container>
-				<ContainerCentered>
+				
 
                {/* <TimelinePartial currentTimeSong={this.props.currentTimeSong}
                timerOn={this.props.timerOn}/> */}
@@ -21,6 +21,8 @@ class Another_ListenSection extends Component {
 						currentTimeSong={this.props.currentTimeSong} 
 						timerOn={this.props.timerOn}
 					/>
+
+				<ContainerCentered>
 
                <TimelineTotal 
 			   		currentTimeSong={this.props.currentTimeSong}
@@ -33,6 +35,7 @@ class Another_ListenSection extends Component {
                <Elements currentTimeSong={this.props.currentTimeSong}/>
 
 				</ContainerCentered>
+				
 			</Container>
 
 		);

@@ -3,9 +3,6 @@ import './elements.css';
 
 class Elements extends Component {
 
-    // PlaySongControl props:
-    // currentTimeSong {number}
-
 	render() {
 
 			// convierte el valor de 'currentTimeSongPrecision' en un nro con un sólo decimal. Ej: 3.4

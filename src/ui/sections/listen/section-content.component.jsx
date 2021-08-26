@@ -1,6 +1,5 @@
 import React, { Component} from 'react';
 import './section-content.styles.css';
-import styled from "styled-components";
 
 class SectionContent extends Component { 
 
