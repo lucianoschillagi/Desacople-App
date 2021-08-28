@@ -12,8 +12,7 @@ class Another_ListenSection extends Component {
 	render() {
 		return (
 			<Container>
-				
-
+			
                {/* <TimelinePartial currentTimeSong={this.props.currentTimeSong}
                timerOn={this.props.timerOn}/> */}
 

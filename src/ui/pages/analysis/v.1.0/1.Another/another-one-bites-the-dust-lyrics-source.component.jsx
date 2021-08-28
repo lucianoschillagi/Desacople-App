@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { LyricsSourceContainer,
 			LyricsTitle,
 			LyricsAuthor,
@@ -7,10 +7,7 @@ import { LyricsSourceContainer,
 			LyricsVerse
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
-class Another_LyricsSource extends Component {
-
-  // LyricsSource props
-  // currentTimeSong {number}
+class Another_LyricsSource extends React.Component {
 
   color = "#EF9AC3"
 
@@ -19,7 +16,6 @@ class Another_LyricsSource extends Component {
     // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
     var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
 
-    // Conditional rendering
     switch (currentTimeSongPrecision) {
 
       // NOTE: Garageband -5.4sec 

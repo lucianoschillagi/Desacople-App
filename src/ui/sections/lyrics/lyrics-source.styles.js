@@ -9,13 +9,10 @@ import styled from 'styled-components';
   padding-bottom: 20px;
   `
   export const LyricsTitle = styled.h1`
-  color: yellow;
   `
   export const LyricsAuthor = styled.h3`
-  color: white;
   `
   export const LyricsContainer = styled.div`
-  color: white;
   `
   export const LyricsParagraph = styled.div`
   margin: 50px 0px 60px 0px;
