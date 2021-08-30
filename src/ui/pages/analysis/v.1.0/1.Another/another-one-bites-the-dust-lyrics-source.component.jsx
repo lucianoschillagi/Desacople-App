@@ -7,6 +7,7 @@ import { LyricsSourceContainer,
 			LyricsVerse
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
+
 class Another_LyricsSource extends React.Component {
 
   color = "#EF9AC3"
