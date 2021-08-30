@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, ContainerCentered } from '../../../../sections/associated-material/associated-material.styles';
-
 import Another_AssociatedItem from './another-one-bites-the-dust-associated-item.component';
 
 class Another_AssociatedSection extends Component {
@@ -10,10 +9,10 @@ class Another_AssociatedSection extends Component {
 			<Container>
 				<ContainerCentered>
 					<Another_AssociatedItem 
-						title="AOBD - Official Video"
+						title="Another One Bites the Dust - Official Video"
 						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
+						externalPage="https://www.youtube.com/watch?v=rY0WxgSXdEE"/>
 											
 					<Another_AssociatedItem
 						title="Freddie Mercury - Interview"
