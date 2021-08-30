@@ -1,21 +1,5 @@
 import styled from 'styled-components';
-// import { device } from '../../../utils/devices-breakpoints';
-
-const size = {
-extraSmall: '600px',
-small: '600px',
-medium: '768px',
-large: '992px',
-extraLarge: '1200px'
-};
-     
-export const device = {
-extraSmall: `(max-width: ${size.extraSmall})`,
-small: `(min-width: ${size.small})`,
-medium: `(min-width: ${size.medium})`,
-large: `(min-width: ${size.large})`,
-extraLarge: `(min-width: ${size.extraLarge})`
-};
+import { device } from '../../../utils/devices-breakpoints';
 
 export const Container = styled.div`
 width: 100%;

@@ -15,7 +15,7 @@ https://www.w3schools.com/Css/css_rwd_mediaqueries.asp
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 // @media only screen and (min-width: 1200px) {...}
 
-const size = {
+var size = {
 extraSmall: '600px',
 small: '600px',
 medium: '768px',
