@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import { device } from '../../../utils/devices-breakpoints';
 
 export const Container = styled.div`
 width: 100%;
@@ -24,5 +25,10 @@ animation-play-state: paused;
 /* 0.54s = 110 bpm */
 animation-duration: 0.54s; 
 animation-iteration-count: infinite;
+
+@media ${device.large} { 
+width: 500px;
+height: 500px;
+}
 `
 

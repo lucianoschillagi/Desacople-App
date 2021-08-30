@@ -12,11 +12,9 @@ class BlackHoleSection extends React.Component {
 		}
 
 		if (this.props.timerOn === false) {
-			// El 'black hole' se detiene
 			var blackHole = document.getElementById('circle');
 			blackHole.style.animationPlayState = "paused";
 		}
-	
 
       return (
          <Container>
