@@ -33,23 +33,23 @@ class Another_CoverSection extends React.Component {
 					<SongInfoContainer>
 
 						<SongInfo>
-								Album: The Game
+							Album: The Game
 						</SongInfo>
 
 						<SongInfo>
-								Artist: Queen
+							Artist: Queen
 						</SongInfo>
 
 						<SongInfo>
-								Release Date: 1986
+							Release Date: 1986
 						</SongInfo> 
 
 						<SongInfo>
-								Genre: Rock
+							Genre: Rock
 						</SongInfo>
 
 					</SongInfoContainer>
-
+					
 					<FromYears>
 						<em className="z">- for 41 years!</em>
 					</FromYears>
