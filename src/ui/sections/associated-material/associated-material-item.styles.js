@@ -24,13 +24,16 @@ export const Title = styled.h1`
 font-size: 1em;
 
 @media ${device.large} { 
-font-size: 1.3em;
+font-size: 1.4em;
 }
 `
 
 export const Description = styled.p`
 font-size: 0.75em;
 opacity: 0.75;
+@media ${device.large} { 
+font-size: 1em;
+}
 `
 
 export const Source = styled.p`
