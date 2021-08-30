@@ -1,18 +1,24 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { device } from '../../../utils/devices-breakpoints';
+
 
 export const Container = styled.div`
-display: flex; 
-flex-direction: column;
+// display: flex; 
+// flex-direction: column;
+margin: 0 auto;
 margin-right: 10px;
-height: 400px;
-border: 3px solid #2f4870;
+border: 8px solid #2f4870;
 border-radius: 14px;
 padding: 11px;
 `
 
 export const ContainerDescription = styled.div`
-width: 55vw;
+width: 200px;
+height: auto;
 padding: 20px;
+@media ${device.large} { 
+width: 260px;
+}
 `
 
 export const Title = styled.h4`
@@ -21,7 +27,7 @@ color: white;
 `
 
 export const Content = styled.p`
-font-size: 14px;
+font-size: 15px;
 color: white;
 `
 
