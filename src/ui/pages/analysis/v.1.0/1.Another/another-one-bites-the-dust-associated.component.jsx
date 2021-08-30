@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, ContainerCentered } from '../../../../sections/associated-material/associated-material.styles';
-
 import Another_AssociatedItem from './another-one-bites-the-dust-associated-item.component';
 
 class Another_AssociatedSection extends Component {
@@ -10,28 +9,28 @@ class Another_AssociatedSection extends Component {
 			<Container>
 				<ContainerCentered>
 					<Another_AssociatedItem 
-						title="AOBD - Official Video"
+						title={"Another One Bites the Dust" + "\n" + "[Official Video]"}
 						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
+						externalPage="https://www.youtube.com/watch?v=rY0WxgSXdEE"/>
 											
 					<Another_AssociatedItem
-						title="Freddie Mercury - Interview"
-						subtitle="Freddie Mercury interview in 1987 with David Wigg in Ibiza"
+						title={"Freddie Mercury" + "\n" + "[Interviews]"}
+						subtitle="A compilation with the best Freddie interviews"
+						source="YouTube"
+						externalPage="https://www.youtube.com/watch?v=_sGWDJmjjh4"/>
+
+					<Another_AssociatedItem
+						title={"Another One Bites the Dust" + "\n" + "[Live]"}
+						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
 						source="YouTube"
 						externalPage="https://www.youtube.com/watch?v=NVIbCvfkO3E"/>
 
 					<Another_AssociatedItem
-						title="AOBD - Live"
-						subtitle="Subtitulo 3"
+						title={"Another One Bites the Dust" + "\n" + "[Film Clip]"}
+						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
-
-					<Another_AssociatedItem
-						title="AOBD - Film Clip"
-						subtitle="Subtitulo"
-						source="YouTube"
-						externalPage="https://www.youtube.com"/>
+						externalPage="https://www.youtube.com/watch?v=-u7V_lwKTb0&t=3s"/>
 
 				</ContainerCentered>
 			</Container>
