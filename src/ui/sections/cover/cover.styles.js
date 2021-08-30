@@ -76,8 +76,8 @@ font-size: 4.5em;
 }
 
 @media ${device.large} { 
-font-size: 4.4em;
-width: 500px;
+font-size: 5em;
+width: 600px;
 }
 
 @media ${device.extraLarge} { 
