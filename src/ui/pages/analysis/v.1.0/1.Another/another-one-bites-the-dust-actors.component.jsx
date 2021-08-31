@@ -19,28 +19,28 @@ class Another_ActorsSection extends React.Component {
  }
 	actorsSectionCards =  [
 		{ 
-		  cardTitle: "Piano",
-		  cardDescription: "dfsadfdfhjaksd fkjlsdaf klads"
+		   cardTitle: "Piano",
+		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
 		},
 		{
-		  cardTitle: "Guitar",
-		  cardDescription: "hfhkdsfhjaksd fkjlsdaf klads"
+		   cardTitle: "Guitar",
+		   cardDescription: "hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads"
 		},
 		{
-		  cardTitle: "Drums",
-		  cardDescription: "243234fhjaksd fkjlsdaf klads"
+		   cardTitle: "Drums",
+		   cardDescription: "243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Xilofon",
-			cardDescription: "f654654jaksd fkjlsdaf klads"
+			cardDescription: "f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Bass",
-			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads"
+			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Voice",
-			cardDescription: "fasdfhjaksd fkjlsdaf klads"
+			cardDescription: "fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf kladsq"
 		}
 	]
 
