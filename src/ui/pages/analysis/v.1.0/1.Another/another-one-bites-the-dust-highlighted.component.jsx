@@ -34,7 +34,7 @@ class Another_HighlightedSection extends React.Component {
 				</Another_HighlightedDescription>
 				
 				<ContainerCentered>
-					
+
 				{/* <Another_HighlightedCover
 					highlightedSongTitleOne={this.hightlightedSectionCoverData.titleOne}
 					highlightedSongTitleTwo={this.hightlightedSectionCoverData.titleTwo}
