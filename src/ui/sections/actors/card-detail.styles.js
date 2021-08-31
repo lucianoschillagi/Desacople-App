@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 margin: 0 auto;
 width: 80%;
-height: 70vw;
+height: 90vw;
 border-style: solid;
 border-width: 2px;
 border-radius: 15px;

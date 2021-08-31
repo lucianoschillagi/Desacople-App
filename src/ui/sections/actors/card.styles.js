@@ -1,10 +1,10 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
-width: 300px;
-height: 180px;
+width: 450px;
+// height: 180px;
 margin: 0px 10px 0px 10px;
 padding: 30px;
 border: solid gray 2px;

@@ -10,7 +10,7 @@ class Another_ActorsSection extends React.Component {
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
 			cardTitle: "Guitar",
-			cardDescription: "fasdfhjaksd fkjlsdaf klads"
+			cardDescription: "fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads "
 		};
 	  }	
 
