@@ -16,9 +16,9 @@ class Another_Card extends Component {
 					{this.props.cardTitle}
 				</CardTitle>
 
-				<CardDescription>
+				{/* <CardDescription>
 					{this.props.cardDescription}
-				</CardDescription>
+				</CardDescription> */}
 				
 			</Container>
 		);

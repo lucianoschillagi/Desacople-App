@@ -10,37 +10,37 @@ class Another_Cards extends Component {
 				
 				<Another_Card 
 					cardTitle={this.props.cards[0].cardTitle}
-					// cardDescription={this.props.cards[0].cardDescription}
+					cardDescription={this.props.cards[0].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<Another_Card 
 					cardTitle={this.props.cards[1].cardTitle}
-					// cardDescription={this.props.cards[1].cardDescription}
+					cardDescription={this.props.cards[1].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<Another_Card 
 					cardTitle={this.props.cards[2].cardTitle}
-					// cardDescription={this.props.cards[2].cardDescription}
+					cardDescription={this.props.cards[2].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<Another_Card 
 					cardTitle={this.props.cards[3].cardTitle}
-					// cardDescription={this.props.cards[3].cardDescription}
+					cardDescription={this.props.cards[3].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<Another_Card 
 					cardTitle={this.props.cards[4].cardTitle}
-					// cardDescription={this.props.cards[4].cardDescription}
+					cardDescription={this.props.cards[4].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<Another_Card 
 					cardTitle={this.props.cards[5].cardTitle}
-					// cardDescription={this.props.cards[5].cardDescription}
+					cardDescription={this.props.cards[5].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 

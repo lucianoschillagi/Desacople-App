@@ -10,7 +10,7 @@ class Another_ActorsSection extends React.Component {
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
 			cardTitle: "Guitar",
-			cardDescription: "fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads "
+			cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend."
 		};
 	  }	
 
@@ -20,27 +20,27 @@ class Another_ActorsSection extends React.Component {
 	actorsSectionCards =  [
 		{ 
 		   cardTitle: "Piano",
-		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
 		},
 		{
 		   cardTitle: "Guitar",
-		   cardDescription: "hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads"
+		   cardDescription: "hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads"
 		},
 		{
 		   cardTitle: "Drums",
-		   cardDescription: "243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads"
+		   cardDescription: "243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Xilofon",
-			cardDescription: "f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads"
+			cardDescription: "f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Bass",
-			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads"
+			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads"
 		},
 		{
 			cardTitle: "Voice",
-			cardDescription: "klads fasdfhjaksd fkjlsdaf kladsq"
+			cardDescription: "klads fasdfhjaksd fkjlsdaf kladsq  shalf saljkdf lksad fdsalhfdk lajs dfsfhsdal sdf sadfih asdfp9y asdfñnj.asdf9 fsad,nk asdf kjsda zxvhcl vczhxljkhvcxz ñcv hv xczklvxzc"
 		}
 	]
 
