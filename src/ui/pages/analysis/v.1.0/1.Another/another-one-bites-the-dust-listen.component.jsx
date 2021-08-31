@@ -13,13 +13,13 @@ class Another_ListenSection extends Component {
 		return (
 			<Container>
 			
-               {/* <TimelinePartial currentTimeSong={this.props.currentTimeSong}
-               timerOn={this.props.timerOn}/> */}
+				{/* <TimelinePartial currentTimeSong={this.props.currentTimeSong}
+				timerOn={this.props.timerOn}/> */}
 
-               <BigSection 
-						currentTimeSong={this.props.currentTimeSong} 
-						timerOn={this.props.timerOn}
-					/>
+				<BigSection 
+					currentTimeSong={this.props.currentTimeSong} 
+					timerOn={this.props.timerOn}
+				/>
 
 				<ContainerCentered>
 
