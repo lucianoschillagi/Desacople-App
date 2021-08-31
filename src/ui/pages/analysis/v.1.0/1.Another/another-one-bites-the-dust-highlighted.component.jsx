@@ -1,7 +1,7 @@
 import React from 'react';
 import Another_HighlightedCover from './another-one-bites-the-dust-highlighted-cover.component';
 import Another_HighlightedItem from './another-one-bites-the-dust-highlighted-item.component';
-import { Container, ContainerCentered } from '../../../../sections/highlighted/highlighted.styles.js';
+import { Container, ContainerCentered, Another_HighlightedDescription } from '../../../../sections/highlighted/highlighted.styles.js';
 
 class Another_HighlightedSection extends React.Component {
 
@@ -28,7 +28,13 @@ class Another_HighlightedSection extends React.Component {
    render() {
 		return (
 			<Container>
+
+				<Another_HighlightedDescription>
+					3 highlighted moments of the song
+				</Another_HighlightedDescription>
 				<ContainerCentered>
+
+					
 					
 					{/* <Another_HighlightedCover
 						highlightedSongTitleOne={this.hightlightedSectionCoverData.titleOne}
