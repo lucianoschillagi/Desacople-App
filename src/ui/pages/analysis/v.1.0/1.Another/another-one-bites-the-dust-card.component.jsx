@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, CardTitle, CardDescription } from '../../../../sections/actors/card.styles.js';
+import { Container, CardTitle, CardDescription } from '../../../../sections/actors/card.styles';
 
 class Another_Card extends Component {
 

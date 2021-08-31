@@ -8,7 +8,7 @@ opacity: 0.8;
 
 export const ContainerCentered = styled.div`
 margin: 0 auto;
-width: calc( 80vw );
+width: calc( 75vw );
 height: calc( 100vh );
 text-align: left;
 `

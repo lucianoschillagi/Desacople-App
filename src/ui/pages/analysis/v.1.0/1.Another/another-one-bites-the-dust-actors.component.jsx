@@ -20,7 +20,7 @@ class Another_ActorsSection extends React.Component {
 	actorsSectionCards =  [
 		{ 
 		   cardTitle: "Piano",
-		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
 		},
 		{
 		   cardTitle: "Guitar",
@@ -40,7 +40,7 @@ class Another_ActorsSection extends React.Component {
 		},
 		{
 			cardTitle: "Voice",
-			cardDescription: "fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf klads fasdfhjaksd fkjlsdaf kladsq"
+			cardDescription: "klads fasdfhjaksd fkjlsdaf kladsq"
 		}
 	]
 
