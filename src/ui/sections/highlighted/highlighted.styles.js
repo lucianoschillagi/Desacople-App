@@ -12,14 +12,22 @@ opacity: 0.8;
 export const ContainerCentered = styled.div`
 display: flex;
 flex-direction: row;
-width: 85%;
+width: 90%;
 // height: 550px;
 margin: 0 auto;
-padding: 40px 0px 40px 0px;
+padding: 0px 0px 50px 0px;
+// background-color: red;
 display: flex;
 flex-wrap: nowrap;
 margin: 0 auto;
 -webkit-overflow-scrolling: touch;
 overflow-x: auto;
+`
+
+export const Another_HighlightedDescription = styled.h5`
+padding-top: 30px;
+padding-left: 40px;
+padding-right: 40px;
+opacity: 0.15;
 `
 

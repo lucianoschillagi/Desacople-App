@@ -13,9 +13,9 @@ padding: 11px;
 `
 
 export const ContainerDescription = styled.div`
-width: 200px;
+width: 70vw;
 height: auto;
-padding: 20px;
+padding: 10px;
 @media ${device.large} { 
 width: 260px;
 }
@@ -24,6 +24,7 @@ width: 260px;
 export const Title = styled.h4`
 padding-bottom: 20px;
 color: white;
+opacity: 0.5;
 `
 
 export const Content = styled.p`

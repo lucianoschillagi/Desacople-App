@@ -1,7 +1,7 @@
 import React from 'react';
 import Another_HighlightedCover from './another-one-bites-the-dust-highlighted-cover.component';
 import Another_HighlightedItem from './another-one-bites-the-dust-highlighted-item.component';
-import { Container, ContainerCentered } from '../../../../sections/highlighted/highlighted.styles.js';
+import { Container, ContainerCentered, Another_HighlightedDescription } from '../../../../sections/highlighted/highlighted.styles.js';
 
 class Another_HighlightedSection extends React.Component {
 
@@ -28,34 +28,40 @@ class Another_HighlightedSection extends React.Component {
    render() {
 		return (
 			<Container>
+
+				<Another_HighlightedDescription>
+					3 highlighted moments of the song
+				</Another_HighlightedDescription>
+				
 				<ContainerCentered>
 					
-					{/* <Another_HighlightedCover
-						highlightedSongTitleOne={this.hightlightedSectionCoverData.titleOne}
-						highlightedSongTitleTwo={this.hightlightedSectionCoverData.titleTwo}
-						highlightedSongTitleThree={this.hightlightedSectionCoverData.titleThree}
-					/> */}
+				{/* <Another_HighlightedCover
+					highlightedSongTitleOne={this.hightlightedSectionCoverData.titleOne}
+					highlightedSongTitleTwo={this.hightlightedSectionCoverData.titleTwo}
+					highlightedSongTitleThree={this.hightlightedSectionCoverData.titleThree}
+				/> */}
 
-					{/* Item One */}
-					<Another_HighlightedItem 
-						title={this.hightlightedSectionItemData.m1.title}
-						content={this.hightlightedSectionItemData.m1.content}
-					/>
+				{/* Item One */}
+				<Another_HighlightedItem 
+					title={this.hightlightedSectionItemData.m1.title}
+					content={this.hightlightedSectionItemData.m1.content}
+				/>
 
-					{/* Item Two */}
-					<Another_HighlightedItem 
-						title={this.hightlightedSectionItemData.m2.title}
-						content={this.hightlightedSectionItemData.m2.content}
-					/>
+				{/* Item Two */}
+				<Another_HighlightedItem 
+					title={this.hightlightedSectionItemData.m2.title}
+					content={this.hightlightedSectionItemData.m2.content}
+				/>
 
-					{/* Item Three */}
-					<Another_HighlightedItem 
-						title={this.hightlightedSectionItemData.m3.title}
-						content={this.hightlightedSectionItemData.m3.content}
-					/>
+				{/* Item Three */}
+				<Another_HighlightedItem 
+					title={this.hightlightedSectionItemData.m3.title}
+					content={this.hightlightedSectionItemData.m3.content}
+				/>
 
-				</ContainerCentered>
-			</Container>
+			</ContainerCentered>
+		
+		</Container>
 		)
    }
 }
