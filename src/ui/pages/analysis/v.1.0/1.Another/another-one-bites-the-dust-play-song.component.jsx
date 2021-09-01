@@ -18,7 +18,6 @@ class Another_PlaySong extends React.Component {
 	// Youtube mehtods * * *
    // task: Instruir qué hacer cuando el reproductor ya cargó y está listo
    onReady(event) {
-    
 		var playButton = document.getElementById('play-button');
 		var pulse = document.getElementById('pulse');
 		// Add event listener to the play button

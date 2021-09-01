@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from '../../../../components/header/header.component.jsx';
 import Another_CoverSection from './another-one-bites-the-dust-cover.component.jsx';
 import Another_ActorsSection from './another-one-bites-the-dust-actors.component.jsx';
@@ -9,7 +9,7 @@ import Another_HighlightedSection from './another-one-bites-the-dust-highlighted
 import BlackHoleSection from '../../../../sections/black-hole/black-hole.component.jsx';
 import Another_PlaySong from './another-one-bites-the-dust-play-song.component';
 
-class AnotherOneBitesTheDust_Page extends Component {
+class AnotherOneBitesTheDust_Page extends React.Component {
 
    constructor(props) {
 		super(props);
