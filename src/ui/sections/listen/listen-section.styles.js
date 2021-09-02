@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../../utils/devices-breakpoints';
 
 export const Container = styled.div`
 width: 100%;
@@ -17,5 +18,12 @@ border-style: solid;
 border-width: 2px;  
 border-color: white;
 border-radius: 18px;
+
+@media ${device.large} { 
+width: 80%;
+height: 40vw;
+background-color: black;
+border-width: 4px; 
+}
 `
 

@@ -46,7 +46,6 @@ class AnotherOneBitesTheDust_Page extends React.Component {
 			<div>
 				<Header/>
 				<Another_CoverSection/>
-				<Another_ActorsSection/>
 				<Another_ListenSection 
 					getCurrentTimeSong={this.getCurrentTimeSong}
 					getTimerInfo={this.getTimerInfo}
@@ -54,11 +53,12 @@ class AnotherOneBitesTheDust_Page extends React.Component {
 					timerOn={this.state.timerOn}
 					coverSectionData={this.state.coverSectionData}
 				/> 
+				<Another_ActorsSection/>
 				<Another_LyricsSection 
 					currentTimeSong={this.state.currentTimeSong}
 				/>
-				<Another_AssociatedSection/>
 				<Another_HighlightedSection/> 
+				<Another_AssociatedSection/>
 				<BlackHoleSection
 					timerOn={this.state.timerOn}
 					currentTimeSong={this.state.currentTimeSong}
