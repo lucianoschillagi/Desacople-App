@@ -4,33 +4,30 @@ import './sections.styles.css';
 // Abstract: represents the different sections of the song
 class Sections extends Component {
 
-    render() {
+   render() {
 
-      // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
-      var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
-      
-      // test
-   //   console.log(`😇 ${currentTimeSongPrecision}`);
+   // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
+   var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
+   
+   // Sections
+   const intro = document.getElementById('Intro');
+   const A1 = document.getElementById('A1');
+   const B1 = document.getElementById('B1');
+   const inter1 = document.getElementById('Inter1');
+   const A2 = document.getElementById('A2');
+   const B2 = document.getElementById('B2');
+   const inter2 = document.getElementById('Inter2');
+   const B3 = document.getElementById('B3');
+   const A3 = document.getElementById('A3');
+   const B4 = document.getElementById('B4');
+   const final = document.getElementById('Final');
 
-      // Sections
-      const intro = document.getElementById('Intro');
-      const A1 = document.getElementById('A1');
-      const B1 = document.getElementById('B1');
-      const inter1 = document.getElementById('Inter1');
-      const A2 = document.getElementById('A2');
-      const B2 = document.getElementById('B2');
-      const inter2 = document.getElementById('Inter2');
-      const B3 = document.getElementById('B3');
-      const A3 = document.getElementById('A3');
-      const B4 = document.getElementById('B4');
-      const final = document.getElementById('Final');
+   // CSS values
+   const borderBottomStyleOff = "0.25px solid gray"
+   const borderBottomStyleOn = "none"
+   const tabLetterOpacity = "1"
 
-      // CSS values
-      const borderBottomStyleOff = "0.25px solid gray"
-      const borderBottomStyleOn = "none"
-      const tabLetterOpacity = "1"
-
-      switch (currentTimeSongPrecision) {
+   switch (currentTimeSongPrecision) {
       case 0.5:
       intro.style.borderBottom = borderBottomStyleOn
       intro.style.opacity = tabLetterOpacity
@@ -193,3 +190,6 @@ class Sections extends Component {
 }
 
 export default Sections;
+
+
+
