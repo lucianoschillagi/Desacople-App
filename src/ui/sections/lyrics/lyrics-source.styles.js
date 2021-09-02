@@ -35,14 +35,22 @@ font-size: 3em;
 }
 `
 
-export const ShowChords = styled.button`
-color: orange;
-background-color: black;
+export const ShowChords = styled.div`
+display: inline;
+border-radius: 5px;
+font-weight: bold;
+background-color: red;
+text-decoration: line-through;
+opacity: 0.4;
+color: black;
+padding: 4px;
+font-size: 14px;
+floating: right;
 `
 
 export const Chords = styled.p`
 color: orange;
-visibility: hidden;
+display: none;
 `
 
 export const LyricsAuthor = styled.h3`

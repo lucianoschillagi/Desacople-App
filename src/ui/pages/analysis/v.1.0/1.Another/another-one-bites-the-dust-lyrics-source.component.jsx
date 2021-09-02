@@ -22,7 +22,6 @@ class Another_LyricsSource extends React.Component {
 
    color = "#EF9AC3"
 
-
    showChords() {
       this.setState(prevState => ({
          showingChords: !prevState.showingChords
@@ -31,17 +30,39 @@ class Another_LyricsSource extends React.Component {
 
      if (this.state.showingChords === true) {
       console.log("Show chords!!!")
+
+      var chordButton = document.getElementById("showChordsButton")
+      chordButton.style.textDecoration = "none"
+      chordButton.style.opacity = "1"
+
       var chord = document.getElementById("chord");
-      chord.style.visibility = "visible";
-      chord.style.animation = "fadeIn 5s";
-      var chordsButton= document.getElementById("showChordsButton");
-      chordsButton.style.opacity = "0.5";
+      var chord2 = document.getElementById("chord2");
+      var chord3 = document.getElementById("chord3");
+      chord.style.display = "block";
+      chord.style.opacity = "1";
+      chord2.style.display = "block";
+      chord2.style.opacity = "1";
+      chord3.style.display = "block";
+      chord3.style.opacity = "1";
+
      } else {
+
+      var chordButton = document.getElementById("showChordsButton")
+      chordButton.style.textDecoration = "line-through"
+      chordButton.style.opacity = "0.4"
+
       var chord = document.getElementById("chord");
-      chord.style.visibility = "hidden";
+      chord.style.display = "none";
+      chord.style.opacity = "0";
+      chord.style.transition = "2s linear";
+
+      var chord2 = document.getElementById("chord2");
+      chord2.style.display = "none";
+
+      var chord3 = document.getElementById("chord3");
+      chord3.style.display = "none";
+
      }  
- 
-     
   }
 
    render() {
@@ -506,7 +527,7 @@ class Another_LyricsSource extends React.Component {
 
             <ShowChords id="showChordsButton"
                         onClick={this.showChords}>
-                           show chords!
+                           chords
             </ShowChords>
 
             <LyricsContainer>
@@ -515,10 +536,10 @@ class Another_LyricsSource extends React.Component {
                   <Chords id="chord">E</Chords>
                   <LyricsVerse id="line_1">Let's go</LyricsVerse>
 
-                  {/* <Chords className="chord">C</Chords> */}
+                  <Chords id="chord2">C</Chords>
                   <LyricsVerse id="line_2">Steve walks warily down the street</LyricsVerse>
 
-                  {/* <Chords className="chord">E</Chords> */}
+                  <Chords id="chord3">E</Chords>
                   <LyricsVerse id="line_3">With his brim pulled way down low</LyricsVerse>
                   <LyricsVerse id="line_4">Ain't no sound but the sound of his feet</LyricsVerse>
                   <LyricsVerse id="line_5">Machine guns ready to go</LyricsVerse>
