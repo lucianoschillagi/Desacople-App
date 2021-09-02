@@ -34,6 +34,17 @@ font-size: 3em;
 
 }
 `
+
+export const ShowChords = styled.button`
+color: orange;
+background-color: black;
+`
+
+export const Chords = styled.p`
+color: orange;
+visibility: hidden;
+`
+
 export const LyricsAuthor = styled.h3`
 @media ${device.large} { 
 font-size: 1.5em;

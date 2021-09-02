@@ -4,13 +4,45 @@ import { LyricsSourceContainer,
 			LyricsAuthor,
 			LyricsContainer,
 			LyricsParagraph,
-			LyricsVerse
+			LyricsVerse,
+         ShowChords,
+         Chords
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
 
 class Another_LyricsSource extends React.Component {
 
-  color = "#EF9AC3"
+   constructor(props) {
+      super(props);
+      this.state = { 
+                     showingChords: false
+                  } 
+      this.showChords = this.showChords.bind(this);
+   }
+
+   color = "#EF9AC3"
+
+
+   showChords() {
+      this.setState(prevState => ({
+         showingChords: !prevState.showingChords
+       }));
+      console.log("Show chords!!!")
+
+     if (this.state.showingChords === true) {
+      console.log("Show chords!!!")
+      var chord = document.getElementById("chord");
+      chord.style.visibility = "visible";
+      chord.style.animation = "fadeIn 5s";
+      var chordsButton= document.getElementById("showChordsButton");
+      chordsButton.style.opacity = "0.5";
+     } else {
+      var chord = document.getElementById("chord");
+      chord.style.visibility = "hidden";
+     }  
+ 
+     
+  }
 
    render() {
 
@@ -463,6 +495,7 @@ class Another_LyricsSource extends React.Component {
          
          <LyricsSourceContainer>
 
+
             <LyricsTitle>
                Another One Bites the Dust
             </LyricsTitle>
@@ -471,11 +504,21 @@ class Another_LyricsSource extends React.Component {
                Author: John Deacon
             </LyricsAuthor>
 
+            <ShowChords id="showChordsButton"
+                        onClick={this.showChords}>
+                           show chords!
+            </ShowChords>
+
             <LyricsContainer>
 
                <LyricsParagraph>
+                  <Chords id="chord">E</Chords>
                   <LyricsVerse id="line_1">Let's go</LyricsVerse>
+
+                  {/* <Chords className="chord">C</Chords> */}
                   <LyricsVerse id="line_2">Steve walks warily down the street</LyricsVerse>
+
+                  {/* <Chords className="chord">E</Chords> */}
                   <LyricsVerse id="line_3">With his brim pulled way down low</LyricsVerse>
                   <LyricsVerse id="line_4">Ain't no sound but the sound of his feet</LyricsVerse>
                   <LyricsVerse id="line_5">Machine guns ready to go</LyricsVerse>

@@ -4,29 +4,36 @@ import { LyricsSourceContainer,
          LyricsAuthor,
          LyricsContainer,
          LyricsParagraph,
-         LyricsVerse
+         LyricsVerse,
+         ShowChords
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
    class Satisfaction_LyricsSource extends Component {
 
-   render() {
-      return ( 
-         
-         <LyricsSourceContainer>
+      showChords() {
+         console.log("Show chords please!")
+      }
 
+      render() {
+         return ( 
+         
+           <LyricsSourceContainer>
+
+           
             <LyricsTitle>
                Satisfaction
             </LyricsTitle>
 
             <LyricsAuthor>
                Author: Jagger - Richards
-            </LyricsAuthor>
+            </LyricsAuthor> */}
 
-   
+           
 
             <LyricsContainer>
 
                <LyricsParagraph>
+                  <p>E</p>
                   <LyricsVerse>I can't get no satisfaction, I can't get no satisfaction</LyricsVerse>
                   <LyricsVerse>'Cause I try and I try and I try and I try</LyricsVerse>
                   <LyricsVerse>I can't get no, I can't get no</LyricsVerse>
