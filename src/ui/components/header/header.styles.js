@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { device } from '../../../utils/devices-breakpoints';
 
 export const Container = styled.div`
 display: flex;
@@ -10,6 +11,9 @@ font-size: 14px;
 text-align: center;
 font-weight: lighter;
 padding-top: 10px;
+@media ${device.large} { 
+padding-top: 30px;
+}
 `
 
 export const LogoContainer = styled.div`
@@ -23,6 +27,9 @@ height: 55px;
 
 export const Logo = styled.img`
 height: 40px;
+@media ${device.large} { 
+height: 50px;
+}
 `
 
 export const ProductContainer = styled.div`
@@ -38,4 +45,7 @@ text-align: center;
 letter-spacing: 6px;
 font-size: 1.15em;
 font-weight: lighter;
+@media ${device.large} { 
+font-size: 1.5em;
+}
 `

@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Container, 
          ContainerCentered,
          Title,
          Subtitle
-        } from './marketing-text.styles'
+        } from './marketing-text.styles';
  
 class MarketingText extends Component {
 
@@ -23,4 +23,4 @@ class MarketingText extends Component {
   }
 }
 
-export default MarketingText
+export default MarketingText;

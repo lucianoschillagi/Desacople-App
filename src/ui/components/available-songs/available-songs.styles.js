@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { device } from '../../../utils/devices-breakpoints';
 
 export const Container = styled.div`
 width: 100%;
@@ -14,6 +15,10 @@ display: flex;
 width: 90%;
 flex-direction: column;
 margin: 0 auto;
+@media ${device.large} { 
+flex-direction: row;
+width: 85%;
+}
 `
 
  
