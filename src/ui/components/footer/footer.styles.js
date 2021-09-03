@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { device } from '../../../utils/devices-breakpoints';
 
 export const Container = styled.div`
 margin-top: 100px;
@@ -23,4 +24,7 @@ color: white;
 
 export const Copyright = styled.p`
 font-size: 0.7em;
+@media ${device.large} { 
+font-size: 14px;
+}
 `
