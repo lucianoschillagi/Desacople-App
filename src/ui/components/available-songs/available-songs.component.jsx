@@ -26,7 +26,7 @@ class AvailableSongs extends React.Component {
 					{/* Satisfaction (Devo Version) */}
 					<LinkTo to= {{ pathname: "/satisfaction"}}>
 						<AvailableSong songId="song_002"
-											songTitle="Satisfaction"
+											songTitle="(I Can't Get No) Satisfaction [Devo Version]"
 											songComposer="(Jagger - Richards) - "
 											songReleaseDate="1966"
 											songBriefIntro="El primer tema, “Bells & Circles” es también la primera 
