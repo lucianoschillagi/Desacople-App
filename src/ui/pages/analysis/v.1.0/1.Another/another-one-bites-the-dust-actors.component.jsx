@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '../../../../sections/actors/actors.styles.js';
+import { Container,ContainerCentered } from '../../../../sections/actors/actors.styles.js';
 import Another_CardDetail from './another-one-bites-the-dust-card-detail.component';
 import Another_Cards from './another-one-bites-the-dust-cards.component';
 
@@ -47,14 +47,18 @@ class Another_ActorsSection extends React.Component {
 	render() {
 		return (
 			<Container>
-				<Another_CardDetail 
-					cardTitle = {this.state.cardTitle}
-					cardDescription = {this.state.cardDescription}
-				/>
-				<Another_Cards 
-					cards={this.actorsSectionCards}
-					getSelectedCardInfo={this.getSelectedCardInfo}
-				/>
+				<ContainerCentered>
+
+					<Another_CardDetail 
+						cardTitle = {this.state.cardTitle}
+						cardDescription = {this.state.cardDescription}
+					/>
+					<Another_Cards 
+						cards={this.actorsSectionCards}
+						getSelectedCardInfo={this.getSelectedCardInfo}
+					/>
+				</ContainerCentered>
+
 			</Container>
 		);
    }

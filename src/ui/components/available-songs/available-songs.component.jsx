@@ -17,28 +17,31 @@ class AvailableSongs extends Component {
 					<LinkTo to= {{ pathname: "/another-one-bites-the-dust" }}>
 						<AvailableSong songId="song_001"
 											songTitle="Another One Bites the Dust"
-											authorRelease="(John Deacon) - 1980"
-											description="El primer tema, “Bells & Circles” es también la primera 
+											songComposer="(John Deacon) - "
+											songReleaseDate="1980"
+											songBriefIntro="El primer tema, “Bells & Circles” es también la primera 
 											colaboración que hicieron."
 						/>
 					</LinkTo>
 
 					{/* Satisfaction (Devo Version) */}
 					<LinkTo to= {{ pathname: "/satisfaction"}}>
-						<AvailableSong songId="song_001"
-											songTitle="I Can´t Get Satisfaction"
-											authorRelease="(John Deacon) - 1980"
-											description="El primer tema, “Bells & Circles” es también la primera 
+						<AvailableSong songId="song_002"
+											songTitle="Satisfaction"
+											songComposer="(Jagger - Richards) - "
+											songReleaseDate="1966"
+											songBriefIntro="El primer tema, “Bells & Circles” es también la primera 
 											colaboración que hicieron."
 						/>
 					</LinkTo>
 
-					{/* Satisfaction (Devo Version) */}
+					{/* The Good, The Bad and The Ugly */}
 					<LinkTo to= {{ pathname: "/the-good-the-bad-and-the-ugly"}}>
-						<AvailableSong songId="song_001"
-											songTitle="The Good, the Bad and the Ugly"
-											authorRelease="(John Deacon) - 1980"
-											description="El primer tema, “Bells & Circles” es también la primera 
+						<AvailableSong songId="song_003"
+											songTitle="The Good, The Bad and The Ugly"
+											songComposer="(Ennio Morricone) - "
+											songReleaseDate="1980"
+											songBriefIntro="El primer tema, “Bells & Circles” es también la primera 
 											colaboración que hicieron."
 						/>
 					</LinkTo>

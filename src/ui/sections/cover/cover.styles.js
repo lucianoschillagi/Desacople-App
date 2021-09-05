@@ -17,8 +17,8 @@ width: 75%;
 text-align: left;
 `
 
-/* Quote Song */
-export const QuoteSong = styled.p` {
+/* Song Quote */
+export const SongQuote = styled.p` {
 @media ${device.extraSmall} { 
 font-size: 0.9em;
 }
@@ -68,8 +68,8 @@ width: 600px;
 }
 `
 
-/* Composers */
-export const Composers = styled.p` {
+/* Song Composer */
+export const SongComposer = styled.p` {
 font-size: 1.5em;
 padding-top: 10px;
 padding-left: 5px;

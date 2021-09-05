@@ -4,7 +4,7 @@ import { Container,
          ProductName,
          ProductContainer,
          LogoContainer,
-         Logo } from './header.styles.js';
+         Logo as ProductLogo } from './header.styles.js';
 import logo from '../../../assets/desacople-logo.png';
 
 class Header extends Component {
@@ -30,7 +30,7 @@ class Header extends Component {
 						<Link to={{
 							pathname: "/",
 							data: "song_001" }}>
-							<Logo src={logo}
+							<ProductLogo src={logo}
 								  alt="logo-desacople"
 							/>
 						</Link> 
@@ -42,8 +42,6 @@ class Header extends Component {
 							desacople
 						</ProductName>
 					</ProductContainer>
-
-					<LogoContainer/>
 
 				</Container> 
 			
