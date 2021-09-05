@@ -79,15 +79,15 @@ class TheGood_CoverSection extends Component {
 			<Container>
 				<ContainerCentered>
 
-					<QuoteSong/>
+					<SongQuote/>
 
 					<SongTitle>
 						The Good, The Bad and The Ugly
 					</SongTitle>
 
-					<Composers>
+					<SongComposer>
                   Ennio Morricone
-					</Composers>
+					</SongComposer>
 
 					<SongInfoContainer>
 						<SongInfo>

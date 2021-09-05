@@ -25,7 +25,7 @@ height: 55px;
 // background-color: yellow;
 `
 
-export const Logo = styled.img`
+export const ProductLogo = styled.img`
 height: 40px;
 @media ${device.large} { 
 height: 50px;

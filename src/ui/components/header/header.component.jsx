@@ -4,7 +4,7 @@ import { Container,
          ProductName,
          ProductContainer,
          LogoContainer,
-         Logo as ProductLogo } from './header.styles.js';
+         ProductLogo } from './header.styles.js';
 import logo from '../../../assets/desacople-logo.png';
 
 class Header extends Component {
@@ -32,8 +32,9 @@ class Header extends Component {
 						</ProductName>
 					</ProductContainer>
 
-					{/* FIXME: Empty Space */}
+					{/* FIXME: Empty Space. Future: Menu Icon */}
 					<LogoContainer/>
+					{/* FIXME*/}
 				
 				</Container> 
 			

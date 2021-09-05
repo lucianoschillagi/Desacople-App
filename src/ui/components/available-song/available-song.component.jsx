@@ -20,12 +20,15 @@ class AvailableSong extends React.Component {
 				</SongTitle>
 
 				<ComposerDateContainer>
+
 					<SongComposer>
 						{this.props.songComposer}
 					</SongComposer>
+
 					<SongReleaseDate>
 						{this.props.songReleaseDate}
 					</SongReleaseDate>
+					
 				</ComposerDateContainer>
 
 				<SongBriefIntro>
