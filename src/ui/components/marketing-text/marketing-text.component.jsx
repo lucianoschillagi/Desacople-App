@@ -8,19 +8,19 @@ import { Container,
 class MarketingText extends Component {
 
   render() {
-    return (
-        <Container>
-          <ContainerCentered>
-            <Title>
-              ¿De qué están hechas las buenas canciones?
-            </Title>
-            <Subtitle>
-              Explora el engranaje de una canción
-            </Subtitle>
-          </ContainerCentered> 
-        </Container> 
-    )
-  }
+      return (
+         <Container>
+           <ContainerCentered>
+             <Title>
+               ¿De qué están hechas las buenas canciones?
+             </Title>
+             <Subtitle>
+               Explora el engranaje de una canción
+             </Subtitle>
+           </ContainerCentered> 
+         </Container> 
+      )
+   }
 }
 
 export default MarketingText;
