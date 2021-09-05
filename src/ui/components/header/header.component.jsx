@@ -8,19 +8,7 @@ import { Container,
 import logo from '../../../assets/desacople-logo.png';
 
 class Header extends Component {
-
-	// Header props:
-	// handleSelect (function)
-
-	// constructor(props) {
-	// 	super(props);
-	// 	this.handleClick = this.handleClick.bind(this);
-	// }
-
-	// handleClick(e) {
-	// 	this.props.handleSelect(e)
-	// }
-
+	
   render() {
 		return (
 				<Container id="cover">
@@ -30,8 +18,9 @@ class Header extends Component {
 						<Link to={{
 							pathname: "/",
 							data: "song_001" }}>
-							<ProductLogo src={logo}
-								  alt="logo-desacople"
+							<ProductLogo 	
+								src={logo}
+								alt="logo-desacople"
 							/>
 						</Link> 
 					</LogoContainer>

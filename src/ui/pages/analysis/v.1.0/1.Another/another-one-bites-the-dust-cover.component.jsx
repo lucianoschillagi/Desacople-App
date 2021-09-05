@@ -12,7 +12,6 @@ class Another_CoverSection extends React.Component {
 
 	render() {
 		return (
-
 			<Container>
 
 				<ContainerCentered>
@@ -20,7 +19,7 @@ class Another_CoverSection extends React.Component {
 					<QuoteSong>
 						"Are you happy, are you satisfied? How long can you stand the heat?"
 					</QuoteSong>
-
+					
 					<SongTitle>
 						Another One Bites the Dust
 					</SongTitle>
