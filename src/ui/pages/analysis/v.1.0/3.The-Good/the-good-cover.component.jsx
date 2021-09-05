@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 import { Container,
 	ContainerCentered,
-	QuoteSong,
+	SongQuote,
 	SongTitle,
-	Composers,
+	SongComposer,
 	SongInfoContainer,
 	SongInfo,
-	FromYears
+	SongAge
 } from '../../../../sections/cover/cover.styles.js'
 
 class TheGood_CoverSection extends Component {
@@ -108,9 +108,9 @@ class TheGood_CoverSection extends Component {
 
 					</SongInfoContainer>
 
-					<FromYears>
+					<SongAge>
 						<em className="z">- for XX years!</em>
-					</FromYears>
+					</SongAge>
 						
 				</ContainerCentered>
 			</Container>

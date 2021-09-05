@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import { Container,
-	ContainerCentered,
-	QuoteSong,
-	SongTitle,
-	Composers,
-	SongInfoContainer,
-	SongInfo,
-	FromYears
+			ContainerCentered,
+			SongQuote,
+			SongTitle,
+			SongComposer,
+			SongInfoContainer,
+			SongInfo,
+			SongAge
 } from '../../../../sections/cover/cover.styles.js'
 
-class Satisfaction_CoverSection extends Component {
+class Satisfaction_CoverSection extends React.Component {
 
    // constructor(props) {
 	// 	super(props);
@@ -79,19 +78,20 @@ class Satisfaction_CoverSection extends Component {
 			<Container>
 				<ContainerCentered>
 
-					<QuoteSong>
+					<SongQuote>
 						"I can't get me no satisfaction, And I try and I try and I try, t-t-t-t-try, try I can't get no"
-					</QuoteSong>
+					</SongQuote>
 
 					<SongTitle>
 						Satistaction
 					</SongTitle>
 
-					<Composers>
+					<SongComposer>
                   Jagger - Richards
-					</Composers>
+					</SongComposer>
 
 					<SongInfoContainer>
+						
 						<SongInfo>
 							Album: Q: Are We Not Men? A: We Are Devo!
 						</SongInfo>
@@ -110,9 +110,9 @@ class Satisfaction_CoverSection extends Component {
 
 					</SongInfoContainer>
 
-					<FromYears>
+					<SongAge>
 						<em className="z">- for 41 years!</em>
-					</FromYears>
+					</SongAge>
 						
 				</ContainerCentered>
 			</Container>

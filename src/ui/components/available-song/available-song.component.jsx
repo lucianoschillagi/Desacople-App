@@ -2,11 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Container,
-         Title,
+         SongTitle,
 			ComposerDateContainer,
-         Composer,
-			ReleaseDate,
-			BriefIntro
+         SongComposer,
+			SongReleaseDate,
+			SongBriefIntro
 		 } from './available-song.styles';
 
 class AvailableSong extends React.Component {
@@ -15,22 +15,22 @@ class AvailableSong extends React.Component {
       return (
 			<Container>
 				
-				<Title>
+				<SongTitle>
 					{this.props.songTitle}
-				</Title>
+				</SongTitle>
 
 				<ComposerDateContainer>
-					<Composer>
+					<SongComposer>
 						{this.props.songComposer}
-					</Composer>
-					<ReleaseDate>
+					</SongComposer>
+					<SongReleaseDate>
 						{this.props.songReleaseDate}
-					</ReleaseDate>
+					</SongReleaseDate>
 				</ComposerDateContainer>
 
-				<BriefIntro>
+				<SongBriefIntro>
 					{this.props.songBriefIntro}
-				</BriefIntro>
+				</SongBriefIntro>
 
 			</Container>
       );

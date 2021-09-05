@@ -125,8 +125,8 @@ font-size: 1.2em;
 }
 `
 
-/* From Years */
-export const FromYears = styled.em`
+/* Song Age */
+export const SongAge = styled.em`
 padding-top: 15px;
 margin-bottom: 100px;
 font-weight: lighter;

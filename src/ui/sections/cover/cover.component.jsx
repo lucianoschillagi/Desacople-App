@@ -1,30 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Container,
          ContainerCentered,
-         QuoteSong,
+         SongQuote,
          SongTitle,
-			Composers as SongComposer,
+			SongComposer,
 			SongInfoContainer,
          SongInfo,
-         FromYears
+         SongAge
 } from './cover.styles.js'
 
-// Abstract: this piece represents 
-// the 'cover section' in analysis page
-class CoverSection extends Component {
-
-	///////////////////////////////////////////////////////
-	// this component use -> this.props.coverSectionData 🗄
-	///////////////////////////////////////////////////////
+// Abstract: this component represents 
+// the 'cover section' in 'analysis page'
+class CoverSection extends React.Component {
 
 	render() {
 		return (
 			<Container>
 				<ContainerCentered>
 
-					<QuoteSong>
+					<SongQuote>
 						"{this.props.coverSectionData.song_quote}"
-					</QuoteSong>
+					</SongQuote>
 
 					<SongTitle>
 						{this.props.coverSectionData.song_title}
@@ -35,6 +31,7 @@ class CoverSection extends Component {
 					</SongComposer>
 
 					<SongInfoContainer>
+
 						<SongInfo>
 								Album: {this.props.coverSectionData.song_album}
 						</SongInfo>
@@ -53,9 +50,9 @@ class CoverSection extends Component {
 
 					</SongInfoContainer>
 
-					<FromYears>
+					<SongAge>
 						<em className="z">- for {this.props.coverSectionData.song_years} years!</em>
-					</FromYears>
+					</SongAge>
 						
 				</ContainerCentered>
 			</Container>

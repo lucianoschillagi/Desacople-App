@@ -32,6 +32,9 @@ class Header extends Component {
 						</ProductName>
 					</ProductContainer>
 
+					{/* FIXME: Empty Space */}
+					<LogoContainer/>
+				
 				</Container> 
 			
 		);

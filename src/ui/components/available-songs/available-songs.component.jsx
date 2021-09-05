@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AvailableSong from '../available-song/available-song.component';
 import styled from 'styled-components';
 import { Container, ContainerCentered } from './available-songs.styles';
-
 import { Link } from 'react-router-dom';
 
-class AvailableSongs extends Component {
+class AvailableSongs extends React.Component {
     
 	render() {
 		return (

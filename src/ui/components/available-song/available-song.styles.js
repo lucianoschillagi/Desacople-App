@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
 width: 70%;
@@ -9,7 +9,7 @@ margin-bottom: 20px;
 background-color: oranged;
 `
 
-export const Title = styled.h1`
+export const SongTitle = styled.h1`
 font-size: 1em;
 color: white;
 `
@@ -18,21 +18,21 @@ export const ComposerDateContainer= styled.div`
 width: auto;
 `
 
-export const Composer = styled.p`
+export const SongComposer = styled.p`
 display: inline;
 font-size: 0.57em;
 font-weight: normal;
 color: white;
 `
 
-export const ReleaseDate = styled.p`
+export const SongReleaseDate = styled.p`
 display: inline;
 font-size: 0.57em;
 font-weight: normal;
 color: white;
 `
 
-export const BriefIntro = styled.div`
+export const SongBriefIntro = styled.div`
 font-size: 0.65em;
 padding-top: 25px;
 font-weight: normal;

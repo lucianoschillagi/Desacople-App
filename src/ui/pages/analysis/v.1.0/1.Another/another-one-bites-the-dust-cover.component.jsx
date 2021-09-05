@@ -1,4 +1,5 @@
 import React from 'react';
+import TextyAnim from 'rc-texty';
 import { Container,
 			ContainerCentered,
 			SongTitle,
@@ -6,7 +7,9 @@ import { Container,
 			SongInfoContainer,
 			SongInfo,
 			SongAge
-		  } from '../../../../sections/cover/cover.styles.js'
+		  } from '../../../../sections/cover/cover.styles.js';
+import './cover.styles.css'; // FIXME
+
 
 class Another_CoverSection extends React.Component {
 
@@ -16,10 +19,13 @@ class Another_CoverSection extends React.Component {
 
 				<ContainerCentered>
 
-					<QuoteSong>
-						"Are you happy, are you satisfied? How long can you stand the heat?"
-					</QuoteSong>
-					
+					{/* FIXME: change for 'SongQuote'*/}
+					<TextyAnim className="song-quote">
+						"Are you happy, are you satisfied?
+						How long can you stand the heat?"
+					</TextyAnim>
+					{/* FIXME */}
+
 					<SongTitle>
 						Another One Bites the Dust
 					</SongTitle>
