@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from '../../../../components/header/header.component';
 import Satisfaction_CoverSection from './satisfaction-cover.component';
 import Satisfaction_ActorsSection from './satisfaction-actors.component';
@@ -13,9 +13,8 @@ import Satisfaction_PlaySong from './satisfaction-play-song-component';
 // import { Container } from './analysis.styles';
 // import { StyledSpinner } from '../../../utils/spinner';
 
-class Satisfaction_Page extends Component {
+class Satisfaction_Page extends React.Component {
 
-<<<<<<< HEAD
 	constructor(props) {
 		super(props);
 		this.state = { 
@@ -46,19 +45,11 @@ class Satisfaction_Page extends Component {
 		this.setState({ timerOn: timerState })
 	}
 
-
-=======
-	componentDidMount() {
-		window.scrollTo(0, 0); 
-	}
-	
->>>>>>> 7a4dbaaf2b20b8069c5158ca553bb3e891066556
 	render() {
 		return (
 			<div>
 				<Header/>
 				<Satisfaction_CoverSection/>
-				<Satisfaction_ActorsSection/>
 				<Satisfaction_ListenSection 
 					getCurrentTimeSong={this.getCurrentTimeSong}
 					getTimerInfo={this.getTimerInfo}
@@ -66,9 +57,10 @@ class Satisfaction_Page extends Component {
 					timerOn={this.state.timerOn}
 					coverSectionData={this.state.coverSectionData}
 				/> 
+				<Satisfaction_ActorsSection/>
 				<Satisfaction_LyricsSection/>
-				<Satisfaction_AssociatedSection/>
 				<Satisfaction_Highlighted/>
+				<Satisfaction_AssociatedSection/>
 				<BlackHoleSection/> 
 				<Satisfaction_PlaySong 
 					timerOn={this.state.timerOn}
