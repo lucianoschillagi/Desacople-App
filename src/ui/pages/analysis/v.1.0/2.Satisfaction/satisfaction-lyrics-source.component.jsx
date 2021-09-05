@@ -5,14 +5,64 @@ import { LyricsSourceContainer,
          LyricsContainer,
          LyricsParagraph,
          LyricsVerse,
-         ShowChords
+         ShowChords,
+         Chords
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
    class Satisfaction_LyricsSource extends Component {
 
-      showChords() {
-         console.log("Show chords please!")
+      constructor(props) {
+         super(props);
+         this.state = { 
+                        showingChords: false
+                      } 
+         this.showChords = this.showChords.bind(this);
       }
+   
+      color = "#EF9AC3"
+
+      showChords() {
+         this.setState(prevState => ({
+            showingChords: !prevState.showingChords
+          }));
+         console.log("Show chords!!!")
+   
+        if (this.state.showingChords === true) {
+         console.log("Show chords!!!")
+   
+         var chordButton = document.getElementById("showChordsButton")
+         chordButton.style.textDecoration = "none"
+         chordButton.style.opacity = "1"
+   
+         var chord = document.getElementById("chord");
+         var chord2 = document.getElementById("chord2");
+         var chord3 = document.getElementById("chord3");
+         chord.style.display = "block";
+         chord.style.opacity = "1";
+         chord2.style.display = "block";
+         chord2.style.opacity = "1";
+         chord3.style.display = "block";
+         chord3.style.opacity = "1";
+   
+        } else {
+   
+         var chordButton = document.getElementById("showChordsButton")
+         chordButton.style.textDecoration = "line-through"
+         chordButton.style.opacity = "0.4"
+   
+         var chord = document.getElementById("chord");
+         chord.style.display = "none";
+         chord.style.opacity = "0";
+         chord.style.transition = "2s linear";
+   
+         var chord2 = document.getElementById("chord2");
+         chord2.style.display = "none";
+   
+         var chord3 = document.getElementById("chord3");
+         chord3.style.display = "none";
+   
+        }  
+     }
 
       render() {
          return ( 
@@ -28,24 +78,30 @@ import { LyricsSourceContainer,
                Author: Jagger - Richards
             </LyricsAuthor> 
 
-           
+            <ShowChords id="showChordsButton"
+                        onClick={this.showChords}>
+                           chords
+            </ShowChords>
 
+      
             <LyricsContainer>
 
                <LyricsParagraph>
-                  <p>E</p>
+                  <Chords id="chord">E</Chords>
                   <LyricsVerse>I can't get no satisfaction, I can't get no satisfaction</LyricsVerse>
                   <LyricsVerse>'Cause I try and I try and I try and I try</LyricsVerse>
                   <LyricsVerse>I can't get no, I can't get no</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
+                  <Chords id="chord2">A</Chords>
                   <LyricsVerse>When I'm drivin' in my car, and the man come on the radio</LyricsVerse>
                   <LyricsVerse>He's tellin' me more and more about some useless information</LyricsVerse>
                   <LyricsVerse>Supposed to fire my imagination</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
+                  <Chords id="chord3">E</Chords>
                   <LyricsVerse>I can't get no, oh, no, no, no, hey, hey, hey</LyricsVerse>
                   <LyricsVerse>That's what I say</LyricsVerse>
                   <LyricsVerse>I can't get no satisfaction, I can't get no satisfaction</LyricsVerse>

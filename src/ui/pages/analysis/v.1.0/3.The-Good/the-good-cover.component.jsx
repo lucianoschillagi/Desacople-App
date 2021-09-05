@@ -1,59 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { Container,
-	ContainerCentered,
-	SongQuote,
-	SongTitle,
-	SongComposer,
-	SongInfoContainer,
-	SongInfo,
-	SongAge
-} from '../../../../sections/cover/cover.styles.js'
+			ContainerCentered,
+			SongQuote,
+			SongTitle,
+			SongComposer,
+			SongInfoContainer,
+			SongInfo,
+			SongAge
+} from '../../../../sections/cover/cover.styles.js';
 
-class TheGood_CoverSection extends Component {
+class TheGood_CoverSection extends React.Component {
 
-   // constructor(props) {
-	// 	super(props);
-	// 	this.state = { 
-	// 						// Loading...
-	// 						loading: true, // indica que la página se está cargando aún
-							
-	// 						// Song Timer
-	// 						currentTimeSong: 0,  // el tiempo actual de la canción
-	// 						timerOn: null,// indica si el timer está prendido o no
-
-	// 						// Cover Section Info
-	// 						coverSectionData: {},
-
-	// 						// Actors Section Info
-	// 						actorsSectionData: {},
-
-	// 						// Lyrics Section Info
-	// 						lyricsSectionData: {},
-
-	// 						// Associated Section Info
-	// 						associatedSectionData: {},
-
-	// 						// Highlighted Section Info
-	// 						highlightedSectionData: {},
-
-	// 						blackHoleSectionData: {},
-							
-	// 						// las "cartas" de la canción seleccionada
-	// 						cardsData: {},
-
-	// 						// las estrofas de la canción seleccionada
-	// 						estrofasArray: [],
-
-	// 						// las "marcas de tiempo" de la canción seleccionada
-	// 						timestamps: {}
-
-	// 				}
-  
-	// 	this.getCurrentTimeSong = this.getCurrentTimeSong.bind(this);
-	// 	this.getTimerInfo = this.getTimerInfo.bind(this);
-	// 	this.getDataSong = this.getDataSong.bind(this);
-   // }
+	constructor(props) {
+      super(props);
+      this.state = {currentYear: new Date().getFullYear()};
+   }
 
 	// Task: Ejecutar una vez que el componente se haya montado
 	componentDidMount() {
@@ -91,7 +53,7 @@ class TheGood_CoverSection extends Component {
 
 					<SongInfoContainer>
 						<SongInfo>
-							Album: Q: The Good, The Bad and The Ugly
+							Album: The Good, The Bad and The Ugly
 						</SongInfo>
 
 						<SongInfo>
@@ -99,7 +61,7 @@ class TheGood_CoverSection extends Component {
 						</SongInfo>
 
 						<SongInfo>
-                     September 1966
+                     Release Date: 23 December 1966
 						</SongInfo> 
 
 						<SongInfo>
@@ -108,9 +70,11 @@ class TheGood_CoverSection extends Component {
 
 					</SongInfoContainer>
 
+					{/* Song Age */}
 					<SongAge>
-						<em className="z">- for XX years!</em>
+						for {this.state.currentYear - 1966} years!
 					</SongAge>
+
 						
 				</ContainerCentered>
 			</Container>

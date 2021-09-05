@@ -1,123 +1,76 @@
 import React from 'react';
+import TextyAnim from 'rc-texty';
 import { Container,
 			ContainerCentered,
-			SongQuote,
 			SongTitle,
 			SongComposer,
 			SongInfoContainer,
 			SongInfo,
 			SongAge
-} from '../../../../sections/cover/cover.styles.js'
+		  } from '../../../../sections/cover/cover.styles.js';
 
 class Satisfaction_CoverSection extends React.Component {
 
-   // constructor(props) {
-	// 	super(props);
-	// 	this.state = { 
-	// 						// Loading...
-	// 						loading: true, // indica que la página se está cargando aún
-							
-	// 						// Song Timer
-	// 						currentTimeSong: 0,  // el tiempo actual de la canción
-	// 						timerOn: null,// indica si el timer está prendido o no
-
-	// 						// Cover Section Info
-	// 						coverSectionData: {},
-
-	// 						// Actors Section Info
-	// 						actorsSectionData: {},
-
-	// 						// Lyrics Section Info
-	// 						lyricsSectionData: {},
-
-	// 						// Associated Section Info
-	// 						associatedSectionData: {},
-
-	// 						// Highlighted Section Info
-	// 						highlightedSectionData: {},
-
-	// 						blackHoleSectionData: {},
-							
-	// 						// las "cartas" de la canción seleccionada
-	// 						cardsData: {},
-
-	// 						// las estrofas de la canción seleccionada
-	// 						estrofasArray: [],
-
-	// 						// las "marcas de tiempo" de la canción seleccionada
-	// 						timestamps: {}
-
-	// 				}
-  
-	// 	this.getCurrentTimeSong = this.getCurrentTimeSong.bind(this);
-	// 	this.getTimerInfo = this.getTimerInfo.bind(this);
-	// 	this.getDataSong = this.getDataSong.bind(this);
-   // }
-
-	// Task: Ejecutar una vez que el componente se haya montado
-	componentDidMount() {
-
-		window.scrollTo(0, 0); // Pone la ventana en el tope
-	}
-
-	// Task: Obtener el tiempo actual de la canción
-  	// (dato generado en el componente PlaySong) ⏱
- 	getCurrentTimeSong(time) {
-		this.setState({ currentTimeSong: time })
-	}
-
-	// Task: Determinar si el timer está encendido
-	// obtener esa información
-	// (dato generado en el componente PlaySong)
-	getTimerInfo(timerState) {
-		this.setState({ timerOn: timerState })
-	}
+	constructor(props) {
+      super(props);
+      this.state = {currentYear: new Date().getFullYear()};
+   }
 
 	render() {
 		return (
 			<Container>
+
 				<ContainerCentered>
 
-					<SongQuote>
-						"I can't get me no satisfaction, And I try and I try and I try, t-t-t-t-try, try I can't get no"
-					</SongQuote>
+					{/* FIXME: change for 'SongQuote'*/}
+					<TextyAnim className="song-quote">
+						"I can't get me no satisfaction
+						And I try and I try and I try t-t-t-t-try try"
+					</TextyAnim>
+					{/* FIXME */}
 
 					<SongTitle>
-						Satistaction
+						(I Can't Get No) Satisfaction [Devo Version]
 					</SongTitle>
 
 					<SongComposer>
-                  Jagger - Richards
+						Mick Jagger - Keith Richards
 					</SongComposer>
 
 					<SongInfoContainer>
-						
+
+						{/* Song Album */}
 						<SongInfo>
 							Album: Q: Are We Not Men? A: We Are Devo!
 						</SongInfo>
 
+						{/* Song Artist */}
 						<SongInfo>
-							Artist: Devo
+							Artist: Devo 
 						</SongInfo>
 
+						{/* Song Release Date */}
 						<SongInfo>
-                     September 1977
+							Release Date: August 28, 1978
 						</SongInfo> 
 
+						{/* Song Genre */}
 						<SongInfo>
-							Genre: No Wave - Punk Rock
+							Genre: New Wave - Post-Punk - Art-Rock
 						</SongInfo>
 
 					</SongInfoContainer>
-
+					
+					{/* Song Age */}
 					<SongAge>
-						<em className="z">- for 41 years!</em>
+						for {this.state.currentYear - 1978} years!
 					</SongAge>
 						
 				</ContainerCentered>
+
 			</Container>
-    );
-  }
+      );
+   }
 }
 
 export default Satisfaction_CoverSection;

@@ -15,6 +15,7 @@ import Satisfaction_PlaySong from './satisfaction-play-song-component';
 
 class Satisfaction_Page extends Component {
 
+<<<<<<< HEAD
 	constructor(props) {
 		super(props);
 		this.state = { 
@@ -46,6 +47,12 @@ class Satisfaction_Page extends Component {
 	}
 
 
+=======
+	componentDidMount() {
+		window.scrollTo(0, 0); 
+	}
+	
+>>>>>>> 7a4dbaaf2b20b8069c5158ca553bb3e891066556
 	render() {
 		return (
 			<div>
