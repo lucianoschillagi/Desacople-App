@@ -28,7 +28,7 @@ class PlaySongControl extends React.Component {
 				<TimerContainer>
 					<div>
 						<PlaySongName>
-							Another Ones Bites The Dust
+							Another One Bites the Dust
 						</PlaySongName>
 
 						<PlaySongControlTimer>

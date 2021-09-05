@@ -26,7 +26,7 @@ import { LyricsSourceContainer,
 
             <LyricsAuthor>
                Author: Jagger - Richards
-            </LyricsAuthor> */}
+            </LyricsAuthor> 
 
            
 
