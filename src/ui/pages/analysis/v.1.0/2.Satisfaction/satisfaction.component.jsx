@@ -13,6 +13,11 @@ import BlackHoleSection from '../../../../sections/black-hole/black-hole.compone
 // import { StyledSpinner } from '../../../utils/spinner';
 
 class Satisfaction_Page extends Component {
+
+	componentDidMount() {
+		window.scrollTo(0, 0); 
+	}
+	
 	render() {
 		return (
 			<div>

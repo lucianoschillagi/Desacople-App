@@ -10,8 +10,12 @@ import { Container,
 		  } from '../../../../sections/cover/cover.styles.js';
 import './cover.styles.css'; // FIXME
 
-
 class Another_CoverSection extends React.Component {
+
+	constructor(props) {
+      super(props);
+      this.state = {currentYear: new Date().getFullYear()};
+   }
 
 	render() {
 		return (
@@ -60,7 +64,7 @@ class Another_CoverSection extends React.Component {
 					
 					{/* Song Age */}
 					<SongAge>
-						<em className="z">- for 41 years!</em>
+						for {this.state.currentYear - 1986} years!
 					</SongAge>
 						
 				</ContainerCentered>
