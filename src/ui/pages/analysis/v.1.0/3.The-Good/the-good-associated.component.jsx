@@ -9,35 +9,31 @@ class TheGood_AssociatedSection extends Component {
 		return (
 			<Container>
 				<ContainerCentered>
+
 					<TheGood_AssociatedItem 
-						title="AOBD - Official Video"
-						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
+						title="The Good the Bad and the Ugly • Main Theme"
+						subtitle="Soundtrack/theme music from the 1966 Sergio Leone film The Good, the Bad and the Ugly' with Clint Eastwood, Lee Van Cleef & Eli Wallach"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
+						externalPage="https://www.youtube.com/watch?v=h1PfrmCGFnk&t=33s"/>
 											
 					<TheGood_AssociatedItem
-						title="Freddie Mercury - Interview"
-						subtitle="Freddie Mercury interview in 1987 with David Wigg in Ibiza"
+						title="Ennio Morricone on Kubrick & The Good, The Bad and The Ugly"
+						subtitle="The Good, The Bad and The Ugly is among the best known film scores of all time – but Ennio Morricone gets “annoyed” when people just remember his Westerns"
 						source="YouTube"
-						externalPage="https://www.youtube.com/watch?v=NVIbCvfkO3E"/>
+						externalPage="https://www.youtube.com/watch?v=hcjnVyaIZXI"/>
 
 					<TheGood_AssociatedItem
-						title="AOBD - Live"
-						subtitle="Subtitulo 3"
+						title="Ennio Morricone - The Good, The Bad and The Ugly with Orchestra"
+						subtitle="Ennio Morricone: Peace Notes - Live in Venice"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
+						externalPage="https://www.youtube.com/watch?v=1AyxDVBX2o0"/>
 
 					<TheGood_AssociatedItem
-						title="AOBD - Film Clip"
-						subtitle="Subtitulo"
+						title="Ennio Morricone -- BBC2 Documentary"
+						subtitle="BBC2 documentary on the legendary film composer Ennio Morricone"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
+						externalPage="https://www.youtube.com/watch?v=Tj6MWE4wZx4"/>
 
-					<TheGood_AssociatedItem 
-						title="Link three" 
-						description="fhsalhfdjks" 
-						source="source desc goes here"
-						externalPage="https://www.fightpandemics.com"/>
 				</ContainerCentered>
 			</Container>
 		);

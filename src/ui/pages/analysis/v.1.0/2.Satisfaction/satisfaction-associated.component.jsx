@@ -10,34 +10,29 @@ class Satisfaction_AssociatedSection extends Component {
 			<Container>
 				<ContainerCentered>
 					<Satisfaction_AssociatedItem 
-						title="AOBD - Official Video"
-						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
+						title="Satisfaction by Devo - Official Video"
+						subtitle="Devo covers 'Satisfaction'"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
+						externalPage="https://www.youtube.com/watch?v=jadvt7CbH1o"/>
 											
 					<Satisfaction_AssociatedItem
-						title="Freddie Mercury - Interview"
-						subtitle="Freddie Mercury interview in 1987 with David Wigg in Ibiza"
+						title="Satisfaction by Devo - Live "
+						subtitle="Live at TV Show"
 						source="YouTube"
-						externalPage="https://www.youtube.com/watch?v=NVIbCvfkO3E"/>
+						externalPage="https://www.youtube.com/watch?v=04pbtf5t_LU"/>
 
 					<Satisfaction_AssociatedItem
-						title="AOBD - Live"
-						subtitle="Subtitulo 3"
+						title="The Rolling Stones - (I Can't Get No) Satisfaction"
+						subtitle="Live- Ireland 1965"
 						source="YouTube"
 						externalPage="https://www.youtube.com"/>
 
 					<Satisfaction_AssociatedItem
-						title="AOBD - Film Clip"
-						subtitle="Subtitulo"
+						title="Devo, The Making of Satisfaction"
+						subtitle="Mark Mothersbaugh about Satisfaction"
 						source="YouTube"
-						externalPage="https://www.youtube.com"/>
-
-					<Satisfaction_AssociatedItem 
-						title="Link three" 
-						description="fhsalhfdjks" 
-						source="source desc goes here"
-						externalPage="https://www.fightpandemics.com"/>
+						externalPage="https://www.youtube.com/watch?v=cx-QeWWFiUc"/>
+						
 				</ContainerCentered>
 			</Container>
 		);
