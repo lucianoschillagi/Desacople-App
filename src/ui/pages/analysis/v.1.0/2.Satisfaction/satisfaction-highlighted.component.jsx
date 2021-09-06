@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import Satisfaction_HighlightedCover from './satisfaction-highlighted-cover.component';
+import React from 'react';
 import Satisfaction_HighlightedItem from './satisfaction-highlighted-item.component';
-import { Container, ContainerCentered } from '../../../../sections/highlighted/highlighted.styles';
+import { Container, ContainerCentered, Another_HighlightedDescription } from '../../../../sections/highlighted/highlighted.styles.js';
 
-class Satisfaction_HighlightedSection extends Component {
+class Satisfaction_HighlightedSection extends React.Component {
 
 	hightlightedSectionCoverData = {
 		titleOne: 'Satisfaction Moments Title 1',
@@ -13,15 +12,14 @@ class Satisfaction_HighlightedSection extends Component {
 
 	hightlightedSectionItemData = {
 		m1 : {
-				title: 'Guitar Doppler',
-				content: 'En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal'
-				},
+				title: 'Satisfaction moment 1',
+				content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.' },
 		m2 : {
-				title: 'Piano Pop',
+				title: 'Satisfaction moment 2',
 				content: 'Aca la cosa cambiar porque.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal'
 				},
 		m3 : {
-				title: 'Arpa Funky',
+				title: 'Satisfaction moment 3',
 				content: 'A su vez acá es distinto, porque.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal'
 				},
 	}
@@ -29,32 +27,41 @@ class Satisfaction_HighlightedSection extends Component {
    render() {
 		return (
 			<Container>
+				
+				<Another_HighlightedDescription>
+					3 highlighted moments of the song
+				</Another_HighlightedDescription>
+				
 				<ContainerCentered>
-					
-					<Satisfaction_HighlightedCover
-						highlightedSongTitleOne={this.hightlightedSectionCoverData.titleOne}
-						highlightedSongTitleTwo={this.hightlightedSectionCoverData.titleTwo}
-						highlightedSongTitleThree={this.hightlightedSectionCoverData.titleThree}
-					/>
 
-					{/* Item One */}
-					<Satisfaction_HighlightedItem 
-						hightlightedSectionItemData={this.hightlightedSectionItemData.m1.title}
-					/>
+				{/* <Another_HighlightedCover
+					highlightedSongTitleOne={this.hightlightedSectionCoverData.titleOne}
+					highlightedSongTitleTwo={this.hightlightedSectionCoverData.titleTwo}
+					highlightedSongTitleThree={this.hightlightedSectionCoverData.titleThree}
+				/> */}
 
-					{/* Item Two */}
-					<Satisfaction_HighlightedItem 
-						hightlightedSectionItemData={this.hightlightedSectionItemData.m2.title}
-					/>
-					
-					{/* Item Three */}
-					<Satisfaction_HighlightedItem 
-						hightlightedSectionItemData={this.hightlightedSectionItemData.m3.title}
-					/>
+				{/* Item One */}
+				<Satisfaction_HighlightedItem 
+					title={this.hightlightedSectionItemData.m1.title}
+					content={this.hightlightedSectionItemData.m1.content}
+				/>
 
-				</ContainerCentered>
-			</Container>
-		);
+				{/* Item Two */}
+				<Satisfaction_HighlightedItem 
+					title={this.hightlightedSectionItemData.m2.title}
+					content={this.hightlightedSectionItemData.m2.content}
+				/>
+
+				{/* Item Three */}
+				<Satisfaction_HighlightedItem 
+					title={this.hightlightedSectionItemData.m3.title}
+					content={this.hightlightedSectionItemData.m3.content}
+				/>
+
+			</ContainerCentered>
+		
+		</Container>
+		)
    }
 }
 

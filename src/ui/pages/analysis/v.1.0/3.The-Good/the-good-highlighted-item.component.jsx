@@ -10,8 +10,8 @@ class TheGood_HighlightedItem extends Component {
 		return (
 			<Container>
 				<ContainerDescription>
-               <Title>{this.props.highlightedSongTitle}</Title>
-               <Content>{this.props.highlightedSongContent}</Content>
+               <Title>{this.props.title}</Title>
+               <Content>{this.props.content}</Content>
             </ContainerDescription>
 			</Container>
 		)

@@ -4,7 +4,7 @@ import { Container,
          Title, 
          Content } from '../../../../sections/highlighted/highlighted-item.styles.js';
 
-class Anoher_HighlightedItem extends Component {
+class Another_HighlightedItem extends Component {
 
    render() {
 		return (
@@ -18,4 +18,4 @@ class Anoher_HighlightedItem extends Component {
    }
 }
 
-export default Anoher_HighlightedItem;
+export default Another_HighlightedItem;

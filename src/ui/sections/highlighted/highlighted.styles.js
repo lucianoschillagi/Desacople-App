@@ -15,7 +15,7 @@ flex-direction: row;
 width: 90%;
 // height: 550px;
 margin: 0 auto;
-padding: 0px 0px 50px 0px;
+padding: 50px 0px 50px 0px;
 // background-color: red;
 display: flex;
 flex-wrap: nowrap;

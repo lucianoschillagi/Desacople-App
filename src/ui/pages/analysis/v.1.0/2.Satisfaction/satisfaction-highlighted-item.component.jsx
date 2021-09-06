@@ -10,8 +10,8 @@ class Satisfaction_HighlightedItem extends Component {
 		return (
 			<Container>
 				<ContainerDescription>
-               <Title>{this.props.hightlightedSectionItemData}</Title>
-               <Content>{this.props.hightlightedSectionItemData}</Content>
+               <Title>{this.props.title}</Title>
+               <Content>{this.props.content}</Content>
             </ContainerDescription>
 			</Container>
 		)
