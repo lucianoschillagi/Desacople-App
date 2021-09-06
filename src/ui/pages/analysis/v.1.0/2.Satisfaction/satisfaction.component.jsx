@@ -7,7 +7,7 @@ import Satisfaction_LyricsSection from './satisfaction-lyrics.component';
 import Satisfaction_AssociatedSection from './satisfaction-associated.component';
 import Satisfaction_Highlighted from './satisfaction-highlighted.component';
 import BlackHoleSection from '../../../../sections/black-hole/black-hole.component.jsx';
-import Satisfaction_PlaySong from './satisfaction-play-song-component';
+import Satisfaction_PlaySong from './satisfaction-play-song.component';
 
 // Imported Styles
 // import { Container } from './analysis.styles';
