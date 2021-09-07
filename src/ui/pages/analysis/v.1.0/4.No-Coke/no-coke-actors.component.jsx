@@ -1,0 +1,68 @@
+import React from 'react';
+import { Container,ContainerCentered } from '../../../../sections/actors/actors.styles.js';
+import NoCoke_CardDetail from './no-coke-card-detail.component';
+import NoCoke_Cards from './no-coke-one-bites-the-dust-cards.component';
+
+class NoCoke_ActorsSection extends React.Component {
+
+	constructor(props) {
+		super(props);
+		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
+		this.state = {
+			cardTitle: "Guitar",
+			cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend."
+		};
+	  }	
+
+  	getSelectedCardInfo(cardTitle, cardDescription) {
+		this.setState({ cardTitle, cardDescription })
+ }
+	actorsSectionCards =  [
+		{ 
+		   cardTitle: "Piano",
+		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+		},
+		{
+		   cardTitle: "Guitar",
+		   cardDescription: "hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads"
+		},
+		{
+		   cardTitle: "Drums",
+		   cardDescription: "243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads"
+		},
+		{
+			cardTitle: "Xilofon",
+			cardDescription: "f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads"
+		},
+		{
+			cardTitle: "Bass",
+			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads"
+		},
+		{
+			cardTitle: "Voice",
+			cardDescription: "klads fasdfhjaksd fkjlsdaf kladsq  shalf saljkdf lksad fdsalhfdk lajs dfsfhsdal sdf sadfih asdfp9y asdfñnj.asdf9 fsad,nk asdf kjsda zxvhcl vczhxljkhvcxz ñcv hv xczklvxzc"
+		}
+	]
+
+	render() {
+		return (
+			<Container>
+				<ContainerCentered>
+
+					<NoCoke_CardDetail 
+						cardTitle = {this.state.cardTitle}
+						cardDescription = {this.state.cardDescription}
+					/>
+					<NoCoke_Cards 
+						cards={this.actorsSectionCards}
+						getSelectedCardInfo={this.getSelectedCardInfo}
+					/>
+				</ContainerCentered>
+
+			</Container>
+		);
+   }
+}
+
+export default NoCoke_ActorsSection;
+

@@ -45,6 +45,18 @@ class AvailableSongs extends React.Component {
 						/>
 					</LinkTo>
 
+
+					{/* No Coke */}
+					<LinkTo to= {{ pathname: "/no-coke"}}>
+						<AvailableSong songId="song_004"
+											songTitle="No Coke"
+											songComposer="(Dr. Alban) - "
+											songReleaseDate="November 3, 1990"
+											songBriefIntro="El primer tema, “Bells & Circles” es también la primera 
+											colaboración que hicieron."
+						/>
+					</LinkTo>
+
 				</ContainerCentered>
 			</Container>
 		);

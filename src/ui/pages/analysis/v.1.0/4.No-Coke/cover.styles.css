@@ -1,0 +1,8 @@
+.song-quote {
+font-weight: lighter;
+font-size: 18px;
+-ms-transform: rotate(-5deg); /* IE 9 */
+-webkit-transform: rotate(-5deg); /* Safari 3-8 */
+transform: rotate(-5deg);
+font-weight: lighter;
+}
