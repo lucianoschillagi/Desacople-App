@@ -10,7 +10,7 @@ import { LyricsSourceContainer,
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
 
-class Another_LyricsSource extends React.Component {
+class NoCoke_LyricsSource extends React.Component {
 
    constructor(props) {
       super(props);
@@ -622,4 +622,4 @@ class Another_LyricsSource extends React.Component {
    }
 }
 
-export default Another_LyricsSource;
+export default NoCoke_LyricsSource;

@@ -3,7 +3,7 @@ import YouTube from 'react-youtube';
 import PlaySongControl from '../../../../sections/listen/play-song-control.component.jsx';
 import { Container, InvisibleContainer } from '../../../../sections/listen/play-song.styles';
 
-class Another_PlaySong extends React.Component {
+class NoCoke_PlaySong extends React.Component {
 
 	constructor(props) {
 		super(props);
@@ -140,4 +140,4 @@ class Another_PlaySong extends React.Component {
    }
 }
 
-export default Another_PlaySong;
+export default NoCoke_PlaySong;

@@ -48,7 +48,7 @@ font-weight: lighter;
 /* Song Title */
 export const SongTitle = styled.p`
 @media ${device.extraSmall} { 
-font-size: 3.4em;
+font-size: 3.8em;
 }
 
 @media ${device.small} { 
@@ -70,13 +70,13 @@ width: 600px;
 
 /* Song Composer */
 export const SongComposer = styled.p` {
-font-size: 1.5em;
 padding-top: 10px;
 padding-left: 5px;
 font-size: 1.1em;
-font-weight: lighter;
+// font-weight: lighter;
 
 @media ${device.extraSmall} { 
+font-size: 1.35em;
 }
 
 @media ${device.small} { 
@@ -105,11 +105,11 @@ padding-left: 5px;
 color: white;
 
 @media ${device.extraSmall} { 
-font-size: 0.85em;
+font-size: 0.9em;
 }
 
 @media ${device.small} { 
-font-size: 1em;
+font-size: 1.1em;
 }
 
 @media ${device.medium} {

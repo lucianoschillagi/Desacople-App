@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import Another_LyricsSource from './another-one-bites-the-dust-lyrics-source.component';
+import React from 'react';
+import NoCoke_LyricsSource from './no-coke-lyrics-source.component';
 import { Container } from '../../../../sections/lyrics/lyrics.styles';
 
-class Another_LyricsSection extends Component {
+class NoCoke_LyricsSection extends React.Component {
 
 	constructor(props) {
 		super(props);
@@ -40,7 +40,7 @@ class Another_LyricsSection extends Component {
 	render() {
 		return (
 			<Container>
-				<Another_LyricsSource 
+				<NoCoke_LyricsSource 
 					currentTimeSong={this.props.currentTimeSong}/>
 			</Container>
 		);
@@ -48,4 +48,4 @@ class Another_LyricsSection extends Component {
 
 }
 
-export default Another_LyricsSection;
+export default NoCoke_LyricsSection;

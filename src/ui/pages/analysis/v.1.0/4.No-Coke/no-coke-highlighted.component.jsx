@@ -1,9 +1,9 @@
 import React from 'react';
 // import Another_HighlightedCover from './another-one-bites-the-dust-highlighted-cover.component';
-import Another_HighlightedItem from './another-one-bites-the-dust-highlighted-item.component';
+import Another_HighlightedItem from './no-coke-highlighted-item.component';
 import { Container, ContainerCentered, Another_HighlightedDescription } from '../../../../sections/highlighted/highlighted.styles.js';
 
-class Another_HighlightedSection extends React.Component {
+class NoCoke_HighlightedSection extends React.Component {
 
 	hightlightedSectionCoverData = {
 		titleOne: 'Another Moments Title 1',
@@ -29,9 +29,9 @@ class Another_HighlightedSection extends React.Component {
 		return (
 			<Container>
 
-			<Another_HighlightedDescription>
+				<NoCoke_HighlightedDescription>
 					3 highlighted moments of the song
-				</Another_HighlightedDescription>	
+				</NoCoke_HighlightedDescription>	
 				
 				<ContainerCentered>
 
@@ -42,19 +42,19 @@ class Another_HighlightedSection extends React.Component {
 				/> */}
 
 				{/* Item One */}
-				<Another_HighlightedItem 
+				<NoCoke_HighlightedItem 
 					title={this.hightlightedSectionItemData.m1.title}
 					content={this.hightlightedSectionItemData.m1.content}
 				/>
 
 				{/* Item Two */}
-				<Another_HighlightedItem 
+				<NoCoke_HighlightedItem 
 					title={this.hightlightedSectionItemData.m2.title}
 					content={this.hightlightedSectionItemData.m2.content}
 				/>
 
 				{/* Item Three */}
-				<Another_HighlightedItem 
+				<NoCoke_HighlightedItem 
 					title={this.hightlightedSectionItemData.m3.title}
 					content={this.hightlightedSectionItemData.m3.content}
 				/>
@@ -66,6 +66,6 @@ class Another_HighlightedSection extends React.Component {
    }
 }
 
-export default Another_HighlightedSection;
+export default NoCoke_HighlightedSection;
 
 

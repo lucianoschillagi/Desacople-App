@@ -4,7 +4,7 @@ import { Container,
          Title, 
          Content } from '../../../../sections/highlighted/highlighted-item.styles.js';
 
-class Another_HighlightedItem extends Component {
+class NoCoke_HighlightedItem extends Component {
 
    render() {
 		return (
@@ -18,4 +18,4 @@ class Another_HighlightedItem extends Component {
    }
 }
 
-export default Another_HighlightedItem;
+export default NoCoke_HighlightedItem;

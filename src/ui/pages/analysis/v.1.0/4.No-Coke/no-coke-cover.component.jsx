@@ -25,8 +25,7 @@ class NoCoke_CoverSection extends React.Component {
 
 					{/* FIXME: change for 'SongQuote'*/}
 					<TextyAnim className="song-quote">
-						"Mi have one friend, them a call him Denniz Pop
-Him have a little son, them a call him Daniel"
+						"Hip-hop reaggae inna dance hall style"
 					</TextyAnim>
 					{/* FIXME */}
 
@@ -35,36 +34,36 @@ Him have a little son, them a call him Daniel"
 					</SongTitle>
 
 					<SongComposer>
-						Dr. Alban
+						Denniz Pop - Dr Alban
 					</SongComposer>
 
 					<SongInfoContainer>
 
 						{/* Song Album */}
 						<SongInfo>
-							Album: The Game
+							Album: Hello Afrika
 						</SongInfo>
 
 						{/* Song Artist */}
 						<SongInfo>
-							Artist: Queen
+							Artist: Dr. Alban
 						</SongInfo>
 
 						{/* Song Release Date */}
 						<SongInfo>
-							Release Date: 1986
+							Release Date: 18 Febraury 1991
 						</SongInfo> 
 
 						{/* Song Genre */}
 						<SongInfo>
-							Genre: Rock
+							Genre: Hip hop, Reggae, Dance hall, Pop
 						</SongInfo>
 
 					</SongInfoContainer>
 					
 					{/* Song Age */}
 					<SongAge>
-						for {this.state.currentYear - 1986} years!
+						for {this.state.currentYear - 1991} years!
 					</SongAge>
 						
 				</ContainerCentered>
