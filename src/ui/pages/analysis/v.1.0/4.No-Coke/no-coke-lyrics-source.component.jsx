@@ -518,11 +518,11 @@ class NoCoke_LyricsSource extends React.Component {
 
 
             <LyricsTitle>
-               Another One Bites the Dust
+               No Coke
             </LyricsTitle>
 
             <LyricsAuthor>
-               Author: John Deacon
+               Author: Deniz Pop - Dr.Alban
             </LyricsAuthor>
 
             <ShowChords id="showChordsButton"
@@ -534,86 +534,97 @@ class NoCoke_LyricsSource extends React.Component {
 
                <LyricsParagraph>
                   <Chords id="chord">E</Chords>
-                  <LyricsVerse id="line_1">Let's go</LyricsVerse>
-
-                  <Chords id="chord2">C</Chords>
-                  <LyricsVerse id="line_2">Steve walks warily down the street</LyricsVerse>
-
+                  <LyricsVerse id="line_1">Cause when I come I come rough</LyricsVerse>
+                  <LyricsVerse id="line_2">Inna reaggae raggamuffin business</LyricsVerse>
+                  <LyricsVerse id="line_3">Kom!</LyricsVerse>
                   <Chords id="chord3">E</Chords>
-                  <LyricsVerse id="line_3">With his brim pulled way down low</LyricsVerse>
-                  <LyricsVerse id="line_4">Ain't no sound but the sound of his feet</LyricsVerse>
-                  <LyricsVerse id="line_5">Machine guns ready to go</LyricsVerse>
+                  <LyricsVerse id="line_4">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_5">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_6">Hip-hop reaggae inna dance hall style</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_6">Are you ready hey are you ready for this?</LyricsVerse>
-                  <LyricsVerse id="line_7">Are you hanging on the edge of your seat?</LyricsVerse>
-                  <LyricsVerse id="line_8">Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse id="line_9">To the sound of the beat yeah</LyricsVerse>
-                  <LyricsVerse id="line_10">To the sound of the beat yeah</LyricsVerse>
+                  <LyricsVerse id="line_7">2 o'clock on a friday mornin'</LyricsVerse>
+                  <LyricsVerse id="line_8">Come a gun man</LyricsVerse>
+                  <LyricsVerse id="line_9">Come a knife man</LyricsVerse>
+                  <LyricsVerse id="line_11">Knife of a bouncer</LyricsVerse>
+                  <LyricsVerse id="line_12">Mash of the ears</LyricsVerse>
+                  <LyricsVerse id="line_13">On the run come a Kings Street</LyricsVerse>
+                  <LyricsVerse id="line_14">There he way arrested, and tested</LyricsVerse>
+                  <LyricsVerse id="line_15">And the drugs he had on him</LyricsVerse>
+                  <LyricsVerse id="line_16">He confested</LyricsVerse>
+                  <LyricsVerse id="line_17">Mi callin' on the youth in his country</LyricsVerse>
+                  <LyricsVerse id="line_18">Whole heap of boys</LyricsVerse>
+                  <LyricsVerse id="line_19">Whole heap of girls</LyricsVerse>
+                  <LyricsVerse id="line_20">Drug abuse is a dangerous thing</LyricsVerse>
+                  <LyricsVerse id="line_21">Stay out of drugs and stop</LyricsVerse>
+                  <LyricsVerse id="line_22">The violence</LyricsVerse>
+                  <LyricsVerse id="line_22">Inna dis hard time you have</LyricsVerse>
+                  <LyricsVerse id="line_23">Abuse drug</LyricsVerse>
+                  <LyricsVerse id="line_24">Listen what 'ya say and hear</LyricsVerse>
+                  <LyricsVerse id="line_25">My point of view</LyricsVerse>
+                  <LyricsVerse id="line_26">To much drugs you can</LyricsVerse>
+                  <LyricsVerse id="line_27">Go mental</LyricsVerse>
+                  <LyricsVerse id="line_28">Da say Dr.</LyricsVerse>
+                  <LyricsVerse id="line_29">Alban tellin' everybody</LyricsVerse>
+                  <LyricsVerse id="line_30">We no want no coke, no heroin</LyricsVerse>
+                  <LyricsVerse id="line_31">No hasch-hasch, no amphetamine</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_11">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_12">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_13">And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse id="line_14">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_15">Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse id="line_16">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_32">'Cause when I come I come rough</LyricsVerse>
+                  <LyricsVerse id="line_33">Inna reaggae raggamuffin business</LyricsVerse>
+                  <LyricsVerse id="line_34">Kom!</LyricsVerse>
+                  <LyricsVerse id="line_35">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_36">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_37">Hip-hop reaggae inna dance hall style</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_17">How do you think I'm going to get along</LyricsVerse>
-                  <LyricsVerse id="line_18">Without you when you're gone</LyricsVerse>
-                  <LyricsVerse id="line_19">You took me for everything that I had</LyricsVerse>
-                  <LyricsVerse id="line_20">And kicked me out on my own</LyricsVerse>
+                  <LyricsVerse id="line_38">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_39">And ecstasy</LyricsVerse>
+                  <LyricsVerse id="line_40">Will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_41">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_42">And ecstasy</LyricsVerse>
+                  <LyricsVerse id="line_43">Will mush your life!</LyricsVerse>
                </LyricsParagraph>            
                
                <LyricsParagraph>
-                  <LyricsVerse id="line_21">Are you happy are you satisfied?</LyricsVerse>
-                  <LyricsVerse id="line_22">How long can you stand the heat</LyricsVerse>
-                  <LyricsVerse id="line_23">Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse id="line_24">To the sound of the beat look out</LyricsVerse>
+                  <LyricsVerse id="line_44">Drug pushing is a serious thing</LyricsVerse>
+                  <LyricsVerse id="line_45">One time, two time they make a million</LyricsVerse>
+                  <LyricsVerse id="line_46">Take all the money a run a foreign country</LyricsVerse>
+                  <LyricsVerse id="line_47">Build a big house</LyricsVerse>
+                  <LyricsVerse id="line_48">Buy a big limousine, Das why I man come</LyricsVerse>
+                  <LyricsVerse id="line_49">So you for do the right thing</LyricsVerse>
+                  <LyricsVerse id="line_50">Das why Jah Jah send me</LyricsVerse>
+                  <LyricsVerse id="line_51">To tell them the truth</LyricsVerse>
+                  <LyricsVerse id="line_52">Cause is a disgrace</LyricsVerse>
+                  <LyricsVerse id="line_53">To the human race</LyricsVerse>
+                  <LyricsVerse id="line_54">Some are flyin' very high</LyricsVerse>
+                  <LyricsVerse id="line_55">And some are flyin' very low</LyricsVerse>
+                  <LyricsVerse id="line_56">Could not differenciate</LyricsVerse>
+                  <LyricsVerse id="line_57">What is right from wrong</LyricsVerse>
+                  <LyricsVerse id="line_58">Want no coke, no heroin</LyricsVerse>
                </LyricsParagraph>    
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_25">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_26">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_27">And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse id="line_28">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_29">Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse id="line_30">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_31">Hey</LyricsVerse>
-                  <LyricsVerse id="line_32">Oh take it - Bite the dust bite the dust</LyricsVerse>
-                  <LyricsVerse id="line_33">Hey Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_34">Another one bites the dust ow</LyricsVerse>
-                  <LyricsVerse id="line_35">Another one bites the dust he he</LyricsVerse>
-                  <LyricsVerse id="line_36">Another one bites the dust haaaa</LyricsVerse>
-                  <LyricsVerse id="line_37">Ooh shoot out</LyricsVerse>
+                  <LyricsVerse id="line_59">'Cause when I come I come rough</LyricsVerse>
+                  <LyricsVerse id="line_60">Inna reaggae raggamuffin business</LyricsVerse>
+                  <LyricsVerse id="line_61">Kom!</LyricsVerse>
+                  <LyricsVerse id="line_62">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_63">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_64">Hip-hop reaggae inna dance hall style</LyricsVerse>
+
                </LyricsParagraph>  
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_38">There are plenty of ways that you can hurt a man</LyricsVerse>
-                  <LyricsVerse id="line_39">And bring him to the ground</LyricsVerse>
-                  <LyricsVerse id="line_40">You can beat him</LyricsVerse>
-                  <LyricsVerse id="line_41">You can cheat him</LyricsVerse>
-                  <LyricsVerse id="line_42">You can treat him bad and leave him</LyricsVerse>
-                  <LyricsVerse id="line_43">When he's down</LyricsVerse>
-                  <LyricsVerse id="line_44">But I'm ready yes I'm ready for you</LyricsVerse>
-                  <LyricsVerse id="line_45">I'm standing on my own two feet</LyricsVerse>
-                  <LyricsVerse id="line_46">Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse id="line_47">Repeating to the sound of the beat</LyricsVerse>
-               </LyricsParagraph>  
-
-               <LyricsParagraph>
-                  <LyricsVerse id="line_48">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_49">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_50">And another one gone and another one gone</LyricsVerse>
-                  <LyricsVerse id="line_51">Another one bites the dust yeah</LyricsVerse>
-                  <LyricsVerse id="line_52">Hey I'm gonna get you too</LyricsVerse>
-                  <LyricsVerse id="line_53">Another one bites the dust</LyricsVerse>
-                  <LyricsVerse id="line_54">Shoot out</LyricsVerse>
-               </LyricsParagraph>  
+                  <LyricsVerse id="line_65">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_66">And ecstasy</LyricsVerse>
+                  <LyricsVerse id="line_67">Will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_68">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_69">And ecstasy</LyricsVerse>
+                  <LyricsVerse id="line_70">Will mush your life!</LyricsVerse>
+               </LyricsParagraph>    
                
             </LyricsContainer>
 

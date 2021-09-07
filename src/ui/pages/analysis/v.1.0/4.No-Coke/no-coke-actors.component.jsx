@@ -9,9 +9,9 @@ class NoCoke_ActorsSection extends React.Component {
 		super(props);
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
-			cardTitle: "Guitar",
-			cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend."
-		};
+			cardTitle: "Lead Voice",
+			cardDescription: "lead voice description goes here."
+			};
 	  }	
 
   	getSelectedCardInfo(cardTitle, cardDescription) {
@@ -19,28 +19,20 @@ class NoCoke_ActorsSection extends React.Component {
  }
 	actorsSectionCards =  [
 		{ 
-		   cardTitle: "Piano",
-		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
-		},
-		{
-		   cardTitle: "Guitar",
-		   cardDescription: "hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads"
-		},
-		{
 		   cardTitle: "Drums",
-		   cardDescription: "243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads"
+			cardDescription: "drums description goes here."
 		},
 		{
-			cardTitle: "Xilofon",
-			cardDescription: "f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads"
+		   cardTitle: "Bass",
+			cardDescription: "bass description goes here."
 		},
 		{
-			cardTitle: "Bass",
-			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads"
+		   cardTitle: "Sinthe",
+			cardDescription: "sinthe description goes here."
 		},
 		{
-			cardTitle: "Voice",
-			cardDescription: "klads fasdfhjaksd fkjlsdaf kladsq  shalf saljkdf lksad fdsalhfdk lajs dfsfhsdal sdf sadfih asdfp9y asdfñnj.asdf9 fsad,nk asdf kjsda zxvhcl vczhxljkhvcxz ñcv hv xczklvxzc"
+		   cardTitle: "Electric Guitar",
+			cardDescription: "electric guitar description goes here."		
 		}
 	]
 

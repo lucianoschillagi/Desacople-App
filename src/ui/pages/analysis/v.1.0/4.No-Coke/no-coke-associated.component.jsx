@@ -8,30 +8,19 @@ class NoCoke_AssociatedSection extends Component {
 		return (
 			<Container>
 				<ContainerCentered>
+
 					<NoCoke_AssociatedItem 
-						title={"Another One Bites the Dust" + "\n" + "[Official Video]"}
-						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
+						title={"No Coke - [Official Video]"}
+						subtitle="Dr Alban - No Coke (LIVE 1990) HQ Robin (TP) / Remastered / 2016"
 						source="YouTube"
-						externalPage="https://www.youtube.com/watch?v=rY0WxgSXdEE"/>
+						externalPage="https://www.youtube.com/watch?v=4uPDfuC3Jck"/>
 											
-					<NoCoke_AssociatedItem
-						title={"Freddie Mercury" + "\n" + "[Interviews]"}
-						subtitle="A compilation with the best Freddie interviews"
+					<NoCoke_AssociatedItem 
+						title={"No Coke - [Live TV Show]"}
+						subtitle="Dr Alban - No Coke (LIVE 1990) HQ Robin (TP) / Remastered / 2016"
 						source="YouTube"
-						externalPage="https://www.youtube.com/watch?v=_sGWDJmjjh4"/>
-
-					<NoCoke_AssociatedItem
-						title={"Another One Bites the Dust" + "\n" + "[Live]"}
-						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
-						source="YouTube"
-						externalPage="https://www.youtube.com/watch?v=NVIbCvfkO3E"/>
-
-					<NoCoke_AssociatedItem
-						title={"Another One Bites the Dust" + "\n" + "[Film Clip]"}
-						subtitle="Taken from The Game, 1980 and Greatest Video Hits 1"
-						source="YouTube"
-						externalPage="https://www.youtube.com/watch?v=-u7V_lwKTb0&t=3s"/>
-
+						externalPage="https://www.youtube.com/watch?v=idNclkmpBJY&feature=youtu.be"/>
+						
 				</ContainerCentered>
 			</Container>
 		);

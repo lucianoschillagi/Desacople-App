@@ -1,6 +1,6 @@
 import React from 'react';
 // import Another_HighlightedCover from './another-one-bites-the-dust-highlighted-cover.component';
-import Another_HighlightedItem from './no-coke-highlighted-item.component';
+import NoCoke_HighlightedItem from './no-coke-highlighted-item.component';
 import { Container, ContainerCentered, Another_HighlightedDescription } from '../../../../sections/highlighted/highlighted.styles.js';
 
 class NoCoke_HighlightedSection extends React.Component {
@@ -13,8 +13,10 @@ class NoCoke_HighlightedSection extends React.Component {
 
 	hightlightedSectionItemData = {
 		m1 : {
-				title: 'Guitarra Doppler',
-				content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.' },
+				title: 'Salve & Delusion',
+				content: 'In grappling with the “mess” of our present moment, the punk legend looks relentlessly to the future, and her optimism feels alternately like a salve and a delusion.',
+				segment: "0: 30 - 0: 51" 
+				},
 		m2 : {
 				title: 'Coloratura Pop',
 				content: 'Aca la cosa cambiar porque.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal'
@@ -29,9 +31,9 @@ class NoCoke_HighlightedSection extends React.Component {
 		return (
 			<Container>
 
-				<NoCoke_HighlightedDescription>
+				{/* <NoCoke_HighlightedDescription>
 					3 highlighted moments of the song
-				</NoCoke_HighlightedDescription>	
+				</NoCoke_HighlightedDescription>	 */}
 				
 				<ContainerCentered>
 
@@ -45,6 +47,7 @@ class NoCoke_HighlightedSection extends React.Component {
 				<NoCoke_HighlightedItem 
 					title={this.hightlightedSectionItemData.m1.title}
 					content={this.hightlightedSectionItemData.m1.content}
+					segment={this.props.segment}
 				/>
 
 				{/* Item Two */}

@@ -12,6 +12,7 @@ class NoCoke_HighlightedItem extends Component {
 				<ContainerDescription>
                <Title>{this.props.title}</Title>
                <Content>{this.props.content}</Content>
+               <Content>{this.props.segment}</Content>
             </ContainerDescription>
 			</Container>
 		)
