@@ -3,7 +3,7 @@ import { Container,
 			CardDetailTitle, 
 			CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
 
-class Another_CardDetail extends Component {
+class NoCoke_CardDetail extends Component {
 
 	render() {
 		return (
@@ -22,4 +22,4 @@ class Another_CardDetail extends Component {
 	}
 }
 
-export default Another_CardDetail;
+export default NoCoke_CardDetail;

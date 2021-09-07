@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container,ContainerCentered } from '../../../../sections/actors/actors.styles.js';
 import NoCoke_CardDetail from './no-coke-card-detail.component';
-import NoCoke_Cards from './no-coke-one-bites-the-dust-cards.component';
+import NoCoke_Cards from './no-coke-cards.component';
 
 class NoCoke_ActorsSection extends React.Component {
 

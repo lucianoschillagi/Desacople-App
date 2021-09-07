@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, CardTitle, CardDescription } from '../../../../sections/actors/card.styles';
 
-class Another_Card extends Component {
+class NoCoke_Card extends Component {
 
 	handleClick(cardTitle, cardDescription) {
 		this.props.getSelectedCardInfo(cardTitle, cardDescription)
@@ -25,4 +25,4 @@ class Another_Card extends Component {
 	}
 }
 
-export default Another_Card;
+export default NoCoke_Card;

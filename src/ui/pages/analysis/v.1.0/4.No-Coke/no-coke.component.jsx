@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../../../components/header/header.component.jsx';
 import NoCoke_CoverSection from './no-coke-cover.component.jsx';
-// import NoCoke_ActorsSection from './no-coke-actors.component.jsx';
+import NoCoke_ActorsSection from './no-coke-actors.component.jsx';
 import NoCoke_ListenSection from './no-coke-listen.component.jsx';
 // import NoCoke_LyricsSection from './no-coke-lyrics.component.jsx';
 // import NoCoke_AssociatedSection from './no-coke-associated.component.jsx';
@@ -52,7 +52,7 @@ class NoCoke_Page extends React.Component {
 					timerOn={this.state.timerOn}
 					coverSectionData={this.state.coverSectionData}
 				/> 
-				{/* <NoCoke_ActorsSection/> */}
+				<NoCoke_ActorsSection/>
 				{/* <NoCoke_LyricsSection 
 					currentTimeSong={this.state.currentTimeSong}
 				/> */}
