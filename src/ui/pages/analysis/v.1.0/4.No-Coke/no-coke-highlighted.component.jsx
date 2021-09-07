@@ -1,6 +1,6 @@
 import React from 'react';
 // import Another_HighlightedCover from './another-one-bites-the-dust-highlighted-cover.component';
-import Another_HighlightedItem from './no-coke-highlighted-item.component';
+import NoCoke_HighlightedItem from './no-coke-highlighted-item.component';
 import { Container, ContainerCentered, Another_HighlightedDescription } from '../../../../sections/highlighted/highlighted.styles.js';
 
 class NoCoke_HighlightedSection extends React.Component {
@@ -29,9 +29,9 @@ class NoCoke_HighlightedSection extends React.Component {
 		return (
 			<Container>
 
-				<NoCoke_HighlightedDescription>
+				{/* <NoCoke_HighlightedDescription>
 					3 highlighted moments of the song
-				</NoCoke_HighlightedDescription>	
+				</NoCoke_HighlightedDescription>	 */}
 				
 				<ContainerCentered>
 

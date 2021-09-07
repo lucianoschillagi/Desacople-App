@@ -518,11 +518,11 @@ class NoCoke_LyricsSource extends React.Component {
 
 
             <LyricsTitle>
-               Another One Bites the Dust
+               No Coke
             </LyricsTitle>
 
             <LyricsAuthor>
-               Author: John Deacon
+               Author: Deniz Pop - Dr.Alban
             </LyricsAuthor>
 
             <ShowChords id="showChordsButton"
@@ -534,27 +534,49 @@ class NoCoke_LyricsSource extends React.Component {
 
                <LyricsParagraph>
                   <Chords id="chord">E</Chords>
-                  <LyricsVerse id="line_1">Let's go</LyricsVerse>
+                  <LyricsVerse id="line_1">Cause when I come I come rough</LyricsVerse>
 
                   <Chords id="chord2">C</Chords>
-                  <LyricsVerse id="line_2">Steve walks warily down the street</LyricsVerse>
+                  <LyricsVerse id="line_2">Inna reaggae raggamuffin business
+Kom!</LyricsVerse>
 
                   <Chords id="chord3">E</Chords>
-                  <LyricsVerse id="line_3">With his brim pulled way down low</LyricsVerse>
-                  <LyricsVerse id="line_4">Ain't no sound but the sound of his feet</LyricsVerse>
-                  <LyricsVerse id="line_5">Machine guns ready to go</LyricsVerse>
+                  <LyricsVerse id="line_3">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_4">Hip-hop reaggae inna dance hall style</LyricsVerse>
+                  <LyricsVerse id="line_5">Hip-hop reaggae inna dance hall style</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_6">Are you ready hey are you ready for this?</LyricsVerse>
-                  <LyricsVerse id="line_7">Are you hanging on the edge of your seat?</LyricsVerse>
-                  <LyricsVerse id="line_8">Out of the doorway the bullets rip</LyricsVerse>
-                  <LyricsVerse id="line_9">To the sound of the beat yeah</LyricsVerse>
-                  <LyricsVerse id="line_10">To the sound of the beat yeah</LyricsVerse>
+                  <LyricsVerse id="line_6">2 o'clock on a friday mornin'</LyricsVerse>
+                  <LyricsVerse id="line_7">Come a gun man</LyricsVerse>
+                  <LyricsVerse id="line_8">Come a knife man</LyricsVerse>
+                  <LyricsVerse id="line_9">Knife of a bouncer</LyricsVerse>
+                  <LyricsVerse id="line_10">Mash of the ears</LyricsVerse>
+                  <LyricsVerse id="line_11">On the run come a Kings Street</LyricsVerse>
+                  <LyricsVerse id="line_12">There he way arrested, and tested</LyricsVerse>
+                  <LyricsVerse id="line_13">And the drugs he had on him</LyricsVerse>
+                  <LyricsVerse id="line_14">He confested</LyricsVerse>
+                  <LyricsVerse id="line_15">Mi callin' on the youth in his country</LyricsVerse>
+                  <LyricsVerse id="line_16">Whole heap of boys</LyricsVerse>
+                  <LyricsVerse id="line_17">Whole heap of girls</LyricsVerse>
+                  <LyricsVerse id="line_18">Drug abuse is a dangerous thing</LyricsVerse>
+                  <LyricsVerse id="line_19">Stay out of drugs and stop</LyricsVerse>
+                  <LyricsVerse id="line_20">The violence</LyricsVerse>
+                  <LyricsVerse id="line_21">Inna dis hard time you have</LyricsVerse>
+                  <LyricsVerse id="line_22">Abuse drug</LyricsVerse>
+
+                  <LyricsVerse id="line_23">Listen what 'ya say and hear</LyricsVerse>
+                  <LyricsVerse id="line_24">My point of view</LyricsVerse>
+                  <LyricsVerse id="line_25">To much drugs you can</LyricsVerse>
+                  <LyricsVerse id="line_26">Go mental</LyricsVerse>
+                  <LyricsVerse id="line_27">Da say Dr.</LyricsVerse>
+                  <LyricsVerse id="line_28">Alban tellin' everybody</LyricsVerse>
+                  <LyricsVerse id="line_29">We no want no coke, no heroin</LyricsVerse>
+                  <LyricsVerse id="line_30">No hasch-hasch, no amphetamine</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_11">Another one bites the dust</LyricsVerse>
+                  <LyricsVerse id="line_11">'Cause when I come I come rough</LyricsVerse>
                   <LyricsVerse id="line_12">Another one bites the dust</LyricsVerse>
                   <LyricsVerse id="line_13">And another one gone and another one gone</LyricsVerse>
                   <LyricsVerse id="line_14">Another one bites the dust</LyricsVerse>
