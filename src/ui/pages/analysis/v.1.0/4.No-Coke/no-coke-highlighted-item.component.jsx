@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { Container, 
          ContainerDescription, 
          Title, 
-         Content } from '../../../../sections/highlighted/highlighted-item.styles.js';
+         Content,
+         Where,
+         Segment
+       } from '../../../../sections/highlighted/highlighted-item.styles.js';
 
 class NoCoke_HighlightedItem extends Component {
 
@@ -12,7 +15,8 @@ class NoCoke_HighlightedItem extends Component {
 				<ContainerDescription>
                <Title>{this.props.title}</Title>
                <Content>{this.props.content}</Content>
-               <Content>{this.props.segment}</Content>
+               <Where>Where?</Where>
+               <Segment>{this.props.segment}</Segment>
             </ContainerDescription>
 			</Container>
 		)

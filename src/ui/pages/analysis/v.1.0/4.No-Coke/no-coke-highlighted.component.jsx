@@ -47,7 +47,7 @@ class NoCoke_HighlightedSection extends React.Component {
 				<NoCoke_HighlightedItem 
 					title={this.hightlightedSectionItemData.m1.title}
 					content={this.hightlightedSectionItemData.m1.content}
-					segment={this.props.segment}
+					segment={this.hightlightedSectionItemData.m1.segment}
 				/>
 
 				{/* Item Two */}

@@ -1,6 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
-import PlaySongControl from '../../../../sections/listen/play-song-control.component.jsx';
+import NoCoke_PlaySongControl from './no-coke-play-song-control.component.jsx';
 import { Container, InvisibleContainer } from '../../../../sections/listen/play-song.styles';
 
 class NoCoke_PlaySong extends React.Component {
@@ -118,7 +118,7 @@ class NoCoke_PlaySong extends React.Component {
 			<Container>
 				<InvisibleContainer>
 					<YouTube
-						videoId="Wz_DNrKVrQ8" 
+						videoId="4uPDfuC3Jck" 
 						opts={opts}
 						onReady={this.onReady}
 						onStateChange={this.onStateChange} 
@@ -128,7 +128,7 @@ class NoCoke_PlaySong extends React.Component {
 					/>
 				</InvisibleContainer>
 
-				<PlaySongControl 
+				<NoCoke_PlaySongControl 
 					currentTimeSong={this.props.currentTimeSong}
 					timerOn={this.state.timerOn}
 					coverSongTitle={this.props.coverSongTitle}
