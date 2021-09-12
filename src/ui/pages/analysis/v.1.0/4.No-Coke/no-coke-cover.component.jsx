@@ -7,6 +7,7 @@ import { Container,
 			SongComposer,
 			SongInfoContainer,
 			SongInfo,
+			SongMoods,
 			SongAge
 		  } from '../../../../sections/cover/cover.styles.js';
 import './cover.styles.css'; // FIXME
@@ -70,9 +71,9 @@ class NoCoke_CoverSection extends React.Component {
 						</SongInfo>
 
 						{/* Song Moods */}
-						<SongInfo>
-							groovy, positive, narcotic
-						</SongInfo>
+						<SongMoods>
+							groovy - positive - narcotic
+						</SongMoods>
 
 					</SongInfoContainer>
 					

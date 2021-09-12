@@ -151,9 +151,18 @@ font-size: 1.2em;
 }
 `
 
+/* Song Moods */
+export const SongMoods= styled.p`
+padding-top: 15px;
+margin-bottom: 100px;
+padding-left: 5px;
+color: red;
+font-size: 0.9em;
+`
+
 /* Song Age */
 export const SongAge = styled.em`
-padding-top: 15px;
+// padding-top: 15px;
 margin-bottom: 100px;
 font-weight: lighter;
 padding-left: 5px;
