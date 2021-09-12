@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 width: 450px;
 height: 150px;
-background-color: red;
+// background-color: red;
 margin: 0px 10px 0px 10px;
 padding: 30px;
 border: solid gray 2px;

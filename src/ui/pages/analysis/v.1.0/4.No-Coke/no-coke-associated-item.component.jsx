@@ -12,7 +12,7 @@ class NoCoke_AssociatedItem extends Component {
 				<ExternalPage href={this.props.externalPage} target="_blank">
 					<Title>{this.props.title}</Title>
 					<Description>{this.props.subtitle}</Description>
-					{/* <Source>{this.props.source}</Source> */}
+					<Source>{this.props.source}</Source>
 				</ExternalPage>
 			</Container>
 		);

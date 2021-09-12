@@ -30,5 +30,18 @@ opacity: 0.5;
 export const Content = styled.p`
 font-size: 15px;
 color: white;
+padding-bottom: 20px;
 `
 
+export const Where = styled.p`
+border-top: 1px solid gray;
+padding-top: 20px;
+font-size: 15px;
+color: gray;
+`
+
+export const Segment = styled.p`
+font-size: 15px;
+color: red;
+opacity: 0.6;
+`

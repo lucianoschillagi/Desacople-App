@@ -3,11 +3,11 @@ import Header from '../../../../components/header/header.component.jsx';
 import NoCoke_CoverSection from './no-coke-cover.component.jsx';
 import NoCoke_ActorsSection from './no-coke-actors.component.jsx';
 import NoCoke_ListenSection from './no-coke-listen.component.jsx';
-// import NoCoke_LyricsSection from './no-coke-lyrics.component.jsx';
-// import NoCoke_AssociatedSection from './no-coke-associated.component.jsx';
-// import NoCoke_HighlightedSection from './no-coke-one-highlighted.component.jsx';
+import NoCoke_LyricsSection from './no-coke-lyrics.component.jsx';
+import NoCoke_AssociatedSection from './no-coke-associated.component.jsx';
+import NoCoke_HighlightedSection from './no-coke-highlighted.component.jsx';
 import BlackHoleSection from '../../../../sections/black-hole/black-hole.component.jsx';
-// import NoCoke_PlaySong from './no-coke-play-song.component';
+import NoCoke_PlaySong from './no-coke-play-song.component';
 
 class NoCoke_Page extends React.Component {
 
@@ -53,21 +53,21 @@ class NoCoke_Page extends React.Component {
 					coverSectionData={this.state.coverSectionData}
 				/> 
 				<NoCoke_ActorsSection/>
-				{/* <NoCoke_LyricsSection 
+				<NoCoke_LyricsSection 
 					currentTimeSong={this.state.currentTimeSong}
-				/> */}
-				{/* <NoCoke_HighlightedSection/>  */}
-				{/* <NoCoke_AssociatedSection/> */}
+				/>
+				<NoCoke_HighlightedSection/> 
+				<NoCoke_AssociatedSection/>
 				<BlackHoleSection
 					timerOn={this.state.timerOn}
 					currentTimeSong={this.state.currentTimeSong}
 				/>
-				{/* <NoCoke_PlaySong 
+				<NoCoke_PlaySong 
 					timerOn={this.state.timerOn}
 					currentTimeSong={this.state.currentTimeSong}
 					getCurrentTimeSong={this.getCurrentTimeSong}
 					getTimerInfo={this.getTimerInfo}
-				/> */}
+				/>
 
 			</div>
       );

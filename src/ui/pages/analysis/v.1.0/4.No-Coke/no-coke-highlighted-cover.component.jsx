@@ -3,7 +3,7 @@ import { Container,
 		 Title, 
 		 Description } from '../../../../sections/highlighted/highlighted-cover.styles.js';
 
-class Another_HighlightedCover extends Component {
+class NoCoke_HighlightedCover extends Component {
    render() {
 		return (
 			<Container>
@@ -15,5 +15,5 @@ class Another_HighlightedCover extends Component {
    }
 }
 
-export default Another_HighlightedCover;
+export default NoCoke_HighlightedCover;
 
