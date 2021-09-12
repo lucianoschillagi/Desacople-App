@@ -78,7 +78,7 @@ class NoCoke_CoverSection extends React.Component {
 					
 					{/* Song Age */}
 					<SongAge>
-						for {this.state.currentYear - 1991} years!
+						since {this.state.currentYear - 1991} years!
 					</SongAge>
 						
 				</ContainerCentered>
