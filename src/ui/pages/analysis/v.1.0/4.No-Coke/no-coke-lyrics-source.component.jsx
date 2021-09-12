@@ -516,7 +516,6 @@ class NoCoke_LyricsSource extends React.Component {
          
          <LyricsSourceContainer>
 
-
             <LyricsTitle>
                No Coke
             </LyricsTitle>
@@ -547,18 +546,18 @@ class NoCoke_LyricsSource extends React.Component {
                   <LyricsVerse id="line_7">2 o'clock on a friday mornin'</LyricsVerse>
                   <LyricsVerse id="line_8">Come a gun man</LyricsVerse>
                   <LyricsVerse id="line_9">Come a knife man</LyricsVerse>
-                  <LyricsVerse id="line_11">Knife of a bouncer</LyricsVerse>
-                  <LyricsVerse id="line_12">Mash of the ears</LyricsVerse>
-                  <LyricsVerse id="line_13">On the run come a Kings Street</LyricsVerse>
-                  <LyricsVerse id="line_14">There he way arrested, and tested</LyricsVerse>
-                  <LyricsVerse id="line_15">And the drugs he had on him</LyricsVerse>
-                  <LyricsVerse id="line_16">He confested</LyricsVerse>
-                  <LyricsVerse id="line_17">Mi callin' on the youth in his country</LyricsVerse>
-                  <LyricsVerse id="line_18">Whole heap of boys</LyricsVerse>
-                  <LyricsVerse id="line_19">Whole heap of girls</LyricsVerse>
-                  <LyricsVerse id="line_20">Drug abuse is a dangerous thing</LyricsVerse>
-                  <LyricsVerse id="line_21">Stay out of drugs and stop</LyricsVerse>
-                  <LyricsVerse id="line_22">The violence</LyricsVerse>
+                  <LyricsVerse id="line_10">Knife of a bouncer</LyricsVerse>
+                  <LyricsVerse id="line_11">Mash of the ears</LyricsVerse>
+                  <LyricsVerse id="line_12">On the run come a Kings Street</LyricsVerse>
+                  <LyricsVerse id="line_13">There he way arrested, and tested</LyricsVerse>
+                  <LyricsVerse id="line_14">And the drugs he had on him</LyricsVerse>
+                  <LyricsVerse id="line_15">He confested</LyricsVerse>
+                  <LyricsVerse id="line_16">Mi callin' on the youth in his country</LyricsVerse>
+                  <LyricsVerse id="line_17">Whole heap of boys</LyricsVerse>
+                  <LyricsVerse id="line_18">Whole heap of girls</LyricsVerse>
+                  <LyricsVerse id="line_19">Drug abuse is a dangerous thing</LyricsVerse>
+                  <LyricsVerse id="line_20">Stay out of drugs and stop</LyricsVerse>
+                  <LyricsVerse id="line_21">The violence</LyricsVerse>
                   <LyricsVerse id="line_22">Inna dis hard time you have</LyricsVerse>
                   <LyricsVerse id="line_23">Abuse drug</LyricsVerse>
                   <LyricsVerse id="line_24">Listen what 'ya say and hear</LyricsVerse>

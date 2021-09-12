@@ -3,6 +3,7 @@ import TextyAnim from 'rc-texty';
 import { Container,
 			ContainerCentered,
 			SongTitle,
+			SongWrittenBy,
 			SongComposer,
 			SongInfoContainer,
 			SongInfo,
@@ -33,6 +34,10 @@ class NoCoke_CoverSection extends React.Component {
 						No Coke
 					</SongTitle>
 
+					<SongWrittenBy>
+						written by
+					</SongWrittenBy>
+
 					<SongComposer>
 						Denniz Pop - Dr Alban
 					</SongComposer>
@@ -57,6 +62,16 @@ class NoCoke_CoverSection extends React.Component {
 						{/* Song Genre */}
 						<SongInfo>
 							Genre: Hip hop, Reggae, Dance hall, Pop
+						</SongInfo>
+
+						{/* Song Lenght */}
+						<SongInfo>
+							Length: 3:43
+						</SongInfo>
+
+						{/* Song Moods */}
+						<SongInfo>
+							groovy, positive, narcotic
 						</SongInfo>
 
 					</SongInfoContainer>

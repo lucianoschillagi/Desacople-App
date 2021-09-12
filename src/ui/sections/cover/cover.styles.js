@@ -68,14 +68,40 @@ width: 600px;
 }
 `
 
+/* Song Written by */
+export const SongWrittenBy = styled.em` {
+padding-top: 10px;
+padding-left: 5px;
+font-size: 1.1em;
+font-weight: lighter;
+
+@media ${device.extraSmall} { 
+font-size: 1em;
+}
+
+@media ${device.small} { 
+}
+
+@media ${device.medium} { 
+}
+
+@media ${device.large} { 
+}
+
+@media ${device.extraLarge} { 
+font-size: 1.8em;
+}
+`
+
 /* Song Composer */
 export const SongComposer = styled.p` {
-padding-top: 10px;
 padding-left: 5px;
 font-size: 1.1em;
 // font-weight: lighter;
 
-@media ${device.extraSmall} { 
+@media ${device.extraSmall} {
+background-color: red;
+opacity: 0.5;
 font-size: 1.35em;
 }
 
