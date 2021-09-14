@@ -17,6 +17,7 @@ class Another_ActorsSection extends React.Component {
   	getSelectedCardInfo(cardTitle, cardDescription) {
 		this.setState({ cardTitle, cardDescription })
  }
+ 
 	actorsSectionCards =  [
 		{ 
 		   cardTitle: "Piano",

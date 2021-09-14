@@ -44,7 +44,6 @@ class Another_Cards extends Component {
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
-
 			</Container>
 		)
 	}

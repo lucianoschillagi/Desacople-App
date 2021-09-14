@@ -10,21 +10,25 @@ class NoCoke_Cards extends Component {
 				
 				<NoCoke_Card 
 					cardTitle={this.props.cards[0].cardTitle}
+					cardDescription={this.props.cards[0].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<NoCoke_Card 
 					cardTitle={this.props.cards[1].cardTitle}
+					cardDescription={this.props.cards[1].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<NoCoke_Card 
 					cardTitle={this.props.cards[2].cardTitle}
+					cardDescription={this.props.cards[2].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 
 				<NoCoke_Card 
 					cardTitle={this.props.cards[3].cardTitle}
+					cardDescription={this.props.cards[3].cardDescription}
 					getSelectedCardInfo={this.props.getSelectedCardInfo}
 				/>
 

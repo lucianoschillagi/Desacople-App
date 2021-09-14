@@ -10,13 +10,14 @@ class NoCoke_ActorsSection extends React.Component {
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
 			cardTitle: "Lead Voice",
-			cardDescription: "lead voice description goes here."
+			cardDescription: "lead voice description goes here. fhlsa fask hflaksdh flasd asdf fadlh fdsalh asdf adfslhfd klhfdsaklj flkasdh afsdlhdfs ak"
 			};
 	  }	
 
   	getSelectedCardInfo(cardTitle, cardDescription) {
 		this.setState({ cardTitle, cardDescription })
  }
+ 
 	actorsSectionCards =  [
 		{ 
 		   cardTitle: "Drums",

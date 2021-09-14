@@ -1,17 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
 margin: 0 auto;
 text-align: center;
-heigth: 40%;
-border-style: solid;
-border-width: 2px;
-border-radius: 15px;
-border-color: #707070;
+width: 80%;
+height: 300px;
 margin-bottom: 40px;
-padding: 15px;
+padding: 18px;
+border-style: solid;
+border-width: 3px;
+border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+border-radius: 10px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 `
 
@@ -20,6 +19,6 @@ font-size: 2.2rem;
 `
 
 export const CardDetailDescription = styled.p`
-font-size: 1.2rem;
+font-size: 1rem;
 font-weight: lighter;
 `
