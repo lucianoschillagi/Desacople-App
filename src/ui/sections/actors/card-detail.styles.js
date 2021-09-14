@@ -8,8 +8,8 @@ height: 300px;
 margin-bottom: 40px;
 padding: 18px;
 border-style: solid;
-border-width: 3px;
-border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+border-width: 5px;
+border-image: linear-gradient(45deg, rgb(255,255,255), rgb(128,128,128)) 1;
 border-radius: 10px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 `
