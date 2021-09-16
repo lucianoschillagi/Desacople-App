@@ -72,15 +72,13 @@ class NoCoke_LyricsSource extends React.Component {
 
     switch (currentTimeSongPrecision) {
 
-      // NOTE: Garageband -5.4sec 
-
-      // Line 1 "Ooh, let's go!"
+      // Line 1 "All massive hold tight"
       case 19.9:
       var line1 = document.getElementById("line_1");
       line1.style.color = this.color;
       break;
 
-      // Line 2 "Steve walks warily down the STREET"
+      // Line 2 "Cause when I come, I come rough"
       case 22.4:
       var line1 = document.getElementById("line_1");
       var line2 = document.getElementById("line_2");
@@ -89,7 +87,7 @@ class NoCoke_LyricsSource extends React.Component {
       line2.style.color = this.color;
       break;
 
-      // Line 3 "With the brim pulled way down LOW"
+      // Line 3 "Inna reggae raggamuffin business"
       case 24.5:
       var line2 = document.getElementById("line_2");
       var line3 = document.getElementById("line_3");
@@ -98,7 +96,7 @@ class NoCoke_LyricsSource extends React.Component {
       line3.style.color = this.color;
       break;
       
-      // Line 4 "Ain't no sound but the sound of his FEET,"
+      // Line 4 "Come!"
       case 27:
       var line3 = document.getElementById("line_3");
       var line4 = document.getElementById("line_4");
@@ -106,7 +104,7 @@ class NoCoke_LyricsSource extends React.Component {
       line4.style.color = this.color;
       break;
 
-      // Line 5 "Machine guns ready to GO"
+      // Line 5 "Hip-hop reaggae inna dance hall style"
       case 28.9:
       var line4 = document.getElementById("line_4");
       var line5 = document.getElementById("line_5");
@@ -114,7 +112,7 @@ class NoCoke_LyricsSource extends React.Component {
       line5.style.color = this.color;
       break;
 
-      // Line 6 "Are you ready, hey, are you ready for THIS?"
+      // Line 6 "Hip-hop reaggae inna dance hall style"
       case 31:
       var line5 = document.getElementById("line_5");
       var line6 = document.getElementById("line_6");
@@ -122,7 +120,7 @@ class NoCoke_LyricsSource extends React.Component {
       line6.style.color = this.color;
       break;
 
-      // Line 7 "Are you hanging on the edge of your SEAT?" 
+      // Line 7 "Hip-hop reaggae inna dance hall style" 
       case 33.1:
       var line6 = document.getElementById("line_6");
       var line7 = document.getElementById("line_7");
@@ -130,7 +128,7 @@ class NoCoke_LyricsSource extends React.Component {
       line7.style.color = this.color;
       break;
 
-      // Line 8 "Out of the doorway the bullets RIP" 
+      // Line 8 "Hip-hop reaggae inna dance hall style" 
       case 35.7:
       var line7 = document.getElementById("line_7");
       var line8 = document.getElementById("line_8");
@@ -138,7 +136,7 @@ class NoCoke_LyricsSource extends React.Component {
       line8.style.color = this.color;
       break;
 
-      // Line 9 "To the sound of the BEAT" 
+      // Line 9 "Hip-hop reaggae inna dance hall style" 
       case 38:
       var line8 = document.getElementById("line_8");
       var line9 = document.getElementById("line_9");
@@ -146,7 +144,7 @@ class NoCoke_LyricsSource extends React.Component {
       line9.style.color = this.color;
       break;
 
-      // Line 10 "Another one bites the dust" 
+      // Line 10 "Hip-hop reaggae inna dance hall style" 
       case 42:
       var line9 = document.getElementById("line_9");
       var line10 = document.getElementById("line_10");
@@ -154,7 +152,7 @@ class NoCoke_LyricsSource extends React.Component {
       line10.style.color = this.color;
       break;
 
-      // Line 11 "Another one bites the dust" 
+      // Line 11 "Hip-hop reaggae inna dance hall style" 
       case 46.3:
       var line10 = document.getElementById("line_10");
       var line11 = document.getElementById("line_11");
@@ -162,7 +160,7 @@ class NoCoke_LyricsSource extends React.Component {
       line11.style.color = this.color;
       break;
 
-      // Line 12 "And another one gone, and another one gone"
+      // Line 12 "Dis say Dr. Alban tellin' everybody"
       case 48.5:
       var line11 = document.getElementById("line_11");
       var line12 = document.getElementById("line_12");
@@ -170,7 +168,7 @@ class NoCoke_LyricsSource extends React.Component {
       line12.style.color = this.color;
       break;
 
-      // Line 13 "Another one bites the dust, yeah"
+      // Line 13 "2 o'clock on a friday mornin'"
       case 50.8:
       var line12 = document.getElementById("line_12");
       var line13 = document.getElementById("line_13");
@@ -178,7 +176,7 @@ class NoCoke_LyricsSource extends React.Component {
       line13.style.color = this.color;
       break;
     
-      // Line 14 "Hey, I'm gonna get you too"
+      // Line 14 "Come a gun man"
       case 53.1:
       var line13 = document.getElementById("line_13");
       var line14 = document.getElementById("line_14");
@@ -186,7 +184,7 @@ class NoCoke_LyricsSource extends React.Component {
       line14.style.color = this.color;
       break;
 
-      // Line 15 "Another one bites the dust"
+      // Line 15 "Come a knife man"
       case 54.7:
       var line14 = document.getElementById("line_14");
       var line15 = document.getElementById("line_15");
@@ -194,7 +192,7 @@ class NoCoke_LyricsSource extends React.Component {
       line15.style.color = this.color;
       break;
 
-      // Line 16 "How do you think I'm going to get along"
+      // Line 16 "Knife of a bouncer"
       case 66.1:
       var line15 = document.getElementById("line_15");
       var line16 = document.getElementById("line_16");
@@ -202,7 +200,7 @@ class NoCoke_LyricsSource extends React.Component {
       line16.style.color = this.color;
       break;
 
-      // Line 17 "Without you, when you're gone"
+      // Line 17 "Mash of the ears"
       case 68.2:
       var line16 = document.getElementById("line_16");
       var line17 = document.getElementById("line_17");
@@ -210,7 +208,7 @@ class NoCoke_LyricsSource extends React.Component {
       line17.style.color = this.color;
       break;
 
-      // Line 18 "You took me for everything that I had"
+      // Line 18 "On the run come a Kings Street"
       case 70.4:
       var line17 = document.getElementById("line_17");
       var line18 = document.getElementById("line_18");
@@ -218,7 +216,7 @@ class NoCoke_LyricsSource extends React.Component {
       line18.style.color = this.color;
       break;
 
-      // Line 19 "And kicked me out on my own"
+      // Line 19 "There he way arrested, and tested"
       case 72.4:
       var line18 = document.getElementById("line_18");
       var line19 = document.getElementById("line_19");
@@ -226,7 +224,7 @@ class NoCoke_LyricsSource extends React.Component {
       line19.style.color = this.color;
       break;
 
-      // Line 20 "Are you happy, are you satisfied?"
+      // Line 20 "And the drugs he had on him"
       case 74.6:
       var line19 = document.getElementById("line_19");
       var line20 = document.getElementById("line_20");
@@ -234,7 +232,7 @@ class NoCoke_LyricsSource extends React.Component {
       line20.style.color = this.color;
       break;
 
-      // Line 21 "How long can you stand the heat?"
+      // Line 21 "He confested"
       case 76.7:
       var line20 = document.getElementById("line_20");
       var line21 = document.getElementById("line_21");
@@ -242,7 +240,7 @@ class NoCoke_LyricsSource extends React.Component {
       line21.style.color = this.color;
       break;
 
-      // Line 22 "Out of the doorway the bullets rip"
+      // Line 22 "Mi callin' on the youth in his country"
       case 79.1:
       var line21 = document.getElementById("line_21");
       var line22 = document.getElementById("line_22");
@@ -250,7 +248,7 @@ class NoCoke_LyricsSource extends React.Component {
       line22.style.color = this.color;
       break;
 
-      // Line 23 "To the sound of the beat"
+      // Line 23 "Whole heap of boys"
       case 81:
       var line22 = document.getElementById("line_22");
       var line23 = document.getElementById("line_23");
@@ -258,7 +256,7 @@ class NoCoke_LyricsSource extends React.Component {
       line23.style.color = this.color;
       break;
 
-      // Line 24 "Look out"
+      // Line 24 "Whole heap of girls"
       case 83:
       var line23 = document.getElementById("line_23");
       var line24 = document.getElementById("line_24");
@@ -266,7 +264,7 @@ class NoCoke_LyricsSource extends React.Component {
       line24.style.color = this.color;
       break;
 
-      // Line 25 "Another one bites the dust"
+      // Line 25 "Drug abuse is a dangerous thing"
       case 85.7:
       var line24 = document.getElementById("line_24");
       var line25 = document.getElementById("line_25");
@@ -274,7 +272,7 @@ class NoCoke_LyricsSource extends React.Component {
       line25.style.color = this.color;
       break;
 
-      // Line 26 "Another one bites the dust"
+      // Line 26 "Stay out of drugs and stop"
       case 90:
       var line25 = document.getElementById("line_25");
       var line26 = document.getElementById("line_26");
@@ -282,7 +280,7 @@ class NoCoke_LyricsSource extends React.Component {
       line26.style.color = this.color;
       break;
 
-      // Line 27 "And another one gone, and another one gone"
+      // Line 27 "The violence"
       case 91.9:
       var line26 = document.getElementById("line_26");
       var line27 = document.getElementById("line_27");
@@ -290,7 +288,7 @@ class NoCoke_LyricsSource extends React.Component {
       line27.style.color = this.color;
       break;    
       
-      // Line 28 "Another one bites the dust"
+      // Line 28 "Inna dis hard time you have"
       case 93:
       var line27 = document.getElementById("line_27");
       var line28 = document.getElementById("line_28");
@@ -298,7 +296,7 @@ class NoCoke_LyricsSource extends React.Component {
       line28.style.color = this.color;
       break;   
 
-      // Line 29 "Hey, I'm gonna get you, too"
+      // Line 29 "Abuse drug"
       case 96.8:
       var line28 = document.getElementById("line_28");
       var line29 = document.getElementById("line_29");
@@ -306,7 +304,7 @@ class NoCoke_LyricsSource extends React.Component {
       line29.style.color = this.color;
       break;   
 
-      // Line 30 "Another one bites the dust"
+      // Line 30 "Listen what 'ya say and hear"
       case 98.7:
       var line29 = document.getElementById("line_29");
       var line30 = document.getElementById("line_30");
@@ -314,7 +312,7 @@ class NoCoke_LyricsSource extends React.Component {
       line30.style.color = this.color;
       break; 
 
-      // Line 31 "Hey"
+      // Line 31 "My point of view"
       case 105.1:
       var line30 = document.getElementById("line_30");
       var line31 = document.getElementById("line_31");
@@ -322,7 +320,7 @@ class NoCoke_LyricsSource extends React.Component {
       line31.style.color = this.color;
       break;
 
-      // Line 32 "Oh, take it"
+      // Line 32 "To much drugs you can"
       case 113.4:
       var line31 = document.getElementById("line_31");
       var line32 = document.getElementById("line_32");
@@ -330,7 +328,7 @@ class NoCoke_LyricsSource extends React.Component {
       line32.style.color = this.color;
       break;
 
-      // Line 33 "Bite the dust, hey"
+      // Line 33 "Go mental"
       case 115.8:
       var line32 = document.getElementById("line_32");
       var line33 = document.getElementById("line_33");
@@ -338,7 +336,7 @@ class NoCoke_LyricsSource extends React.Component {
       line33.style.color = this.color;
       break;
 
-      // Line 34 "Another one bites the dust"
+      // Line 34 "Da say Dr."
       case 139.3:
       var line33 = document.getElementById("line_33");
       var line34 = document.getElementById("line_34");
@@ -346,7 +344,7 @@ class NoCoke_LyricsSource extends React.Component {
       line34.style.color = this.color;
       break;
 
-      // Line 35 "Another one bites the dust, ow"
+      // Line 35 "Alban tellin' everybody"
       case 140:
       var line34 = document.getElementById("line_34");
       var line35 = document.getElementById("line_35");
@@ -354,7 +352,7 @@ class NoCoke_LyricsSource extends React.Component {
       line35.style.color = this.color;
       break;
 
-      // Line 36 "Another one bites the dust, hey hey"
+      // Line 36 "We no want no coke, no heroin"
       case 142.2:
       var line35 = document.getElementById("line_35");
       var line36 = document.getElementById("line_36");
@@ -362,7 +360,7 @@ class NoCoke_LyricsSource extends React.Component {
       line36.style.color = this.color;
       break;
 
-      // Line 37 "Another one bites the dust, hey-eh-eh"
+      // Line 37 "No hasch-hasch, no amphetamine"
       case 144.4:
       var line36 = document.getElementById("line_36");
       var line37 = document.getElementById("line_37");
@@ -370,7 +368,7 @@ class NoCoke_LyricsSource extends React.Component {
       line37.style.color = this.color;
       break;
           
-      // Line 39 "There are plenty of ways you can hurt a man"
+      // Line 38 "Cocain will blow your brain"
       case 157.7:
       var line38 = document.getElementById("line_38");
       var line39 = document.getElementById("line_39");
@@ -378,7 +376,7 @@ class NoCoke_LyricsSource extends React.Component {
       line39.style.color = this.color;
       break;
 
-      // Line 40 "And bring him to the ground"
+      // Line 39 "And ecstasy will mush your life!"
       case 159.5:
       var line39 = document.getElementById("line_39");
       var line40 = document.getElementById("line_40");
@@ -386,7 +384,7 @@ class NoCoke_LyricsSource extends React.Component {
       line40.style.color = this.color;
       break;
 
-      // Line 41 "You can beat him, you can cheat him, you can treat him bad"
+      // Line 40 "Cocaine will blow your brain"
       case 162:
       var line40 = document.getElementById("line_40");
       var line41 = document.getElementById("line_41");
@@ -394,7 +392,7 @@ class NoCoke_LyricsSource extends React.Component {
       line41.style.color = this.color;
       break;
 
-      // Line 42 "And leave him when he's down, yeah"
+      // Line 41 "And ecstasy will mush your life!"
       case 163.9:
       var line41 = document.getElementById("line_41");
       var line42 = document.getElementById("line_42");
@@ -402,7 +400,7 @@ class NoCoke_LyricsSource extends React.Component {
       line42.style.color = this.color;
       break;
 
-      // Line 43 "But I'm ready, yes I'm ready for you"
+      // Line 42 "Drug pushing is a serious thing"
       case 166.2:
       var line42 = document.getElementById("line_42");
       var line43 = document.getElementById("line_43");
@@ -410,7 +408,7 @@ class NoCoke_LyricsSource extends React.Component {
       line43.style.color = this.color;
       break;
 
-      // Line 44 "I'm standing on my own two feet"
+      // Line 43 "One time, two time they make a million"
       case 168.3:
       var line43 = document.getElementById("line_43");
       var line44 = document.getElementById("line_44");
@@ -418,7 +416,7 @@ class NoCoke_LyricsSource extends React.Component {
       line44.style.color = this.color;
       break;
 
-      // Line 45 "Out of the doorway the bullets rip"
+      // Line 44 "Take all the money a run a foreign country"
       case 170.6:
       var line44 = document.getElementById("line_44");
       var line45 = document.getElementById("line_45");
@@ -426,7 +424,7 @@ class NoCoke_LyricsSource extends React.Component {
       line45.style.color = this.color;
       break;
 
-      // Line 46 "Repeating the sound of the beat"
+      // Line 45 "Build a big house"
       case 172.9:
       var line45 = document.getElementById("line_45");
       var line46 = document.getElementById("line_46");
@@ -434,7 +432,7 @@ class NoCoke_LyricsSource extends React.Component {
       line46.style.color = this.color;
       break;
 
-      // Line 47 "Oh yeah"
+      // Line 46 "Buy a big limousine, Das why I man come"
       case 177.1:
       var line46 = document.getElementById("line_46");
       var line47 = document.getElementById("line_47");
@@ -442,7 +440,7 @@ class NoCoke_LyricsSource extends React.Component {
       line47.style.color = this.color;
       break;
 
-      // Line 48 "Another one bites the dust"
+      // Line 47 "So you for do the right thing"
       case 181.3:
       var line47 = document.getElementById("line_47");
       var line48 = document.getElementById("line_48");
@@ -450,7 +448,7 @@ class NoCoke_LyricsSource extends React.Component {
       line48.style.color = this.color;
       break;
 
-      // Line 49 "Another one bites the dust"
+      // Line 48 "Das why Jah Jah send me"
       case 183.3:
       var line48 = document.getElementById("line_48");
       var line49 = document.getElementById("line_49");
@@ -458,7 +456,7 @@ class NoCoke_LyricsSource extends React.Component {
       line49.style.color = this.color;
       break;
 
-      // Line 50 "And another one gone, and another one gone"
+      // Line 49 "To tell them the truth"
       case 185.8:
       var line49 = document.getElementById("line_49");
       var line50 = document.getElementById("line_50");
@@ -466,7 +464,7 @@ class NoCoke_LyricsSource extends React.Component {
       line50.style.color = this.color;
       break;
 
-      // Line 51 "Another one bites the dust, yeah"
+      // Line 50 "Cause is a disgrace"
       case 188.1:
       var line50 = document.getElementById("line_50");
       var line51 = document.getElementById("line_51");
@@ -474,7 +472,7 @@ class NoCoke_LyricsSource extends React.Component {
       line51.style.color = this.color;
       break;
 
-      // Line 52 "Hey, I'm gonna get you, too"
+      // Line 51 "To the human race"
       case 190.1:
       var line51 = document.getElementById("line_51");
       var line52 = document.getElementById("line_52");
@@ -482,7 +480,7 @@ class NoCoke_LyricsSource extends React.Component {
       line52.style.color = this.color;
       break;
 
-      // Line 53 "Shoot out"
+      // Line 52 "Some are flyin' very high"
       case 193.3:
       var line52 = document.getElementById("line_52");
       var line53 = document.getElementById("line_53");
@@ -490,7 +488,7 @@ class NoCoke_LyricsSource extends React.Component {
       line53.style.color = this.color;
       break;
 
-      // Line 54 "Ay-yeah"
+      // Line 53 "And some are flyin' very low"
       case 196.8:
       var line53 = document.getElementById("line_53");
       var line54 = document.getElementById("line_54");
@@ -498,20 +496,345 @@ class NoCoke_LyricsSource extends React.Component {
       line54.style.color = this.color;
       break;
 
-      // Line 55 "Alright"
-      // case 200.3:
-      // var line54 = document.getElementById("line_54");
-      // var line55 = document.getElementById("line_55");
-      // line54.style.opacity = "0.5"; 
-      // line55.style.color = this.color;
-      // break;
+      // Line 54 "Could not differenciate"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
 
-      // Line 56 (End)
-      // case 203:
-      //   var line55 = document.getElementById("line_55");
-      //   line55.style.opacity = "0.5"; ;
-      //   break;
-    } 
+      // Line 55 "What is right from wrong"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 56 "Want no coke, no heroin"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+ 
+      // Line 57 "No hasch-hasch, no amphetamine"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 58 "No marijuana planted inna mi yard"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 59 "Cocain will blow your brain"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+   
+      // Line 60 "And ecstasy will mush your life!"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 61 "Cocaine will blow your brain"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 62 "And ecstasy will mush your life!"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 63 "Mi have one friend, them a call him Denniz Pop"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+
+      // Line 64 "Him have a little son, them a call him Daniel"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+
+      // Line 65 "He live a two room inna Stockholm City"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 66 "One colour TV, two stereo"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 67 "He's DJ producer of higher quality"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 68 "He no deal with booze and abuse of drug"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 69 "That's why mi give him thanks"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 70 "And praise Jah Jah know"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 71 "We play a heavy riddim inna dancehall style"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 72 "Hip Hop, Reggae, Soul, Funk and Blue"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 73 "Why crack in the mornin', crack in the evening"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 74 "Crack in the night and crack non stop"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 75 "We don't want no coke, no heroin"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 76 "Cocain will blow your brain"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 77 "And ecstasy will mush your life!"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 78 "Cocaine will blow your brain"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 79 "And ecstasy will mush your life!"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 80 "Don't give me no coke, don't give me no coke"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 81 "Don't give me no coke, coke"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 82 "Don't give me no coke, don't give me no coke"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 83 "Don't give me no coke, mi do not want it"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+
+      // Line 84 "Don't give me no hasch, don't give me no hasch"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;
+   
+      // Line 85 "Don't give me no hasch, hasch"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;   
+
+      // Line 86 "Don't give me no hasch, don't give me no hasch"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;      
+
+      // Line 87 "Don't give me no hasch, mi do not want it"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;      
+   
+      // Line 88 "Don't give me no shit, don't give me no shit"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;   
+ 
+      // Line 89 "Don't give me no shit, shit"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;      
+
+      // Line 90 "Don't give me no shit, don't give me no shit"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;      
+   
+      // Line 91 "Don't give me no shit, mi do not want it"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;         
+   
+      // Line 92 "Don't give me no coke, don't give me no coke"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;         
+   
+      // Line 93 "Don't give me no coke, coke"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break;         
+   
+      // Line 94 "Don't give me no coke, don't give me no coke"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break; 
+      
+      // Line 95 "Don't give me no coke, mi do not want it"
+      case 196.8:
+      var line53 = document.getElementById("line_53");
+      var line54 = document.getElementById("line_54");
+      line53.style.opacity = "0.5"; 
+      line54.style.color = this.color;
+      break; 
+  
+   } 
       return ( 
          
          <LyricsSourceContainer>
@@ -587,81 +910,81 @@ class NoCoke_LyricsSource extends React.Component {
                </LyricsParagraph>            
                
                <LyricsParagraph>
-                  <LyricsVerse id="line_44">Drug pushing is a serious thing</LyricsVerse>
-                  <LyricsVerse id="line_45">One time, two time they make a million</LyricsVerse>
-                  <LyricsVerse id="line_46">Take all the money a run a foreign country</LyricsVerse>
-                  <LyricsVerse id="line_47">Build a big house</LyricsVerse>
-                  <LyricsVerse id="line_48">Buy a big limousine, Das why I man come</LyricsVerse>
-                  <LyricsVerse id="line_49">So you for do the right thing</LyricsVerse>
-                  <LyricsVerse id="line_50">Das why Jah Jah send me</LyricsVerse>
-                  <LyricsVerse id="line_51">To tell them the truth</LyricsVerse>
-                  <LyricsVerse id="line_52">Cause is a disgrace</LyricsVerse>
-                  <LyricsVerse id="line_53">To the human race</LyricsVerse>
-                  <LyricsVerse id="line_54">Some are flyin' very high</LyricsVerse>
-                  <LyricsVerse id="line_55">And some are flyin' very low</LyricsVerse>
-                  <LyricsVerse id="line_56">Could not differenciate</LyricsVerse>
-                  <LyricsVerse id="line_57">What is right from wrong</LyricsVerse>
-                  <LyricsVerse id="line_58">Want no coke, no heroin</LyricsVerse>
-                  <LyricsVerse id="line_59">No hasch-hasch, no amphetamine</LyricsVerse>
-                  <LyricsVerse id="line_60">No marijuana planted inna mi yard</LyricsVerse>
+                  <LyricsVerse id="line_42">Drug pushing is a serious thing</LyricsVerse>
+                  <LyricsVerse id="line_43">One time, two time they make a million</LyricsVerse>
+                  <LyricsVerse id="line_44">Take all the money a run a foreign country</LyricsVerse>
+                  <LyricsVerse id="line_45">Build a big house</LyricsVerse>
+                  <LyricsVerse id="line_46">Buy a big limousine, Das why I man come</LyricsVerse>
+                  <LyricsVerse id="line_47">So you for do the right thing</LyricsVerse>
+                  <LyricsVerse id="line_48">Das why Jah Jah send me</LyricsVerse>
+                  <LyricsVerse id="line_49">To tell them the truth</LyricsVerse>
+                  <LyricsVerse id="line_50">Cause is a disgrace</LyricsVerse>
+                  <LyricsVerse id="line_51">To the human race</LyricsVerse>
+                  <LyricsVerse id="line_52">Some are flyin' very high</LyricsVerse>
+                  <LyricsVerse id="line_53">And some are flyin' very low</LyricsVerse>
+                  <LyricsVerse id="line_54">Could not differenciate</LyricsVerse>
+                  <LyricsVerse id="line_55">What is right from wrong</LyricsVerse>
+                  <LyricsVerse id="line_56">Want no coke, no heroin</LyricsVerse>
+                  <LyricsVerse id="line_57">No hasch-hasch, no amphetamine</LyricsVerse>
+                  <LyricsVerse id="line_58">No marijuana planted inna mi yard</LyricsVerse>
                </LyricsParagraph>    
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_61">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_59">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_60">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_61">Cocaine will blow your brain</LyricsVerse>
                   <LyricsVerse id="line_62">And ecstasy will mush your life!</LyricsVerse>
-                  <LyricsVerse id="line_63">Cocaine will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_64">And ecstasy will mush your life!</LyricsVerse>
                </LyricsParagraph>  
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_65">Mi have one friend, them a call him Denniz Pop</LyricsVerse>
-                  <LyricsVerse id="line_66">Him have a little son, them a call him Daniel</LyricsVerse>
-                  <LyricsVerse id="line_67">He live a two room inna Stockholm City</LyricsVerse>
-                  <LyricsVerse id="line_68">One colour TV, two stereo</LyricsVerse>
-                  <LyricsVerse id="line_69">He's DJ producer of higher quality</LyricsVerse>
-                  <LyricsVerse id="line_70">He no deal with booze and abuse of drug</LyricsVerse>
-                  <LyricsVerse id="line_71">That's why mi give him thanks</LyricsVerse>
-                  <LyricsVerse id="line_72">And praise Jah Jah know</LyricsVerse>
-                  <LyricsVerse id="line_73">We play a heavy riddim inna dancehall style</LyricsVerse>
-                  <LyricsVerse id="line_74">Hip Hop, Reggae, Soul, Funk and Blues</LyricsVerse>
-                  <LyricsVerse id="line_75">Why crack in the mornin', crack in the evening</LyricsVerse>
-                  <LyricsVerse id="line_76">Crack in the night and crack non stop</LyricsVerse>
-                  <LyricsVerse id="line_77">We don't want no coke, no heroin</LyricsVerse>
+                  <LyricsVerse id="line_63">Mi have one friend, them a call him Denniz Pop</LyricsVerse>
+                  <LyricsVerse id="line_64">Him have a little son, them a call him Daniel</LyricsVerse>
+                  <LyricsVerse id="line_65">He live a two room inna Stockholm City</LyricsVerse>
+                  <LyricsVerse id="line_66">One colour TV, two stereo</LyricsVerse>
+                  <LyricsVerse id="line_67">He's DJ producer of higher quality</LyricsVerse>
+                  <LyricsVerse id="line_68">He no deal with booze and abuse of drug</LyricsVerse>
+                  <LyricsVerse id="line_69">That's why mi give him thanks</LyricsVerse>
+                  <LyricsVerse id="line_70">And praise Jah Jah know</LyricsVerse>
+                  <LyricsVerse id="line_71">We play a heavy riddim inna dancehall style</LyricsVerse>
+                  <LyricsVerse id="line_72">Hip Hop, Reggae, Soul, Funk and Blues</LyricsVerse>
+                  <LyricsVerse id="line_73">Why crack in the mornin', crack in the evening</LyricsVerse>
+                  <LyricsVerse id="line_74">Crack in the night and crack non stop</LyricsVerse>
+                  <LyricsVerse id="line_75">We don't want no coke, no heroin</LyricsVerse>
                </LyricsParagraph>  
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_78">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_76">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_77">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_78">Cocaine will blow your brain</LyricsVerse>
                   <LyricsVerse id="line_79">And ecstasy will mush your life!</LyricsVerse>
-                  <LyricsVerse id="line_80">Cocaine will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_81">And ecstasy will mush your life!</LyricsVerse>
                </LyricsParagraph>     
                
                <LyricsParagraph>
+                  <LyricsVerse id="line_80">Don't give me no coke, don't give me no coke</LyricsVerse>
+                  <LyricsVerse id="line_81">Don't give me no coke, coke</LyricsVerse>
                   <LyricsVerse id="line_82">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_83">Don't give me no coke, coke</LyricsVerse>
-                  <LyricsVerse id="line_84">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_85">Don't give me no coke, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_83">Don't give me no coke, mi do not want it</LyricsVerse>
                </LyricsParagraph>   
 
                <LyricsParagraph>
+                  <LyricsVerse id="line_84">Don't give me no hasch, don't give me no hasch</LyricsVerse>
+                  <LyricsVerse id="line_85">Don't give me no hasch, hasch</LyricsVerse>
                   <LyricsVerse id="line_86">Don't give me no hasch, don't give me no hasch</LyricsVerse>
-                  <LyricsVerse id="line_87">Don't give me no hasch, hasch</LyricsVerse>
-                  <LyricsVerse id="line_88">Don't give me no hasch, don't give me no hasch</LyricsVerse>
-                  <LyricsVerse id="line_89">Don't give me no hasch, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_87">Don't give me no hasch, mi do not want it</LyricsVerse>
                </LyricsParagraph>   
 
                <LyricsParagraph>
+                  <LyricsVerse id="line_88">Don't give me no shit, don't give me no shit</LyricsVerse>
+                  <LyricsVerse id="line_89">Don't give me no shit, shit</LyricsVerse>
                   <LyricsVerse id="line_90">Don't give me no shit, don't give me no shit</LyricsVerse>
-                  <LyricsVerse id="line_91">Don't give me no shit, shit</LyricsVerse>
-                  <LyricsVerse id="line_92">Don't give me no shit, don't give me no shit</LyricsVerse>
-                  <LyricsVerse id="line_93">Don't give me no shit, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_91">Don't give me no shit, mi do not want it</LyricsVerse>
                </LyricsParagraph>   
 
                <LyricsParagraph>
+                  <LyricsVerse id="line_92">Don't give me no coke, don't give me no coke</LyricsVerse>
+                  <LyricsVerse id="line_93">Don't give me no coke, coke</LyricsVerse>
                   <LyricsVerse id="line_94">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_95">Don't give me no coke, coke</LyricsVerse>
-                  <LyricsVerse id="line_96">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_97">Don't give me no coke, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_95">Don't give me no coke, mi do not want it</LyricsVerse>
                </LyricsParagraph>   
 
             </LyricsContainer>
