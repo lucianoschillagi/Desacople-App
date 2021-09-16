@@ -13,18 +13,21 @@ class NoCoke_HighlightedSection extends React.Component {
 
 	hightlightedSectionItemData = {
 		m1 : {
-				title: 'Salve & Delusion',
-				content: 'In grappling with the “mess” of our present moment, the punk legend looks relentlessly to the future, and her optimism feels alternately like a salve and a delusion.',
+				title: 'Bajo cool',
+				content: 'En el segundo 10 suena por primera vez el motivo característico del bajo que le da identidad al tema con su sonido procesado en un sinte Roland Juno 106',
 				segment: "0: 30 - 0: 51" 
 				},
 		m2 : {
-				title: 'Coloratura Pop',
-				content: 'Aca la cosa cambiar porque.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal'
+				title: 'Agudo movedizo por el fondo',
+				content: 'En el estribillo el bajo se va y deja lugar a un sonido agudo y sostenido que le confiere una atmósfera extraña',
+				segment: "1: 30 - 1: 41" 
 				},
 		m3 : {
-				title: 'Guitarra Funky',
-				content: 'A su vez acá es distinto, porque.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal.En este tramo la voz hace un dibujo ornamental descendente que converge con el reingreso del groove principal'
-				},
+				title: 'Modulando',
+				content: 'Después de un break el bajo es el encargado de dar paso a la nueva tonalidad subiendo 1 tono su en el final de su riff',
+				segment: "2: 10 - 2: 14" 
+			},
+	
 	}
 
    render() {
@@ -54,12 +57,14 @@ class NoCoke_HighlightedSection extends React.Component {
 				<NoCoke_HighlightedItem 
 					title={this.hightlightedSectionItemData.m2.title}
 					content={this.hightlightedSectionItemData.m2.content}
+					segment={this.hightlightedSectionItemData.m2.segment}
 				/>
 
 				{/* Item Three */}
 				<NoCoke_HighlightedItem 
 					title={this.hightlightedSectionItemData.m3.title}
 					content={this.hightlightedSectionItemData.m3.content}
+					segment={this.hightlightedSectionItemData.m3.segment}
 				/>
 
 			</ContainerCentered>
