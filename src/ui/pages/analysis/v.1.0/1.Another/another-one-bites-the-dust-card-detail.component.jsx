@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, 
 			CardDetailTitle, 
 			CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
 
-class Another_CardDetail extends Component {
+class Another_CardDetail extends React.Component {
 
 	render() {
 		return (

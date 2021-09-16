@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, 
 			CardDetailTitle, 
-			CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
+			CardDetailDescription,
+			CardDetailPlayedBy } from '../../../../sections/actors/card-detail.styles.js';
 
-class NoCoke_CardDetail extends Component {
+class NoCoke_CardDetail extends React.Component {
 
 	render() {
 		return (
@@ -16,6 +17,10 @@ class NoCoke_CardDetail extends Component {
 				<CardDetailDescription>
 					{this.props.cardDescription}
 				</CardDetailDescription>
+
+				<CardDetailPlayedBy>
+					{this.props.cardPlayedBy}
+				</CardDetailPlayedBy>
 				 
          </Container>
 		)
