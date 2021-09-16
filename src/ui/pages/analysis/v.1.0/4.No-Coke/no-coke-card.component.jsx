@@ -3,22 +3,22 @@ import { Container, CardTitle, CardDescription } from '../../../../sections/acto
 
 class NoCoke_Card extends Component {
 
-	handleClick(cardTitle, cardDescription) {
-		this.props.getSelectedCardInfo(cardTitle, cardDescription)
+	handleClick(cardTitle, cardDescription, cardPlayedBy) {
+		this.props.getSelectedCardInfo(cardTitle, cardDescription, cardPlayedBy)
 	}
 
 	render() {
 		return (
 			<Container 
-				onClick={(e) => this.handleClick(this.props.cardTitle,this.props.cardDescription, e)}>
-
+				onClick={(e) => this.handleClick(this.props.cardTitle,this.props.cardDescription, this.props.cardPlayedBy, e)}>
+					
 				<CardTitle>
 					{this.props.cardTitle}
 				</CardTitle>
 
-				<CardDescription>
+				{/* <CardDescription>
 					{this.props.cardDescription}
-				</CardDescription>
+				</CardDescription> */}
 				
 			</Container>
 		);
