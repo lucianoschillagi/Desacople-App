@@ -10,30 +10,36 @@ class NoCoke_ActorsSection extends React.Component {
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
 			cardTitle: "Lead Voice",
-			cardDescription: "lead voice description goes here. fhlsa fask hflaksdh flasd asdf fadlh fdsalh asdf adfslhfd klhfdsaklj flkasdh afsdlhdfs ak"
+			cardDescription: "lead voice description goes here. fhlsa fask hflaksdh flasd asdf fadlh fdsalh asdf adfslhfd klhfdsaklj flkasdh afsdlhdfs ak",
+			cardPlayedBy: "Dr. Alban"
 			};
 	  }	
 
-  	getSelectedCardInfo(cardTitle, cardDescription) {
-		this.setState({ cardTitle, cardDescription })
+  	getSelectedCardInfo(cardTitle, cardDescription, cardPlayedBy) {
+		this.setState({ cardTitle, cardDescription, cardPlayedBy })
  }
  
+ 	// Mock Data
 	actorsSectionCards =  [
 		{ 
 		   cardTitle: "Drums",
-			cardDescription: "drums description goes here."
+			cardDescription: "drums description goes here.",
+			cardPlayedBy: "Played by Roger"
 		},
 		{
 		   cardTitle: "Bass",
-			cardDescription: "bass description goes here."
+			cardDescription: "bass description goes here.",
+			cardPlayedBy: "Played by Pepe"
 		},
 		{
 		   cardTitle: "Sinthe",
-			cardDescription: "sinthe description goes here."
+			cardDescription: "sinthe description goes here.",
+			cardPlayedBy: "Played by Anna"
 		},
 		{
 		   cardTitle: "Electric Guitar",
-			cardDescription: "electric guitar description goes here."		
+			cardDescription: "electric guitar description goes here.",
+			cardPlayedBy: "Played by Dr. Alban"
 		}
 	]
 
@@ -45,6 +51,7 @@ class NoCoke_ActorsSection extends React.Component {
 					<NoCoke_CardDetail 
 						cardTitle = {this.state.cardTitle}
 						cardDescription = {this.state.cardDescription}
+						cardPlayedBy = {this.state.cardPlayedBy}
 					/>
 					<NoCoke_Cards 
 						cards={this.actorsSectionCards}
