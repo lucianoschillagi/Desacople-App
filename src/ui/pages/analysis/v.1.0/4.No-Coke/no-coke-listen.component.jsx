@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import BigSection from '../../../../sections/listen/big-section.component';
 import TimelineTotal from '../../../../sections/listen/timeline-total.component';
-import Sections from '../../../../sections/listen/sections.component';
+import NoCoke_Sections from './no-coke-sections.component';
 import NoCoke_SectionContent from './no-coke-section-content.component'; 
 import NoCoke_Elements from './no-coke-elements.component';
 import PlaySong from '../../../../sections/listen/play-song.component.jsx';
@@ -27,7 +27,7 @@ class NoCoke_ListenSection extends Component {
 			   		currentTimeSong={this.props.currentTimeSong}
                   timerOn={this.props.timerOn}/>
            
-               <Sections currentTimeSong={this.props.currentTimeSong}/>
+               <NoCoke_Sections currentTimeSong={this.props.currentTimeSong}/>
 
                <NoCoke_SectionContent currentTimeSong={this.props.currentTimeSong}/>
 
