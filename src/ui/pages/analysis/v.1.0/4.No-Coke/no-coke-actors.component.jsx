@@ -24,22 +24,22 @@ class NoCoke_ActorsSection extends React.Component {
 		{ 
 		   cardTitle: "Drums",
 			cardDescription: "drums description goes here.",
-			cardPlayedBy: "Played by Roger"
+			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
 		},
 		{
 		   cardTitle: "Bass",
 			cardDescription: "bass description goes here.",
-			cardPlayedBy: "Played by Pepe"
+			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
 		},
 		{
 		   cardTitle: "Sinthe",
 			cardDescription: "sinthe description goes here.",
-			cardPlayedBy: "Played by Anna"
+			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
 		},
 		{
-		   cardTitle: "Electric Guitar",
+		   cardTitle: "Lead Voice",
 			cardDescription: "electric guitar description goes here.",
-			cardPlayedBy: "Played by Dr. Alban"
+			cardPlayedBy: "Played by Dr.Alban"
 		}
 	]
 

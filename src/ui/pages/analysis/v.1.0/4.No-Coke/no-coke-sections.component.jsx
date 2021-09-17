@@ -31,7 +31,7 @@ class NoCoke_Sections extends Component {
       intro.style.opacity = tabLetterOpacity
       break;
 
-      case 22.5:
+      case 28.5:
       verseOne.style.borderBottom = borderBottomStyleOn
       verseOne.style.opacity = tabLetterOpacity
       verseOne.style.fontWeight = "bold"
@@ -39,7 +39,7 @@ class NoCoke_Sections extends Component {
       intro.style.opacity = "0.2"
       break;
 
-      case 40:
+      case 68:
       chorusOne.style.borderBottom = borderBottomStyleOn
       chorusOne.style.opacity = tabLetterOpacity
       chorusOne.style.fontWeight = "bold"
@@ -47,7 +47,7 @@ class NoCoke_Sections extends Component {
       verseOne.style.opacity = "0.2"
       break;
 
-      case 57.2:
+      case 78:
       verseTwo.style.borderBottom = borderBottomStyleOn
       verseTwo.style.opacity = tabLetterOpacity
       verseTwo.style.fontWeight = "bold"
@@ -55,7 +55,7 @@ class NoCoke_Sections extends Component {
       chorusOne.style.opacity = "0.2"
       break;
 
-      case 66:
+      case 107:
       chorusTwo.style.borderBottom = borderBottomStyleOn
       chorusTwo.style.opacity = tabLetterOpacity
       chorusTwo.style.fontWeight = "bold"
@@ -63,7 +63,7 @@ class NoCoke_Sections extends Component {
       verseTwo.style.opacity = "0.2"
       break;
 
-      case 84:
+      case 119:
       bridge.style.borderBottom = borderBottomStyleOn
       bridge.style.opacity = tabLetterOpacity
       bridge.style.fontWeight = "bold"
@@ -71,7 +71,7 @@ class NoCoke_Sections extends Component {
       chorusTwo.style.opacity = "0.2"
       break;
 
-      case 101:
+      case 127:
       verseThree.style.borderBottom = borderBottomStyleOn
       verseThree.style.opacity = tabLetterOpacity
       verseThree.style.fontWeight = "bold"
@@ -79,7 +79,7 @@ class NoCoke_Sections extends Component {
       bridge.style.opacity = "0.2"
       break;
 
-      case 140:
+      case 157:
       chorusThree.style.borderBottom = borderBottomStyleOn
       chorusThree.style.opacity = tabLetterOpacity
       chorusThree.style.fontWeight = "bold"
@@ -87,7 +87,7 @@ class NoCoke_Sections extends Component {
       verseThree.style.opacity = "0.2"
       break;
 
-      case 158:
+      case 177:
       bridgeTwo.style.borderBottom = borderBottomStyleOn
       bridgeTwo.style.opacity = tabLetterOpacity
       bridgeTwo.style.fontWeight = "bold"
@@ -95,7 +95,7 @@ class NoCoke_Sections extends Component {
       chorusThree.style.opacity = "0.2"
       break;
 
-      case 175:
+      case 197:
       end.style.borderBottom = borderBottomStyleOn
       end.style.opacity = tabLetterOpacity
       end.style.fontWeight = "bold"

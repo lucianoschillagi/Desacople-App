@@ -28,7 +28,7 @@ class NoCoke_SectionContent extends React.Component {
 		}
 		break;
 
-		case 22.5:
+		case 28:
 		if (this.state.prendido === true) {
 			this.setState({ 
 						prendido: false, 
@@ -36,7 +36,7 @@ class NoCoke_SectionContent extends React.Component {
 		}
 		break;
 
-		case 40:
+		case 68:
 		if (this.state.prendido === false) {
 			this.setState({ 
 						prendido: true, 
@@ -44,7 +44,7 @@ class NoCoke_SectionContent extends React.Component {
 		}
 		break;
 
-		case 57.2:
+		case 78:
 		if (this.state.prendido === true) {
 			this.setState({ 
 						prendido: false, 
@@ -52,7 +52,7 @@ class NoCoke_SectionContent extends React.Component {
 		}
 		break;
 
-		case 66:
+		case 107:
 		if (this.state.prendido === false) {
 			this.setState({ 
 						prendido: true, 
@@ -60,7 +60,7 @@ class NoCoke_SectionContent extends React.Component {
 		}
 		break;
 		
-		case 84:
+		case 119:
 		if (this.state.prendido === true) {
 			this.setState({ 
 						prendido: false, 
@@ -68,21 +68,22 @@ class NoCoke_SectionContent extends React.Component {
 		}
 		break;
 
-		case 101:
+		case 127:
 		if (this.state.prendido === false) {
 			this.setState({ 
 						prendido: true, 
 						sectionContent: 'la voz queda sobre los drums y desaparecen el sinte y el bajo para sumarse antes de dar lugar al chorus final'})
 		}
 		break;
-		case 140:
+
+		case 157:
 		if (this.state.prendido === true) {
 			this.setState({ prendido: false, 
 									sectionContent: 'sobre el groove voces con delay suena el motivo de bajo y tras un silencio retoma el mismo modulando un tono más arriba'})
 		}
 		break;
 
-		case 158:
+		case 177:
 		if (this.state.prendido === false) {
 			this.setState({ prendido: true, 
 									sectionContent: 'retoma el verse pero en esta nueva tonalidad con una ligera variación en el fraseo de la voz'})
