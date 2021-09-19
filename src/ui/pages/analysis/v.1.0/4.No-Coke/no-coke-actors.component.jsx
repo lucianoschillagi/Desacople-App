@@ -10,7 +10,7 @@ class NoCoke_ActorsSection extends React.Component {
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
 			cardTitle: "Lead Voice",
-			cardDescription: "lead voice description goes here. fhlsa fask hflaksdh flasd asdf fadlh fdsalh asdf adfslhfd klhfdsaklj flkasdh afsdlhdfs ak",
+			cardDescription: "La performance vocal relata la letra en un modo repetitivo y rítmico (toasting)",
 			cardPlayedBy: "Dr. Alban"
 			};
 	  }	
@@ -19,27 +19,26 @@ class NoCoke_ActorsSection extends React.Component {
 		this.setState({ cardTitle, cardDescription, cardPlayedBy })
  }
  
- 	// Mock Data
 	actorsSectionCards =  [
+		{
+		   cardTitle: "Lead Voice",
+			cardDescription: "La performance vocal relata la letra en un modo repetitivo y rítmico (toasting)",
+			cardPlayedBy: "Played by Dr.Alban"
+		},
 		{ 
 		   cardTitle: "Drums",
-			cardDescription: "drums description goes here.",
+			cardDescription: "El groove de batería está principalmente programado en un sequencer y mezcla una base hip hop con una percusión afro con una marcada figura ágil en hi hats para dar sensación de movimiento",
 			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
 		},
 		{
 		   cardTitle: "Bass",
-			cardDescription: "bass description goes here.",
+			cardDescription: "Con un sonido ultra diseñado en un sinte(*), la línea repetitiva y profunda de bajo, típica del dub, pasea, con ligeras variaciones, un amplio rango de notas",
 			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
 		},
 		{
 		   cardTitle: "Sinthe",
-			cardDescription: "sinthe description goes here.",
+			cardDescription: "El sinte marca los acordes en figuras de corcheas el ritmo característico de reggae",
 			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
-		},
-		{
-		   cardTitle: "Lead Voice",
-			cardDescription: "electric guitar description goes here.",
-			cardPlayedBy: "Played by Dr.Alban"
 		}
 	]
 
