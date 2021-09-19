@@ -24,7 +24,7 @@ class AvailableSongs extends React.Component {
 					</LinkTo>
 
 					{/* Satisfaction (Devo Version) */}
-					<LinkTo to= {{ pathname: "/satisfaction"}}>
+					{/* <LinkTo to= {{ pathname: "/satisfaction"}}>
 						<AvailableSong songId="song_002"
 											songTitle="(I Can't Get No) Satisfaction [Devo Version]"
 											songComposer="(Jagger - Richards) - "
@@ -32,10 +32,10 @@ class AvailableSongs extends React.Component {
 											songBriefIntro="El primer tema, “Bells & Circles” es también la primera 
 											colaboración que hicieron."
 						/>
-					</LinkTo>
+					</LinkTo> */}
 
 					{/* The Good, The Bad and The Ugly */}
-					<LinkTo to= {{ pathname: "/the-good-the-bad-and-the-ugly"}}>
+					{/* <LinkTo to= {{ pathname: "/the-good-the-bad-and-the-ugly"}}>
 						<AvailableSong songId="song_003"
 											songTitle="The Good, The Bad and The Ugly"
 											songComposer="(Ennio Morricone) - "
@@ -43,7 +43,7 @@ class AvailableSongs extends React.Component {
 											songBriefIntro="El primer tema, “Bells & Circles” es también la primera 
 											colaboración que hicieron."
 						/>
-					</LinkTo>
+					</LinkTo> */}
 
 
 					{/* No Coke */}
