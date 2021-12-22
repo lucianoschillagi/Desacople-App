@@ -20,28 +20,28 @@ class Another_ActorsSection extends React.Component {
  
 	actorsSectionCards =  [
 		{ 
-		   cardTitle: "Piano",
-		   cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+  		   cardTitle: "Voz",
+		   cardDescription: "Acá va la descripción sobre la voz de Freddy"
 		},
 		{
-		   cardTitle: "Guitar",
-		   cardDescription: "hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads hfhkdsfhjaksd fkjlsdaf klads"
+		   cardTitle: "Guitarra eléctrica",
+			cardDescription: "Acá va la descripción sobre la guitarra de Brian"	
 		},
 		{
-		   cardTitle: "Drums",
-		   cardDescription: "243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads  fkjlsdaf klads 243234fhjaksd fkjlsdaf klads"
+		   cardTitle: "Batería",
+			cardDescription: "Acá va la descripción sobre la batería de Ryan"
 		},
 		{
-			cardTitle: "Xilofon",
-			cardDescription: "f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads klads f654654jaksd fkjlsdaf klads"
+			cardTitle: "Bajo",
+			cardDescription: "Acá va la descripción sobre el emblemático bajo de Jhon Deacon"
 		},
 		{
-			cardTitle: "Bass",
-			cardDescription: "fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads fasIIIIIIjaksd fkjlsdaf klads"
+			cardTitle: "Coros",
+			cardDescription: "Lorem ipsum dolor sit amet"	
 		},
 		{
-			cardTitle: "Voice",
-			cardDescription: "klads fasdfhjaksd fkjlsdaf kladsq  shalf saljkdf lksad fdsalhfdk lajs dfsfhsdal sdf sadfih asdfp9y asdfñnj.asdf9 fsad,nk asdf kjsda zxvhcl vczhxljkhvcxz ñcv hv xczklvxzc"
+			cardTitle: "Guitarra eléctrica (efectos)",
+			cardDescription: "Acá va la descripción sobre la gtr eléctrica de Brian usada como efecto sonoro"
 		}
 	]
 

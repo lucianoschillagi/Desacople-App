@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-margin: 0 auto;
+display: flex;
+flex-direction: column;
 text-align: center;
-// background-color: yellow;
 width: 80%;
 height: 300px;
 margin-bottom: 40px;
@@ -16,21 +16,25 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 `
 
 export const CardDetailTitle = styled.h1`
+width: 80%;
 font-size: 2.2rem;
-height: 15%;
-// background-color: red;
+padding: 10px;
+text-align: center;
+font-size: 30px;
+align-self: center;
 `
 
-export const CardDetailDescription = styled.p`
+export const CardDetailDescription = styled.div`
+width: 80%;
 font-size: 1rem;
 font-weight: lighter;
-height: 50%;
-// background-color: green;
+padding: 10px;
+text-align: center;
+align-self: center;
 `
 
 export const CardDetailPlayedBy = styled.p`
 font-size: 1rem;
 color: orange;
 height: 15%;
-// background-color: orange;
 `
