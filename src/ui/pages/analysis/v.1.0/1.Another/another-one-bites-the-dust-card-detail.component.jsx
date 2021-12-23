@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, 
 			CardDetailTitle, 
-			CardDetailDescription } from '../../../../sections/actors/card-detail.styles.js';
+			CardDetailDescription,
+			CardDetailPlayedBy } from '../../../../sections/actors/card-detail.styles.js';
 
 class Another_CardDetail extends React.Component {
 
@@ -17,6 +18,10 @@ class Another_CardDetail extends React.Component {
 					{this.props.cardDescription}
 				</CardDetailDescription>
 				 
+				<CardDetailPlayedBy>
+					{this.props.cardPlayedBy}
+				</CardDetailPlayedBy>
+
          </Container>
 		)
 	}

@@ -9,7 +9,7 @@ class NoCoke_ActorsSection extends React.Component {
 		super(props);
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
-			cardTitle: "Lead Voice",
+			cardTitle: "Voz",
 			cardDescription: "La performance vocal relata la letra en un modo repetitivo y rítmico (toasting)",
 			cardPlayedBy: "Dr. Alban"
 			};
@@ -19,28 +19,28 @@ class NoCoke_ActorsSection extends React.Component {
 		this.setState({ cardTitle, cardDescription, cardPlayedBy })
  }
  
-	actorsSectionCards =  [
-		{
-		   cardTitle: "Lead Voice",
-			cardDescription: "La performance vocal relata la letra en un modo repetitivo y rítmico (toasting)",
-			cardPlayedBy: "Played by Dr.Alban"
-		},
-		{ 
-		   cardTitle: "Drums",
-			cardDescription: "El groove de batería está principalmente programado en un sequencer y mezcla una base hip hop con una percusión afro con una marcada figura ágil en hi hats para dar sensación de movimiento",
-			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
-		},
-		{
-		   cardTitle: "Bass",
-			cardDescription: "Con un sonido ultra diseñado en un sinte(*), la línea repetitiva y profunda de bajo, típica del dub, pasea, con ligeras variaciones, un amplio rango de notas",
-			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
-		},
-		{
-		   cardTitle: "Sinthe",
-			cardDescription: "El sinte marca los acordes en figuras de corcheas el ritmo característico de reggae",
-			cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
-		}
-	]
+ actorsSectionCards =  [
+	{
+		cardTitle: "Voz",
+		cardDescription: "La performance vocal relata la letra en un modo repetitivo y rítmico (toasting)",
+		cardPlayedBy: "Played by Dr.Alban"
+	},
+	{ 
+		cardTitle: "Batería",
+		cardDescription: "El groove de batería está principalmente programado en un sequencer y mezcla una base hip hop con una percusión afro con una marcada figura ágil en hi hats para dar sensación de movimiento",
+		cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
+	},
+	{
+		cardTitle: "Bajo",
+		cardDescription: "Con un sonido ultra diseñado en un sinte(*), la línea repetitiva y profunda de bajo, típica del dub, pasea, con ligeras variaciones, un amplio rango de notas",
+		cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
+	},
+	{
+		cardTitle: "Sinte",
+		cardDescription: "El sinte marca los acordes en figuras de corcheas el ritmo característico de reggae",
+		cardPlayedBy: "Played by Dr.Alban & Deniz Pop"
+	}
+]
 
 	render() {
 		return (
