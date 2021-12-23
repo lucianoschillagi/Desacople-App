@@ -5,7 +5,7 @@ import { LyricsSourceContainer,
 			LyricsContainer,
 			LyricsParagraph,
 			LyricsVerse,
-         ShowChords,
+         ShowChords as ShowChordsButton,
          Chords
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
@@ -15,25 +15,27 @@ class Another_LyricsSource extends React.Component {
    constructor(props) {
       super(props);
       this.state = { 
-                     showingChords: false
+                     showingChords: true
                   } 
       this.showChords = this.showChords.bind(this);
    }
 
-   color = "#EF9AC3"
+   LINE_COLOR = "#EF9AC3";
+   LINE_OPACITY = "0.5";
+   SHOW_CHORDS_TEXT = "show chords";
+   HIDE_CHORDS_TEXT = "hide chords";
 
    showChords() {
+
+      console.log("show chords btn tapped!")
       this.setState(prevState => ({
          showingChords: !prevState.showingChords
        }));
-      console.log("Show chords!!!")
 
      if (this.state.showingChords === true) {
-      console.log("Show chords!!!")
 
       var chordButton = document.getElementById("showChordsButton")
-      chordButton.style.textDecoration = "none"
-      chordButton.style.opacity = "1"
+      chordButton.style.backgroundColor = "orange"
 
       var chord = document.getElementById("chord");
       var chord2 = document.getElementById("chord2");
@@ -48,8 +50,7 @@ class Another_LyricsSource extends React.Component {
      } else {
 
       var chordButton = document.getElementById("showChordsButton")
-      chordButton.style.textDecoration = "line-through"
-      chordButton.style.opacity = "0.4"
+      chordButton.style.backgroundColor = "red"
 
       var chord = document.getElementById("chord");
       chord.style.display = "none";
@@ -77,33 +78,33 @@ class Another_LyricsSource extends React.Component {
       // Line 1 "Ooh, let's go!"
       case 19.9:
       var line1 = document.getElementById("line_1");
-      line1.style.color = this.color;
+      line1.style.color = this.LINE_COLOR;
       break;
 
       // Line 2 "Steve walks warily down the STREET"
       case 22.4:
       var line1 = document.getElementById("line_1");
       var line2 = document.getElementById("line_2");
-      line1.style.opacity = "0.5";  
+      line1.style.opacity = this.LINE_OPACITY;  
       line1.style.fontWeight = "lighter";
-      line2.style.color = this.color;
+      line2.style.color = this.LINE_COLOR;
       break;
 
       // Line 3 "With the brim pulled way down LOW"
       case 24.5:
       var line2 = document.getElementById("line_2");
       var line3 = document.getElementById("line_3");
-      line2.style.opacity = "0.5";
+      line2.style.opacity = this.LINE_OPACITY;
       line2.style.fontWeight = "lighter";
-      line3.style.color = this.color;
+      line3.style.color = this.LINE_COLOR;
       break;
       
       // Line 4 "Ain't no sound but the sound of his FEET,"
       case 27:
       var line3 = document.getElementById("line_3");
       var line4 = document.getElementById("line_4");
-      line3.style.opacity = "0.5";   
-      line4.style.color = this.color;
+      line3.style.opacity = this.LINE_OPACITY; 
+      line4.style.color = this.LINE_COLOR;
       break;
 
       // Line 5 "Machine guns ready to GO"
@@ -111,7 +112,7 @@ class Another_LyricsSource extends React.Component {
       var line4 = document.getElementById("line_4");
       var line5 = document.getElementById("line_5");
       line4.style.opacity = "0.5";   
-      line5.style.color = this.color;
+      line5.style.color = this.LINE_COLOR;
       break;
 
       // Line 6 "Are you ready, hey, are you ready for THIS?"
@@ -119,7 +120,7 @@ class Another_LyricsSource extends React.Component {
       var line5 = document.getElementById("line_5");
       var line6 = document.getElementById("line_6");
       line5.style.opacity = "0.5";  
-      line6.style.color = this.color;
+      line6.style.color = this.LINE_COLOR;
       break;
 
       // Line 7 "Are you hanging on the edge of your SEAT?" 
@@ -127,7 +128,7 @@ class Another_LyricsSource extends React.Component {
       var line6 = document.getElementById("line_6");
       var line7 = document.getElementById("line_7");
       line6.style.opacity = "0.5";   
-      line7.style.color = this.color;
+      line7.style.color = this.LINE_COLOR;
       break;
 
       // Line 8 "Out of the doorway the bullets RIP" 
@@ -135,7 +136,7 @@ class Another_LyricsSource extends React.Component {
       var line7 = document.getElementById("line_7");
       var line8 = document.getElementById("line_8");
       line7.style.opacity = "0.5"; 
-      line8.style.color = this.color;
+      line8.style.color = this.LINE_COLOR;
       break;
 
       // Line 9 "To the sound of the BEAT" 
@@ -143,7 +144,7 @@ class Another_LyricsSource extends React.Component {
       var line8 = document.getElementById("line_8");
       var line9 = document.getElementById("line_9");
       line8.style.opacity = "0.5"; 
-      line9.style.color = this.color;
+      line9.style.color = this.LINE_COLOR;
       break;
 
       // Line 10 "Another one bites the dust" 
@@ -151,7 +152,7 @@ class Another_LyricsSource extends React.Component {
       var line9 = document.getElementById("line_9");
       var line10 = document.getElementById("line_10");
       line9.style.opacity = "0.5";  
-      line10.style.color = this.color;
+      line10.style.color = this.LINE_COLOR;
       break;
 
       // Line 11 "Another one bites the dust" 
@@ -159,7 +160,7 @@ class Another_LyricsSource extends React.Component {
       var line10 = document.getElementById("line_10");
       var line11 = document.getElementById("line_11");
       line10.style.opacity = "0.5"; 
-      line11.style.color = this.color;
+      line11.style.color = this.LINE_COLOR;
       break;
 
       // Line 12 "And another one gone, and another one gone"
@@ -167,7 +168,7 @@ class Another_LyricsSource extends React.Component {
       var line11 = document.getElementById("line_11");
       var line12 = document.getElementById("line_12");
       line11.style.opacity = "0.5"; 
-      line12.style.color = this.color;
+      line12.style.color = this.LINE_COLOR;
       break;
 
       // Line 13 "Another one bites the dust, yeah"
@@ -175,7 +176,7 @@ class Another_LyricsSource extends React.Component {
       var line12 = document.getElementById("line_12");
       var line13 = document.getElementById("line_13");
       line12.style.opacity = "0.5"; 
-      line13.style.color = this.color;
+      line13.style.color = this.LINE_COLOR;
       break;
     
       // Line 14 "Hey, I'm gonna get you too"
@@ -183,7 +184,7 @@ class Another_LyricsSource extends React.Component {
       var line13 = document.getElementById("line_13");
       var line14 = document.getElementById("line_14");
       line13.style.opacity = "0.5"; 
-      line14.style.color = this.color;
+      line14.style.color = this.LINE_COLOR;
       break;
 
       // Line 15 "Another one bites the dust"
@@ -191,7 +192,7 @@ class Another_LyricsSource extends React.Component {
       var line14 = document.getElementById("line_14");
       var line15 = document.getElementById("line_15");
       line14.style.opacity = "0.5"; 
-      line15.style.color = this.color;
+      line15.style.color = this.LINE_COLOR;
       break;
 
       // Line 16 "How do you think I'm going to get along"
@@ -199,7 +200,7 @@ class Another_LyricsSource extends React.Component {
       var line15 = document.getElementById("line_15");
       var line16 = document.getElementById("line_16");
       line15.style.opacity = "0.5"; 
-      line16.style.color = this.color;
+      line16.style.color = this.LINE_COLOR;
       break;
 
       // Line 17 "Without you, when you're gone"
@@ -207,7 +208,7 @@ class Another_LyricsSource extends React.Component {
       var line16 = document.getElementById("line_16");
       var line17 = document.getElementById("line_17");
       line16.style.opacity = "0.5"; 
-      line17.style.color = this.color;
+      line17.style.color = this.LINE_COLOR;
       break;
 
       // Line 18 "You took me for everything that I had"
@@ -215,7 +216,7 @@ class Another_LyricsSource extends React.Component {
       var line17 = document.getElementById("line_17");
       var line18 = document.getElementById("line_18");
       line17.style.opacity = "0.5"; 
-      line18.style.color = this.color;
+      line18.style.color = this.LINE_COLOR;
       break;
 
       // Line 19 "And kicked me out on my own"
@@ -223,7 +224,7 @@ class Another_LyricsSource extends React.Component {
       var line18 = document.getElementById("line_18");
       var line19 = document.getElementById("line_19");
       line18.style.opacity = "0.5"; 
-      line19.style.color = this.color;
+      line19.style.color = this.LINE_COLOR;
       break;
 
       // Line 20 "Are you happy, are you satisfied?"
@@ -231,7 +232,7 @@ class Another_LyricsSource extends React.Component {
       var line19 = document.getElementById("line_19");
       var line20 = document.getElementById("line_20");
       line19.style.opacity = "0.5"; 
-      line20.style.color = this.color;
+      line20.style.color = this.LINE_COLOR;
       break;
 
       // Line 21 "How long can you stand the heat?"
@@ -239,7 +240,7 @@ class Another_LyricsSource extends React.Component {
       var line20 = document.getElementById("line_20");
       var line21 = document.getElementById("line_21");
       line20.style.opacity = "0.5"; 
-      line21.style.color = this.color;
+      line21.style.color = this.LINE_COLOR;
       break;
 
       // Line 22 "Out of the doorway the bullets rip"
@@ -247,7 +248,7 @@ class Another_LyricsSource extends React.Component {
       var line21 = document.getElementById("line_21");
       var line22 = document.getElementById("line_22");
       line21.style.opacity = "0.5"; 
-      line22.style.color = this.color;
+      line22.style.color = this.LINE_COLOR;
       break;
 
       // Line 23 "To the sound of the beat"
@@ -255,7 +256,7 @@ class Another_LyricsSource extends React.Component {
       var line22 = document.getElementById("line_22");
       var line23 = document.getElementById("line_23");
       line22.style.opacity = "0.5"; 
-      line23.style.color = this.color;
+      line23.style.color = this.LINE_COLOR;
       break;
 
       // Line 24 "Look out"
@@ -263,7 +264,7 @@ class Another_LyricsSource extends React.Component {
       var line23 = document.getElementById("line_23");
       var line24 = document.getElementById("line_24");
       line23.style.opacity = "0.5"; 
-      line24.style.color = this.color;
+      line24.style.color = this.LINE_COLOR;
       break;
 
       // Line 25 "Another one bites the dust"
@@ -271,7 +272,7 @@ class Another_LyricsSource extends React.Component {
       var line24 = document.getElementById("line_24");
       var line25 = document.getElementById("line_25");
       line24.style.opacity = "0.5"; 
-      line25.style.color = this.color;
+      line25.style.color = this.LINE_COLOR;
       break;
 
       // Line 26 "Another one bites the dust"
@@ -279,7 +280,7 @@ class Another_LyricsSource extends React.Component {
       var line25 = document.getElementById("line_25");
       var line26 = document.getElementById("line_26");
       line25.style.opacity = "0.5"; 
-      line26.style.color = this.color;
+      line26.style.color = this.LINE_COLOR;
       break;
 
       // Line 27 "And another one gone, and another one gone"
@@ -287,7 +288,7 @@ class Another_LyricsSource extends React.Component {
       var line26 = document.getElementById("line_26");
       var line27 = document.getElementById("line_27");
       line26.style.opacity = "0.5"; 
-      line27.style.color = this.color;
+      line27.style.color = this.LINE_COLOR;
       break;    
       
       // Line 28 "Another one bites the dust"
@@ -295,7 +296,7 @@ class Another_LyricsSource extends React.Component {
       var line27 = document.getElementById("line_27");
       var line28 = document.getElementById("line_28");
       line27.style.opacity = "0.5"; 
-      line28.style.color = this.color;
+      line28.style.color = this.LINE_COLOR;
       break;   
 
       // Line 29 "Hey, I'm gonna get you, too"
@@ -303,7 +304,7 @@ class Another_LyricsSource extends React.Component {
       var line28 = document.getElementById("line_28");
       var line29 = document.getElementById("line_29");
       line28.style.opacity = "0.5"; 
-      line29.style.color = this.color;
+      line29.style.color = this.LINE_COLOR;
       break;   
 
       // Line 30 "Another one bites the dust"
@@ -311,7 +312,7 @@ class Another_LyricsSource extends React.Component {
       var line29 = document.getElementById("line_29");
       var line30 = document.getElementById("line_30");
       line29.style.opacity = "0.5"; 
-      line30.style.color = this.color;
+      line30.style.color = this.LINE_COLOR;
       break; 
 
       // Line 31 "Hey"
@@ -319,7 +320,7 @@ class Another_LyricsSource extends React.Component {
       var line30 = document.getElementById("line_30");
       var line31 = document.getElementById("line_31");
       line30.style.opacity = "0.5"; 
-      line31.style.color = this.color;
+      line31.style.color = this.LINE_COLOR;
       break;
 
       // Line 32 "Oh, take it"
@@ -327,7 +328,7 @@ class Another_LyricsSource extends React.Component {
       var line31 = document.getElementById("line_31");
       var line32 = document.getElementById("line_32");
       line31.style.opacity = "0.5"; 
-      line32.style.color = this.color;
+      line32.style.color = this.LINE_COLOR;
       break;
 
       // Line 33 "Bite the dust, hey"
@@ -335,7 +336,7 @@ class Another_LyricsSource extends React.Component {
       var line32 = document.getElementById("line_32");
       var line33 = document.getElementById("line_33");
       line32.style.opacity = "0.5"; 
-      line33.style.color = this.color;
+      line33.style.color = this.LINE_COLOR;
       break;
 
       // Line 34 "Another one bites the dust"
@@ -343,7 +344,7 @@ class Another_LyricsSource extends React.Component {
       var line33 = document.getElementById("line_33");
       var line34 = document.getElementById("line_34");
       line33.style.opacity = "0.5"; 
-      line34.style.color = this.color;
+      line34.style.color = this.LINE_COLOR;
       break;
 
       // Line 35 "Another one bites the dust, ow"
@@ -351,7 +352,7 @@ class Another_LyricsSource extends React.Component {
       var line34 = document.getElementById("line_34");
       var line35 = document.getElementById("line_35");
       line34.style.opacity = "0.5"; 
-      line35.style.color = this.color;
+      line35.style.color = this.LINE_COLOR;
       break;
 
       // Line 36 "Another one bites the dust, hey hey"
@@ -359,7 +360,7 @@ class Another_LyricsSource extends React.Component {
       var line35 = document.getElementById("line_35");
       var line36 = document.getElementById("line_36");
       line35.style.opacity = "0.5"; 
-      line36.style.color = this.color;
+      line36.style.color = this.LINE_COLOR;
       break;
 
       // Line 37 "Another one bites the dust, hey-eh-eh"
@@ -367,7 +368,7 @@ class Another_LyricsSource extends React.Component {
       var line36 = document.getElementById("line_36");
       var line37 = document.getElementById("line_37");
       line36.style.opacity = "0.5"; 
-      line37.style.color = this.color;
+      line37.style.color = this.LINE_COLOR;
       break;
           
       // Line 39 "There are plenty of ways you can hurt a man"
@@ -375,7 +376,7 @@ class Another_LyricsSource extends React.Component {
       var line38 = document.getElementById("line_38");
       var line39 = document.getElementById("line_39");
       line38.style.opacity = "0.5"; 
-      line39.style.color = this.color;
+      line39.style.color = this.LINE_COLOR;
       break;
 
       // Line 40 "And bring him to the ground"
@@ -383,7 +384,7 @@ class Another_LyricsSource extends React.Component {
       var line39 = document.getElementById("line_39");
       var line40 = document.getElementById("line_40");
       line39.style.opacity = "0.5"; 
-      line40.style.color = this.color;
+      line40.style.color = this.LINE_COLOR;
       break;
 
       // Line 41 "You can beat him, you can cheat him, you can treat him bad"
@@ -391,7 +392,7 @@ class Another_LyricsSource extends React.Component {
       var line40 = document.getElementById("line_40");
       var line41 = document.getElementById("line_41");
       line40.style.opacity = "0.5"; 
-      line41.style.color = this.color;
+      line41.style.color = this.LINE_COLOR;
       break;
 
       // Line 42 "And leave him when he's down, yeah"
@@ -399,7 +400,7 @@ class Another_LyricsSource extends React.Component {
       var line41 = document.getElementById("line_41");
       var line42 = document.getElementById("line_42");
       line41.style.opacity = "0.5"; 
-      line42.style.color = this.color;
+      line42.style.color = this.LINE_COLOR;
       break;
 
       // Line 43 "But I'm ready, yes I'm ready for you"
@@ -407,7 +408,7 @@ class Another_LyricsSource extends React.Component {
       var line42 = document.getElementById("line_42");
       var line43 = document.getElementById("line_43");
       line42.style.opacity = "0.5"; 
-      line43.style.color = this.color;
+      line43.style.color = this.LINE_COLOR;
       break;
 
       // Line 44 "I'm standing on my own two feet"
@@ -415,7 +416,7 @@ class Another_LyricsSource extends React.Component {
       var line43 = document.getElementById("line_43");
       var line44 = document.getElementById("line_44");
       line43.style.opacity = "0.5"; 
-      line44.style.color = this.color;
+      line44.style.color = this.LINE_COLOR;
       break;
 
       // Line 45 "Out of the doorway the bullets rip"
@@ -423,7 +424,7 @@ class Another_LyricsSource extends React.Component {
       var line44 = document.getElementById("line_44");
       var line45 = document.getElementById("line_45");
       line44.style.opacity = "0.5"; 
-      line45.style.color = this.color;
+      line45.style.color = this.LINE_COLOR;
       break;
 
       // Line 46 "Repeating the sound of the beat"
@@ -431,7 +432,7 @@ class Another_LyricsSource extends React.Component {
       var line45 = document.getElementById("line_45");
       var line46 = document.getElementById("line_46");
       line45.style.opacity = "0.5"; 
-      line46.style.color = this.color;
+      line46.style.color = this.LINE_COLOR;
       break;
 
       // Line 47 "Oh yeah"
@@ -439,7 +440,7 @@ class Another_LyricsSource extends React.Component {
       var line46 = document.getElementById("line_46");
       var line47 = document.getElementById("line_47");
       line46.style.opacity = "0.5"; 
-      line47.style.color = this.color;
+      line47.style.color = this.LINE_COLOR;
       break;
 
       // Line 48 "Another one bites the dust"
@@ -447,7 +448,7 @@ class Another_LyricsSource extends React.Component {
       var line47 = document.getElementById("line_47");
       var line48 = document.getElementById("line_48");
       line47.style.opacity = "0.5"; 
-      line48.style.color = this.color;
+      line48.style.color = this.LINE_COLOR;
       break;
 
       // Line 49 "Another one bites the dust"
@@ -455,7 +456,7 @@ class Another_LyricsSource extends React.Component {
       var line48 = document.getElementById("line_48");
       var line49 = document.getElementById("line_49");
       line48.style.opacity = "0.5"; 
-      line49.style.color = this.color;
+      line49.style.color = this.LINE_COLOR;
       break;
 
       // Line 50 "And another one gone, and another one gone"
@@ -463,7 +464,7 @@ class Another_LyricsSource extends React.Component {
       var line49 = document.getElementById("line_49");
       var line50 = document.getElementById("line_50");
       line49.style.opacity = "0.5"; 
-      line50.style.color = this.color;
+      line50.style.color = this.LINE_COLOR;
       break;
 
       // Line 51 "Another one bites the dust, yeah"
@@ -471,7 +472,7 @@ class Another_LyricsSource extends React.Component {
       var line50 = document.getElementById("line_50");
       var line51 = document.getElementById("line_51");
       line50.style.opacity = "0.5"; 
-      line51.style.color = this.color;
+      line51.style.color = this.LINE_COLOR;
       break;
 
       // Line 52 "Hey, I'm gonna get you, too"
@@ -479,7 +480,7 @@ class Another_LyricsSource extends React.Component {
       var line51 = document.getElementById("line_51");
       var line52 = document.getElementById("line_52");
       line51.style.opacity = "0.5"; 
-      line52.style.color = this.color;
+      line52.style.color = this.LINE_COLOR;
       break;
 
       // Line 53 "Shoot out"
@@ -487,7 +488,7 @@ class Another_LyricsSource extends React.Component {
       var line52 = document.getElementById("line_52");
       var line53 = document.getElementById("line_53");
       line52.style.opacity = "0.5"; 
-      line53.style.color = this.color;
+      line53.style.color = this.LINE_COLOR;
       break;
 
       // Line 54 "Ay-yeah"
@@ -495,7 +496,7 @@ class Another_LyricsSource extends React.Component {
       var line53 = document.getElementById("line_53");
       var line54 = document.getElementById("line_54");
       line53.style.opacity = "0.5"; 
-      line54.style.color = this.color;
+      line54.style.color = this.LINE_COLOR;
       break;
 
       // Line 55 "Alright"
@@ -524,10 +525,10 @@ class Another_LyricsSource extends React.Component {
                Author: John Deacon
             </LyricsAuthor>
 
-            <ShowChords id="showChordsButton"
-                        onClick={this.showChords}>
-                           chords
-            </ShowChords>
+            <ShowChordsButton id="showChordsButton"
+                              onClick={this.showChords}>
+                           {this.state.showingChords ? this.SHOW_CHORDS_TEXT : this.HIDE_CHORDS_TEXT}
+            </ShowChordsButton>
 
             <LyricsContainer>
 
