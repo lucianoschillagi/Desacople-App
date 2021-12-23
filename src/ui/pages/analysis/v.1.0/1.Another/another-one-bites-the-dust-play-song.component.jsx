@@ -98,6 +98,8 @@ class Another_PlaySong extends React.Component {
 			pulse.style.animationPlayState = "paused";
 	}
 
+	VIDEO_ID = "Wz_DNrKVrQ8"
+
 	render() {
       const opts = {
 			width: '300', 
@@ -118,7 +120,7 @@ class Another_PlaySong extends React.Component {
 			<Container>
 				<InvisibleContainer>
 					<YouTube
-						videoId="Wz_DNrKVrQ8" 
+						videoId={this.VIDEO_ID}
 						opts={opts}
 						onReady={this.onReady}
 						onStateChange={this.onStateChange} 

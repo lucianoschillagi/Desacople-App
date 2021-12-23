@@ -45,13 +45,13 @@ class NoCoke_Page extends React.Component {
 			<div>
 				<Header/>
 				<NoCoke_CoverSection/>
-				<NoCoke_ListenSection 
+				{/* <NoCoke_ListenSection 
 					getCurrentTimeSong={this.getCurrentTimeSong}
 					getTimerInfo={this.getTimerInfo}
 					currentTimeSong={this.state.currentTimeSong}
 					timerOn={this.state.timerOn}
 					coverSectionData={this.state.coverSectionData}
-				/> 
+				/>  */}
 				<NoCoke_ActorsSection/>
 				<NoCoke_LyricsSection 
 					currentTimeSong={this.state.currentTimeSong}

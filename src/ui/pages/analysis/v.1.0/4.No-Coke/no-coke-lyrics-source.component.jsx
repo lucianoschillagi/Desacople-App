@@ -1,14 +1,13 @@
 import React from 'react';
 import { LyricsSourceContainer,
-			LyricsTitle,
-			LyricsAuthor,
-			LyricsContainer,
-			LyricsParagraph,
-			LyricsVerse,
+         LyricsTitle,
+         LyricsAuthor,
+         LyricsContainer,
+         LyricsParagraph,
+         LyricsVerse,
          ShowChords,
          Chords
        } from '../../../../sections/lyrics/lyrics-source.styles';
-
 
 class NoCoke_LyricsSource extends React.Component {
 
@@ -867,124 +866,124 @@ class NoCoke_LyricsSource extends React.Component {
                   <LyricsVerse id="line_5">Hip-hop reaggae inna dance hall style</LyricsVerse>
                   <LyricsVerse id="line_6">Hip-hop reaggae inna dance hall style</LyricsVerse>
                   <LyricsVerse id="line_7">Hip-hop reaggae inna dance hall style</LyricsVerse>
-                  <LyricsVerse id="line_8">Hip-hop reaggae inna dance hall style</LyricsVerse>
-                  <LyricsVerse id="line_9">Hip-hop reaggae inna dance hall style</LyricsVerse>
-                  <LyricsVerse id="line_10">Hip-hop reaggae inna dance hall style</LyricsVerse>
-                  <LyricsVerse id="line_11">Hip-hop reaggae inna dance hall style</LyricsVerse>
-                  <LyricsVerse id="line_12">Dis say Dr. Alban tellin' everybody</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_13">2 o'clock on a friday mornin'</LyricsVerse>
-                  <LyricsVerse id="line_14">Come a gun man</LyricsVerse>
-                  <LyricsVerse id="line_15">Come a knife man</LyricsVerse>
-                  <LyricsVerse id="line_16">Knife of a bouncer</LyricsVerse>
-                  <LyricsVerse id="line_17">Mash of the ears</LyricsVerse>
-                  <LyricsVerse id="line_18">On the run come a Kings Street</LyricsVerse>
-                  <LyricsVerse id="line_19">There he way arrested, and tested</LyricsVerse>
-                  <LyricsVerse id="line_20">And the drugs he had on him</LyricsVerse>
-                  <LyricsVerse id="line_21">He confested</LyricsVerse>
-                  <LyricsVerse id="line_22">Mi callin' on the youth in his country</LyricsVerse>
-                  <LyricsVerse id="line_23">Whole heap of boys</LyricsVerse>
-                  <LyricsVerse id="line_24">Whole heap of girls</LyricsVerse>
-                  <LyricsVerse id="line_25">Drug abuse is a dangerous thing</LyricsVerse>
-                  <LyricsVerse id="line_26">Stay out of drugs and stop</LyricsVerse>
-                  <LyricsVerse id="line_27">The violence</LyricsVerse>
-                  <LyricsVerse id="line_28">Inna dis hard time you have</LyricsVerse>
-                  <LyricsVerse id="line_29">Abuse drug</LyricsVerse>
-                  <LyricsVerse id="line_30">Listen what 'ya say and hear</LyricsVerse>
-                  <LyricsVerse id="line_31">My point of view</LyricsVerse>
-                  <LyricsVerse id="line_32">To much drugs you can</LyricsVerse>
-                  <LyricsVerse id="line_33">Go mental</LyricsVerse>
-                  <LyricsVerse id="line_34">Da say Dr.</LyricsVerse>
-                  <LyricsVerse id="line_35">Alban tellin' everybody</LyricsVerse>
-                  <LyricsVerse id="line_36">We no want no coke, no heroin</LyricsVerse>
-                  <LyricsVerse id="line_37">No hasch-hasch, no amphetamine</LyricsVerse>
+                  <LyricsVerse id="line_8">2 o'clock on a friday mornin'</LyricsVerse>
+                  <LyricsVerse id="line_9">Come a gun man</LyricsVerse>
+                  <LyricsVerse id="line_10">Come a knife man</LyricsVerse>
+                  <LyricsVerse id="line_11">Knife of a bouncer</LyricsVerse>
+                  <LyricsVerse id="line_12">Mash of the ears</LyricsVerse>
+                  <LyricsVerse id="line_13">On the run come a Kings Street</LyricsVerse>
+                  <LyricsVerse id="line_14">There he way arrested, and tested</LyricsVerse>
+                  <LyricsVerse id="line_15">And the drugs he had on him</LyricsVerse>
+                  <LyricsVerse id="line_16">He confested</LyricsVerse>
+                  <LyricsVerse id="line_17">Mi callin' on the youth in his country</LyricsVerse>
+                  <LyricsVerse id="line_18">Whole heap of boys</LyricsVerse>
+                  <LyricsVerse id="line_19">Whole heap of girls</LyricsVerse>
+                  <LyricsVerse id="line_20">Drug abuse is a dangerous thing</LyricsVerse>
+                  <LyricsVerse id="line_21">Stay out of drugs and stop</LyricsVerse>
+                  <LyricsVerse id="line_22">The violence</LyricsVerse>
+                  <LyricsVerse id="line_23">Inna dis hard time you have</LyricsVerse>
+                  <LyricsVerse id="line_24">Abuse drug</LyricsVerse>
+                  <LyricsVerse id="line_25">Listen what 'ya say and hear</LyricsVerse>
+                  <LyricsVerse id="line_26">My point of view</LyricsVerse>
+                  <LyricsVerse id="line_27">To much drugs you can</LyricsVerse>
+                  <LyricsVerse id="line_28">Go mental</LyricsVerse>
+                  <LyricsVerse id="line_29">Da say Dr.</LyricsVerse>
+                  <LyricsVerse id="line_30">Alban tellin' everybody</LyricsVerse>
+                  <LyricsVerse id="line_31">We no want no coke, no heroin</LyricsVerse>
+                  <LyricsVerse id="line_32">No hasch-hasch, no amphetamine</LyricsVerse>
                </LyricsParagraph>
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_38">Cocain will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_39">And ecstasy will mush your life!</LyricsVerse>
-                  <LyricsVerse id="line_40">Cocaine will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_41">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_33">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_34">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_35">Cocaine will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_36">And ecstasy will mush your life!</LyricsVerse>
                </LyricsParagraph>            
                
                <LyricsParagraph>
-                  <LyricsVerse id="line_42">Drug pushing is a serious thing</LyricsVerse>
-                  <LyricsVerse id="line_43">One time, two time they make a million</LyricsVerse>
-                  <LyricsVerse id="line_44">Take all the money a run a foreign country</LyricsVerse>
-                  <LyricsVerse id="line_45">Build a big house</LyricsVerse>
-                  <LyricsVerse id="line_46">Buy a big limousine, Das why I man come</LyricsVerse>
-                  <LyricsVerse id="line_47">So you for do the right thing</LyricsVerse>
-                  <LyricsVerse id="line_48">Das why Jah Jah send me</LyricsVerse>
-                  <LyricsVerse id="line_49">To tell them the truth</LyricsVerse>
-                  <LyricsVerse id="line_50">Cause is a disgrace</LyricsVerse>
-                  <LyricsVerse id="line_51">To the human race</LyricsVerse>
-                  <LyricsVerse id="line_52">Some are flyin' very high</LyricsVerse>
-                  <LyricsVerse id="line_53">And some are flyin' very low</LyricsVerse>
-                  <LyricsVerse id="line_54">Could not differenciate</LyricsVerse>
-                  <LyricsVerse id="line_55">What is right from wrong</LyricsVerse>
-                  <LyricsVerse id="line_56">Want no coke, no heroin</LyricsVerse>
-                  <LyricsVerse id="line_57">No hasch-hasch, no amphetamine</LyricsVerse>
-                  <LyricsVerse id="line_58">No marijuana planted inna mi yard</LyricsVerse>
+                  <LyricsVerse id="line_37">Drug pushing is a serious thing</LyricsVerse>
+                  <LyricsVerse id="line_38">One time, two time they make a million</LyricsVerse>
+                  <LyricsVerse id="line_39">Take all the money a run a foreign country</LyricsVerse>
+                  <LyricsVerse id="line_40">Build a big house</LyricsVerse>
+                  <LyricsVerse id="line_41">Buy a big limousine, Das why I man come</LyricsVerse>
+                  <LyricsVerse id="line_42">So you for do the right thing</LyricsVerse>
+                  <LyricsVerse id="line_43">Das why Jah Jah send me</LyricsVerse>
+                  <LyricsVerse id="line_44">To tell them the truth</LyricsVerse>
+                  <LyricsVerse id="line_45">Cause is a disgrace</LyricsVerse>
+                  <LyricsVerse id="line_46">To the human race</LyricsVerse>
+                  <LyricsVerse id="line_47">Some are flyin' very high</LyricsVerse>
+                  <LyricsVerse id="line_48">And some are flyin' very low</LyricsVerse>
+                  <LyricsVerse id="line_49">Could not differenciate</LyricsVerse>
+                  <LyricsVerse id="line_50">What is right from wrong</LyricsVerse>
+                  <LyricsVerse id="line_51">Want no coke, no heroin</LyricsVerse>
+                  <LyricsVerse id="line_52">No hasch-hasch, no amphetamine</LyricsVerse>
+                  <LyricsVerse id="line_53">No marijuana planted inna mi yard</LyricsVerse>
                </LyricsParagraph>    
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_59">Cocain will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_60">And ecstasy will mush your life!</LyricsVerse>
-                  <LyricsVerse id="line_61">Cocaine will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_62">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_54">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_55">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_56">Cocaine will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_57">And ecstasy will mush your life!</LyricsVerse>
                </LyricsParagraph>  
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_63">Mi have one friend, them a call him Denniz Pop</LyricsVerse>
-                  <LyricsVerse id="line_64">Him have a little son, them a call him Daniel</LyricsVerse>
-                  <LyricsVerse id="line_65">He live a two room inna Stockholm City</LyricsVerse>
-                  <LyricsVerse id="line_66">One colour TV, two stereo</LyricsVerse>
-                  <LyricsVerse id="line_67">He's DJ producer of higher quality</LyricsVerse>
-                  <LyricsVerse id="line_68">He no deal with booze and abuse of drug</LyricsVerse>
-                  <LyricsVerse id="line_69">That's why mi give him thanks</LyricsVerse>
-                  <LyricsVerse id="line_70">And praise Jah Jah know</LyricsVerse>
-                  <LyricsVerse id="line_71">We play a heavy riddim inna dancehall style</LyricsVerse>
-                  <LyricsVerse id="line_72">Hip Hop, Reggae, Soul, Funk and Blues</LyricsVerse>
-                  <LyricsVerse id="line_73">Why crack in the mornin', crack in the evening</LyricsVerse>
-                  <LyricsVerse id="line_74">Crack in the night and crack non stop</LyricsVerse>
-                  <LyricsVerse id="line_75">We don't want no coke, no heroin</LyricsVerse>
+                  <LyricsVerse id="line_58">Mi have one friend, them a call him Denniz Pop</LyricsVerse>
+                  <LyricsVerse id="line_59">Him have a little son, them a call him Daniel</LyricsVerse>
+                  <LyricsVerse id="line_60">He live a two room inna Stockholm City</LyricsVerse>
+                  <LyricsVerse id="line_61">One colour TV, two stereo</LyricsVerse>
+                  <LyricsVerse id="line_62">He's DJ producer of higher quality</LyricsVerse>
+                  <LyricsVerse id="line_63">He no deal with booze and abuse of drug</LyricsVerse>
+                  <LyricsVerse id="line_64">That's why mi give him thanks</LyricsVerse>
+                  <LyricsVerse id="line_65">And praise Jah Jah know</LyricsVerse>
+                  <LyricsVerse id="line_66">We play a heavy riddim inna dancehall style</LyricsVerse>
+                  <LyricsVerse id="line_67">Hip Hop, Reggae, Soul, Funk and Blues</LyricsVerse>
+                  <LyricsVerse id="line_68">Why crack in the mornin', crack in the evening</LyricsVerse>
+                  <LyricsVerse id="line_69">Crack in the night and crack non stop</LyricsVerse>
+                  <LyricsVerse id="line_70">We don't want no coke, no heroin</LyricsVerse>
                </LyricsParagraph>  
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_76">Cocain will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_77">And ecstasy will mush your life!</LyricsVerse>
-                  <LyricsVerse id="line_78">Cocaine will blow your brain</LyricsVerse>
-                  <LyricsVerse id="line_79">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_71">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_72">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_73">Cocaine will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_74">And ecstasy will mush your life!</LyricsVerse>
                </LyricsParagraph>     
                
                <LyricsParagraph>
-                  <LyricsVerse id="line_80">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_81">Don't give me no coke, coke</LyricsVerse>
-                  <LyricsVerse id="line_82">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_83">Don't give me no coke, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_75">Cocain will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_76">And ecstasy will mush your life!</LyricsVerse>
+                  <LyricsVerse id="line_77">Cocaine will blow your brain</LyricsVerse>
+                  <LyricsVerse id="line_78">And ecstasy will mush your life!</LyricsVerse>
+               </LyricsParagraph>  
+
+               <LyricsParagraph>
+                  <LyricsVerse id="line_79">Don't give me no coke, don't give me no coke</LyricsVerse>
+                  <LyricsVerse id="line_80">Don't give me no coke, coke</LyricsVerse>
+                  <LyricsVerse id="line_81">Don't give me no coke, don't give me no coke</LyricsVerse>
+                  <LyricsVerse id="line_82">Don't give me no coke, mi do not want it</LyricsVerse>
                </LyricsParagraph>   
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_84">Don't give me no hasch, don't give me no hasch</LyricsVerse>
-                  <LyricsVerse id="line_85">Don't give me no hasch, hasch</LyricsVerse>
-                  <LyricsVerse id="line_86">Don't give me no hasch, don't give me no hasch</LyricsVerse>
-                  <LyricsVerse id="line_87">Don't give me no hasch, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_83">Don't give me no hasch, don't give me no hasch</LyricsVerse>
+                  <LyricsVerse id="line_84">Don't give me no hasch, hasch</LyricsVerse>
+                  <LyricsVerse id="line_85">Don't give me no hasch, don't give me no hasch</LyricsVerse>
+                  <LyricsVerse id="line_86">Don't give me no hasch, mi do not want it</LyricsVerse>
                </LyricsParagraph>   
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_88">Don't give me no shit, don't give me no shit</LyricsVerse>
-                  <LyricsVerse id="line_89">Don't give me no shit, shit</LyricsVerse>
-                  <LyricsVerse id="line_90">Don't give me no shit, don't give me no shit</LyricsVerse>
-                  <LyricsVerse id="line_91">Don't give me no shit, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_87">Don't give me no shit, don't give me no shit</LyricsVerse>
+                  <LyricsVerse id="line_88">Don't give me no shit, shit</LyricsVerse>
+                  <LyricsVerse id="line_89">Don't give me no shit, don't give me no shit</LyricsVerse>
+                  <LyricsVerse id="line_90">Don't give me no shit, mi do not want it</LyricsVerse>
                </LyricsParagraph>   
 
                <LyricsParagraph>
-                  <LyricsVerse id="line_92">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_93">Don't give me no coke, coke</LyricsVerse>
-                  <LyricsVerse id="line_94">Don't give me no coke, don't give me no coke</LyricsVerse>
-                  <LyricsVerse id="line_95">Don't give me no coke, mi do not want it</LyricsVerse>
+                  <LyricsVerse id="line_91">Don't give me no crack, don't give me no crack</LyricsVerse>
+                  <LyricsVerse id="line_92">Don't give me no crack, crack</LyricsVerse>
                </LyricsParagraph>   
 
             </LyricsContainer>
