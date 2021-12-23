@@ -25,8 +25,8 @@ align-self: center;
 `
 
 export const CardDetailDescription = styled.div`
-width: 80%;
-font-size: 1rem;
+width: 85%;
+font-size: 0.9rem;
 font-weight: lighter;
 padding: 10px;
 text-align: center;
@@ -34,7 +34,7 @@ align-self: center;
 `
 
 export const CardDetailPlayedBy = styled.p`
-font-size: 1rem;
+font-size: 0.9rem;
 color: orange;
 height: 15%;
 `

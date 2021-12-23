@@ -9,39 +9,46 @@ class Another_ActorsSection extends React.Component {
 		super(props);
 		this.getSelectedCardInfo = this.getSelectedCardInfo.bind(this);
 		this.state = {
-			cardTitle: "Guitar",
-			cardDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend."
+			cardTitle: "Voz",
+			cardDescription: "Acá va la descripción sobre la voz de Freddy",
+			cardPlayedBy: "Freddy Mercury"
 		};
 	  }	
 
-  	getSelectedCardInfo(cardTitle, cardDescription) {
-		this.setState({ cardTitle, cardDescription })
+  	getSelectedCardInfo(cardTitle, cardDescription, cardPlayedBy) {
+		this.setState({ cardTitle, cardDescription, cardPlayedBy })
  }
  
 	actorsSectionCards =  [
 		{ 
   		   cardTitle: "Voz",
-		   cardDescription: "Acá va la descripción sobre la voz de Freddy"
+		   cardDescription: "Acá va la descripción sobre la voz de Freddy",
+			cardPlayedBy: "Freddy Mercury"
 		},
 		{
 		   cardTitle: "Guitarra eléctrica",
-			cardDescription: "Acá va la descripción sobre la guitarra de Brian"	
+			cardDescription: "Acá va la descripción sobre la guitarra de Brian",
+			cardPlayedBy: "Brian May"	
 		},
 		{
 		   cardTitle: "Batería",
-			cardDescription: "Acá va la descripción sobre la batería de Ryan"
+			cardDescription: "Acá va la descripción sobre la batería de Ryan",
+			cardPlayedBy: "Roger Taylor"
 		},
 		{
 			cardTitle: "Bajo",
-			cardDescription: "Acá va la descripción sobre el emblemático bajo de Jhon Deacon"
+			cardDescription: "Acá va la descripción sobre el emblemático bajo de Jhon Deacon",
+			cardPlayedBy: "John Deacon"
 		},
 		{
 			cardTitle: "Coros",
-			cardDescription: "Lorem ipsum dolor sit amet"	
+			cardDescription: "Lorem ipsum dolor sit amet",
+			cardPlayedBy: "Brian May"	
 		},
 		{
 			cardTitle: "Guitarra eléctrica (efectos)",
-			cardDescription: "Acá va la descripción sobre la gtr eléctrica de Brian usada como efecto sonoro"
+			cardDescription: "Acá va la descripción sobre la gtr eléctrica de Brian usada como efecto sonoro",
+			cardPlayedBy: "Brian May"
 		}
 	]
 
@@ -53,11 +60,13 @@ class Another_ActorsSection extends React.Component {
 					<Another_CardDetail 
 						cardTitle = {this.state.cardTitle}
 						cardDescription = {this.state.cardDescription}
+						cardPlayedBy = {this.state.cardPlayedBy}
 					/>
 					<Another_Cards 
 						cards={this.actorsSectionCards}
 						getSelectedCardInfo={this.getSelectedCardInfo}
 					/>
+					
 				</ContainerCentered>
 
 			</Container>
