@@ -98,6 +98,8 @@ class NoCoke_PlaySong extends React.Component {
 			pulse.style.animationPlayState = "paused";
 	}
 
+	VIDEO_ID = "uDe6FcWbZek"
+
 	render() {
       const opts = {
 			width: '300', 
@@ -118,7 +120,7 @@ class NoCoke_PlaySong extends React.Component {
 			<Container>
 				<InvisibleContainer>
 					<YouTube
-						videoId="uDe6FcWbZek" 
+						videoId={this.VIDEO_ID}
 						opts={opts}
 						onReady={this.onReady}
 						onStateChange={this.onStateChange} 
