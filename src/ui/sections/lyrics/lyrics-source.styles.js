@@ -35,7 +35,7 @@ font-size: 3em;
 }
 `
 
-export const ShowChords = styled.div`
+export const ShowChordsButton = styled.div`
 display: inline;
 border-radius: 5px;
 font-weight: bold;

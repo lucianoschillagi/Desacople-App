@@ -5,7 +5,7 @@ import { LyricsSourceContainer,
 			LyricsContainer,
 			LyricsParagraph,
 			LyricsVerse,
-         ShowChords as ShowChordsButton,
+         ShowChordsButton,
          Chords
        } from '../../../../sections/lyrics/lyrics-source.styles';
 
@@ -14,9 +14,7 @@ class Another_LyricsSource extends React.Component {
 
    constructor(props) {
       super(props);
-      this.state = { 
-                     showingChords: true
-                  } 
+      this.state = { showingChords: true } 
       this.showChords = this.showChords.bind(this);
    }
 
@@ -27,41 +25,40 @@ class Another_LyricsSource extends React.Component {
 
    showChords() {
 
-      console.log("show chords btn tapped!")
       this.setState(prevState => ({
          showingChords: !prevState.showingChords
        }));
 
-     if (this.state.showingChords === true) {
+      if (this.state.showingChords) {
 
-      var chordButton = document.getElementById("showChordsButton")
-      chordButton.style.backgroundColor = "orange"
+         var chordButton = document.getElementById("showChordsButton");
+         chordButton.style.backgroundColor = "orange";
 
-      var chord = document.getElementById("chord");
-      var chord2 = document.getElementById("chord2");
-      var chord3 = document.getElementById("chord3");
-      chord.style.display = "block";
-      chord.style.opacity = "1";
-      chord2.style.display = "block";
-      chord2.style.opacity = "1";
-      chord3.style.display = "block";
-      chord3.style.opacity = "1";
+         var chord = document.getElementById("chord");
+         var chord2 = document.getElementById("chord2");
+         var chord3 = document.getElementById("chord3");
+         chord.style.display = "block";
+         chord.style.opacity = "1";
+         chord2.style.display = "block";
+         chord2.style.opacity = "1";
+         chord3.style.display = "block";
+         chord3.style.opacity = "1";
 
      } else {
 
-      var chordButton = document.getElementById("showChordsButton")
-      chordButton.style.backgroundColor = "red"
+         var chordButton = document.getElementById("showChordsButton")
+         chordButton.style.backgroundColor = "red"
 
-      var chord = document.getElementById("chord");
-      chord.style.display = "none";
-      chord.style.opacity = "0";
-      chord.style.transition = "2s linear";
+         var chord = document.getElementById("chord");
+         chord.style.display = "none";
+         chord.style.opacity = "0";
+         chord.style.transition = "2s linear";
 
-      var chord2 = document.getElementById("chord2");
-      chord2.style.display = "none";
+         var chord2 = document.getElementById("chord2");
+         chord2.style.display = "none";
 
-      var chord3 = document.getElementById("chord3");
-      chord3.style.display = "none";
+         var chord3 = document.getElementById("chord3");
+         chord3.style.display = "none";
 
      }  
   }
