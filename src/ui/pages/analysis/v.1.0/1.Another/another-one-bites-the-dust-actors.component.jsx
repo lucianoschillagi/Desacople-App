@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,ContainerCentered } from '../../../../sections/actors/actors.styles.js';
+import { Container, ContainerCentered } from '../../../../sections/actors/actors.styles.js';
 import Another_CardDetail from './another-one-bites-the-dust-card-detail.component';
 import Another_Cards from './another-one-bites-the-dust-cards.component';
 
@@ -13,41 +13,41 @@ class Another_ActorsSection extends React.Component {
 			cardDescription: "Acá va la descripción sobre la voz de Freddy",
 			cardPlayedBy: "Freddy Mercury"
 		};
-	  }	
+	}
 
-  	getSelectedCardInfo(cardTitle, cardDescription, cardPlayedBy) {
+	getSelectedCardInfo(cardTitle, cardDescription, cardPlayedBy) {
 		this.setState({ cardTitle, cardDescription, cardPlayedBy })
- }
- 
-	actorsSectionCards =  [
-		{ 
-  		   cardTitle: "Voz",
-		   cardDescription: "Acá va la descripción sobre la voz de Freddy",
+	}
+
+	actorsSectionCards = [
+		{
+			cardTitle: "Voz",
+			cardDescription: "Acá va la descripción sobre la voz de Freddy Acá va la descripción sobre la voz de Freddy Acá va la descripción sobre la voz de Freddy",
 			cardPlayedBy: "Freddy Mercury"
 		},
 		{
-		   cardTitle: "Guitarra eléctrica",
-			cardDescription: "Acá va la descripción sobre la guitarra de Brian",
-			cardPlayedBy: "Brian May"	
+			cardTitle: "Guitarra eléctrica",
+			cardDescription: "Acá va la descripción sobre la guitarra de Brian Acá va la descripción sobre la guitarra de Brian Acá va la descripción sobre la guitarra de Brian",
+			cardPlayedBy: "Brian May"
 		},
 		{
-		   cardTitle: "Batería",
-			cardDescription: "Acá va la descripción sobre la batería de Ryan",
+			cardTitle: "Batería",
+			cardDescription: "Acá va la descripción sobre la batería de Ryan Acá va la descripción sobre la batería de Ryan Acá va la descripción sobre la batería de Ryan",
 			cardPlayedBy: "Roger Taylor"
 		},
 		{
 			cardTitle: "Bajo",
-			cardDescription: "Acá va la descripción sobre el emblemático bajo de Jhon Deacon",
+			cardDescription: "Acá va la descripción sobre el emblemático bajo de Jhon Deacon Acá va la descripción sobre el emblemático bajo de Jhon Deacon Acá va la descripción sobre el emblemático bajo de Jhon Deacon",
 			cardPlayedBy: "John Deacon"
 		},
 		{
 			cardTitle: "Coros",
-			cardDescription: "Lorem ipsum dolor sit amet",
-			cardPlayedBy: "Brian May"	
+			cardDescription: "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+			cardPlayedBy: "Brian May"
 		},
 		{
 			cardTitle: "Guitarra eléctrica (efectos)",
-			cardDescription: "Acá va la descripción sobre la gtr eléctrica de Brian usada como efecto sonoro",
+			cardDescription: "Acá va la descripción sobre la gtr eléctrica de Brian usada como efecto sonoro Acá va la descripción sobre la gtr eléctrica de Brian usada como efecto sonoro",
 			cardPlayedBy: "Brian May"
 		}
 	]
@@ -57,21 +57,21 @@ class Another_ActorsSection extends React.Component {
 			<Container>
 				<ContainerCentered>
 
-					<Another_CardDetail 
-						cardTitle = {this.state.cardTitle}
-						cardDescription = {this.state.cardDescription}
-						cardPlayedBy = {this.state.cardPlayedBy}
+					<Another_CardDetail
+						cardTitle={this.state.cardTitle}
+						cardDescription={this.state.cardDescription}
+						cardPlayedBy={this.state.cardPlayedBy}
 					/>
-					<Another_Cards 
+					<Another_Cards
 						cards={this.actorsSectionCards}
 						getSelectedCardInfo={this.getSelectedCardInfo}
 					/>
-					
+
 				</ContainerCentered>
 
 			</Container>
 		);
-   }
+	}
 }
 
 export default Another_ActorsSection;
