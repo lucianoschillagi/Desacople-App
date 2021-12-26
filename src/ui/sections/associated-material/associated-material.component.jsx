@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Container, ContainerCentered } from './associated-material.styles.js'
+import React, { Component } from 'react';
+import { Container, ContainerCentered } from './associated-material.styles.js';
 import AssociatedMaterialItem from './associated-material-item.component';
 
 class AssociatedMaterialSection extends Component {
