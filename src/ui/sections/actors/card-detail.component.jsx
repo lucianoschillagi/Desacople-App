@@ -3,6 +3,15 @@ import { Container, CardDetailTitle, CardDetailDescription } from './card-detail
 
 class CardDetail extends Component {
 
+	constructor(props) {
+		super(props);
+      this.playDemo = this.playDemo.bind(this);
+   }
+
+	playDemo() {
+		console.log("se dispara una muestra de este elemento")
+	}
+
 	render() {
 		return (
 			<Container>
@@ -14,6 +23,10 @@ class CardDetail extends Component {
 				<CardDetailDescription>
 					{this.props.actorsSectionData.card_01}
 				</CardDetailDescription>
+
+				<button onClick={this.playDemo}>
+					play me!
+				</button>
 				
          </Container>
 		)

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../../sections/listen/section-content.styles.css';
+import '../../../../sections/listen/section-content.styles.js';
 
 class NoCoke_SectionContent extends React.Component { 
 
