@@ -1,4 +1,5 @@
 import React from 'react';
+import Music from './music';
 import { Container, 
 			CardDetailTitle, 
 			CardDetailDescription,
@@ -17,6 +18,8 @@ class Another_CardDetail extends React.Component {
 				<CardDetailDescription>
 					{this.props.cardDescription}
 				</CardDetailDescription>
+
+				<Music/>
 				 
 				<CardDetailPlayedBy>
 					{this.props.cardPlayedBy}
@@ -28,3 +31,5 @@ class Another_CardDetail extends React.Component {
 }
 
 export default Another_CardDetail;
+
+
