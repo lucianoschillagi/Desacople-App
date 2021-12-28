@@ -106,6 +106,11 @@ padding-bottom: 50px;
 }
 `
 
+export const CardButton = styled.button`
+
+
+`
+
 export const CardDetailPlayedBy = styled.p`
 font-size: 0.9rem;
 color: orange;

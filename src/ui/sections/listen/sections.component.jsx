@@ -1,190 +1,185 @@
 import React, { Component } from 'react';
-import './sections.styles.css';
+import { Container, Section } from './sections.styles.js';
 
 // Abstract: represents the different sections of the song
 class Sections extends Component {
 
    render() {
 
-   // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
-   var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
-   
-   // Sections
-   const intro = document.getElementById('Intro');
-   const A1 = document.getElementById('A1');
-   const B1 = document.getElementById('B1');
-   const inter1 = document.getElementById('Inter1');
-   const A2 = document.getElementById('A2');
-   const B2 = document.getElementById('B2');
-   const inter2 = document.getElementById('Inter2');
-   const B3 = document.getElementById('B3');
-   const A3 = document.getElementById('A3');
-   const B4 = document.getElementById('B4');
-   const final = document.getElementById('Final');
+      // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
+      var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
 
-   // CSS values
-   const borderBottomStyleOff = "0.25px solid gray"
-   const borderBottomStyleOn = "none"
-   const tabLetterOpacity = "1"
+      // Sections
+      const B1 = document.getElementById('B1');
+      const inter1 = document.getElementById('Inter1');
+      const A2 = document.getElementById('A2');
+      const B2 = document.getElementById('B2');
+      const inter2 = document.getElementById('Inter2');
+      const B3 = document.getElementById('B3');
+      const A3 = document.getElementById('A3');
+      const B4 = document.getElementById('B4');
+      const final = document.getElementById('Final');
 
-   switch (currentTimeSongPrecision) {
-      case 0.5:
-      intro.style.borderBottom = borderBottomStyleOn
-      intro.style.opacity = tabLetterOpacity
-      break;
+      // CSS values
+      const borderBottomStyleOff = "0.25px solid gray"
+      const borderBottomStyleOn = "none"
+      const tabLetterOpacity = "0.2"
 
-      case 22.5:
-      A1.style.borderBottom = borderBottomStyleOn
-      A1.style.opacity = tabLetterOpacity
-      A1.style.fontWeight = "bold"
-      intro.style.borderBottom = borderBottomStyleOff
-      intro.style.opacity = "0.2"
-      break;
+      switch (currentTimeSongPrecision) {
 
-      case 40:
-      B1.style.borderBottom = borderBottomStyleOn
-      B1.style.opacity = tabLetterOpacity
-      B1.style.fontWeight = "bold"
-      A1.style.borderBottom = borderBottomStyleOff
-      A1.style.opacity = "0.2"
-      break;
+         case 0.5:
+            var intro = document.getElementById("Intro");
+            intro.style.borderBottom = borderBottomStyleOn
+            intro.style.opacity = tabLetterOpacity
+            break;
 
-      case 57.2:
-      inter1.style.borderBottom = borderBottomStyleOn
-      inter1.style.opacity = tabLetterOpacity
-      inter1.style.fontWeight = "bold"
-      B1.style.borderBottom = borderBottomStyleOff
-      B1.style.opacity = "0.2"
-      break;
+         case 22.5:
+            var intro = document.getElementById("Intro");
+            var A1 = document.getElementById("A1");
+            // A1.style.borderBottom = borderBottomStyleOn
+            A1.style.opacity = tabLetterOpacity
+            A1.style.fontWeight = "bold"
+            A1.style.backgroundColor = "black"
+            intro.style.borderBottom = borderBottomStyleOff
+            intro.style.color = "black"
+            // intro.innerHTML = "otra"
+            // intro.style.backgroundColor = "red"
+            break;
 
-      case 66:
-      A2.style.borderBottom = borderBottomStyleOn
-      A2.style.opacity = tabLetterOpacity
-      A2.style.fontWeight = "bold"
-      inter1.style.borderBottom = borderBottomStyleOff
-      inter1.style.opacity = "0.2"
-      break;
+         case 40:
+            B1.style.borderBottom = borderBottomStyleOn
+            B1.style.opacity = tabLetterOpacity
+            B1.style.fontWeight = "bold"
+            A1.style.borderBottom = borderBottomStyleOff
+            A1.style.opacity = "0.2"
+            break;
 
-      case 84:
-      B2.style.borderBottom = borderBottomStyleOn
-      B2.style.opacity = tabLetterOpacity
-      B2.style.fontWeight = "bold"
-      A2.style.borderBottom = borderBottomStyleOff
-      A2.style.opacity = "0.2"
-      break;
+         case 57.2:
+            inter1.style.borderBottom = borderBottomStyleOn
+            inter1.style.opacity = tabLetterOpacity
+            inter1.style.fontWeight = "bold"
+            B1.style.borderBottom = borderBottomStyleOff
+            B1.style.opacity = "0.2"
+            break;
 
-      case 101:
-      inter2.style.borderBottom = borderBottomStyleOn
-      inter2.style.opacity = tabLetterOpacity
-      inter2.style.fontWeight = "bold"
-      B2.style.borderBottom = borderBottomStyleOff
-      B2.style.opacity = "0.2"
-      break;
+         case 66:
+            A2.style.borderBottom = borderBottomStyleOn
+            A2.style.opacity = tabLetterOpacity
+            A2.style.fontWeight = "bold"
+            inter1.style.borderBottom = borderBottomStyleOff
+            inter1.style.opacity = "0.2"
+            break;
 
-      case 140:
-      B3.style.borderBottom = borderBottomStyleOn
-      B3.style.opacity = tabLetterOpacity
-      B3.style.fontWeight = "bold"
-      inter2.style.borderBottom = borderBottomStyleOff
-      inter2.style.opacity = "0.2"
-      break;
+         case 84:
+            B2.style.borderBottom = borderBottomStyleOn
+            B2.style.opacity = tabLetterOpacity
+            B2.style.fontWeight = "bold"
+            A2.style.borderBottom = borderBottomStyleOff
+            A2.style.opacity = "0.2"
+            break;
 
-      case 158:
-      A3.style.borderBottom = borderBottomStyleOn
-      A3.style.opacity = tabLetterOpacity
-      A3.style.fontWeight = "bold"
-      B3.style.borderBottom = borderBottomStyleOff
-      B3.style.opacity = "0.2"
-      break;
+         case 101:
+            inter2.style.borderBottom = borderBottomStyleOn
+            inter2.style.opacity = tabLetterOpacity
+            inter2.style.fontWeight = "bold"
+            B2.style.borderBottom = borderBottomStyleOff
+            B2.style.opacity = "0.2"
+            break;
 
-      case 175:
-      B4.style.borderBottom = borderBottomStyleOn
-      B4.style.opacity = tabLetterOpacity
-      B4.style.fontWeight = "bold"
-      A3.style.borderBottom = borderBottomStyleOff
-      A3.style.opacity = "0.2"
-      break;
+         case 140:
+            B3.style.borderBottom = borderBottomStyleOn
+            B3.style.opacity = tabLetterOpacity
+            B3.style.fontWeight = "bold"
+            inter2.style.borderBottom = borderBottomStyleOff
+            inter2.style.opacity = "0.2"
+            break;
 
-      case 193:
-      final.style.borderBottom = borderBottomStyleOn
-      final.style.opacity = tabLetterOpacity
-      final.style.fontWeight = "bold"
-      B4.style.borderBottom = borderBottomStyleOff
-      B4.style.opacity = "0.2"
-      break;
+         case 158:
+            A3.style.borderBottom = borderBottomStyleOn
+            A3.style.opacity = tabLetterOpacity
+            A3.style.fontWeight = "bold"
+            B3.style.borderBottom = borderBottomStyleOff
+            B3.style.opacity = "0.2"
+            break;
+
+         case 175:
+            B4.style.borderBottom = borderBottomStyleOn
+            B4.style.opacity = tabLetterOpacity
+            B4.style.fontWeight = "bold"
+            A3.style.borderBottom = borderBottomStyleOff
+            A3.style.opacity = "0.2"
+            break;
+
+         case 193:
+            final.style.borderBottom = borderBottomStyleOn
+            final.style.opacity = tabLetterOpacity
+            final.style.fontWeight = "bold"
+            B4.style.borderBottom = borderBottomStyleOff
+            B4.style.opacity = "0.2"
+            break;
       }
-      
+
+
       return (
 
-         <div className="Sections_container">
+         <Container>
 
             {/* Intro */}
-            <p className="Sections_section"
-               id="Intro">
-               Intro
-            </p>
+            <Section id="Intro" className='intro'>
+               INTR
+            </Section>
 
             {/* A1 */}
-            <p className="Sections_section"
-               id="A1">
+            <Section id="A1" className='a1'>
                A1
-            </p>
+            </Section>
 
             {/* B1 */}
-            <p className="Sections_section"
-               id="B1">
+            <Section id="B1" className='b1'>
                B1
-            </p>
+            </Section>
 
             {/* Inter 1 */}
-            <p className="Sections_section"
-               id="Inter1">
-               Inter
-            </p>
+            <Section id="Inter1" className='inter1'>
+               Inter 1
+            </Section>
 
             {/* A2 */}
-            <p className="Sections_section"
-               id="A2">
+            <Section id="A2" className='a2'>
                A2
-            </p>
+            </Section>
 
             {/* B2 */}
-            <p className="Sections_section"
-               id="B2">
+            <Section id="B2" className='b2'>
                B2
-            </p>
+            </Section>
 
             {/* Inter 2 */}
-            <p className="Sections_section"
-               id="Inter2">
-               Inter
-            </p>
+            <Section id="Inter2" className='inter2'>
+               Inter 2
+            </Section>
 
             {/* B3 */}
-            <p className="Sections_section"
-               id="B3">
+            <Section id="B3" className='b3'>
                B3
-            </p>
+            </Section>
 
             {/* A3 */}
-            <p className="Sections_section"
-               id="A3">
+            <Section id="A3" className='a3'>
                A3
-            </p>
+            </Section>
 
             {/* B4 */}
-            <p className="Sections_section"
-               id="B4">
+            <Section id="B4" className='b4'>
                B4
-            </p>
+            </Section>
 
             {/* Final */}
-            <p className="Sections_section"
-               id="Final">
+            <Section id="Final" className='final'>
                Final
-            </p>
+            </Section>
 
-         </div>
+         </Container>
       );
    }
 }
@@ -193,3 +188,77 @@ export default Sections;
 
 
 
+// import React, { Component } from 'react';
+// import styled from 'styled-components';
+// // import { Container, Section } from './sections.styles.js';
+
+// // Abstract: represents the different sections of the song
+// class Sections extends Component {
+
+
+//    render() {
+
+//       const Thing = styled.div.attrs((/* props */) => ({ tabIndex: 0 }))`
+
+//          color: blue;
+
+//          &:hover {
+//             color: red; // <Thing> when hovered
+//          }
+
+//          & ~ & {
+//             background: tomato; // <Thing> as a sibling of <Thing>, but maybe not directly next to it
+//          }
+
+//          & + & {
+//             background: white; // <Thing> next to <Thing>
+//          }
+
+//          &.something {
+//             background: black; // <Thing> tagged with an additional CSS class ".something"
+//          }
+
+//          &.red {
+//             background: red; // <Thing> tagged with an additional CSS class ".something"
+//          }
+
+//          &.cyan {
+//             background: cyan; // <Thing> tagged with an additional CSS class ".something"
+//          }
+
+//          &.orange {
+//             background: orange; // <Thing> tagged with an additional CSS class ".something"
+//          }
+
+
+//          .something-else & {
+//             border: 1px solid; // <Thing> inside another element labeled ".something-else"
+//          }
+// `
+
+//       return (
+//          <React.Fragment>
+//             <Thing>Hello world!</Thing>
+//             <Thing>How ya doing?</Thing>
+
+//             <Thing className="red">red..</Thing>
+//             <Thing className="cyan">cyan...</Thing>
+//             <Thing className="orange">orange...</Thing>
+
+//             <div>Pretty nice day today.</div>
+//             <Thing>Don't you think?</Thing>
+//             <div className="something-else">
+//                <Thing>Splendid.</Thing>
+//             </div>
+//          </React.Fragment>
+
+//       )
+
+
+//    }
+
+
+
+// }
+
+// export default Sections;
