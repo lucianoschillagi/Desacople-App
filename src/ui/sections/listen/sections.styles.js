@@ -10,7 +10,7 @@ font-size: 0.8rem;
 text-align: center;
 // font-weight: lighter;
 font-family: ff-meta-correspondence-web-p, sans-serif;
-// padding: 40px 0px 40px 0px;
+padding-top: 40px;
 // background-color: red;
 `
 

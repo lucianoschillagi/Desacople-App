@@ -1,5 +1,13 @@
 import React from 'react';
-import { Container, Section, CurrentTimeLine } from './timeline-total.styles.js';
+import {
+	Container,
+	ElementTracksContainer,
+	ElementTrack,
+	Element_ON,
+	Element_ON_text,
+	Element_OFF,
+	CurrentTimeLine
+} from './timeline-total.styles.js';
 
 class TimelineTotal extends React.Component {
 
@@ -37,109 +45,203 @@ class TimelineTotal extends React.Component {
 			cursor.style.animationPlayState = "paused";
 		}
 
-		// Styles
-		const introSectionStyle = {
-			width: '10%'
-			// backgroundColor: 'green',
+		// Voice Elements
+		const voiceTrack = {
+			width: '100%'
 		};
 
-		const aSectionStyle = {
-			width: '10%'
-			// backgroundColor: 'cyan',
+		const voiceON = {
+			width: '10%',
+			backgroundColor: 'green'
 		};
 
-		const bOneSectionStyle = {
-			width: '5%'
-			// backgroundColor: 'violet',
+		const voiceOFF = {
+			width: '20%',
+			backgroundColor: 'none'
 		};
 
-		const interOneSectionStyle = {
-			width: '10%'
-			// backgroundColor: 'orange',
+		// Guitar Elements
+		const guitarTrack = {
+			width: '100%'
 		};
 
-		const aTwoSectionStyle = {
-			width: '5%'
-			// backgroundColor: 'brown',
+		const guitarON = {
+			width: '32%',
+			backgroundColor: 'purple'
 		};
 
-		const bTwoSectionStyle = {
-			width: '10%'
-			// backgroundColor: 'blue',
+		const guitarOFF = {
+			width: '10%',
+			backgroundColor: 'none'
 		};
 
-		const interTwoSectionStyle = {
-			width: '5%'
-			// backgroundColor: 'gray',
+		// Bass Elements
+		const bassTrack = {
+			width: '100%'
 		};
 
-		const bThreeSectionStyle = {
-			width: '10%'
-			// backgroundColor: 'purple',
+		const bassON = {
+			width: '72%',
+			backgroundColor: 'red'
 		};
 
-		const aThreeSectionStyle = {
-			width: '5%'
-			// backgroundColor: 'orange',
+		const bassOFF = {
+			width: '12%',
+			backgroundColor: 'none'
 		};
 
-		const bFourSectionStyle = {
-			width: '10%'
-			// backgroundColor: 'red',
+		// Chorus Elements
+		const chorusTrack = {
+			width: '100%'
 		};
 
-		const finalSectionStyle = {
-			width: '20%'
-			// backgroundColor: 'orange',
+		const chorusON = {
+			width: '22%',
+			backgroundColor: 'blue'
 		};
+
+		const chorusOFF = {
+			width: '18%',
+			backgroundColor: 'none'
+		};
+
+		// Drums Elements
+		const drumsTrack = {
+			width: '100%'
+		};
+
+		const drumsON = {
+			width: '32%',
+			backgroundColor: 'gray'
+		};
+
+		const drumsOFF = {
+			width: '32%',
+			backgroundColor: 'none'
+		};
+
+
 
 		return (
 
-				<Container>
+			<Container>
 
 
-					<CurrentTimeLine id="TimelineTotal_current_time_line" />
+				<CurrentTimeLine id="TimelineTotal_current_time_line" />
 
-					<Section id="Intro" style={introSectionStyle} />
+				<ElementTracksContainer>
 
-					{/* A1 */}
-					<Section id="A1" style={aSectionStyle} />
+					{/* VOICE */}
+					<ElementTrack id="A1" style={voiceTrack}>
 
-					{/* B1 */}
-					<Section id="B1" style={bOneSectionStyle} />
+						<Element_ON style={voiceON}>
+							<Element_ON_text>
+								voice
+							</Element_ON_text>
+						</Element_ON>
 
-					{/* Inter1 */}
-					<Section id="Inter1" style={interOneSectionStyle} />
+						<Element_OFF style={voiceOFF} />
 
-					{/* A2 */}
-					<Section id="A2" style={aTwoSectionStyle} />
+						<Element_ON style={voiceON}>
+							<Element_ON_text>
+								voice
+							</Element_ON_text>
+						</Element_ON>
 
-					{/* B2 */}
-					<Section id="B2" style={bTwoSectionStyle} />
+						<Element_OFF style={voiceOFF} />
 
-					{/* Inter 2 */}
-					<Section id="Inter2" style={interTwoSectionStyle} />
+						<Element_ON style={voiceON}>
+							<Element_ON_text>
+								voice
+							</Element_ON_text>
+						</Element_ON>
 
-					{/* B3 */}
-					<Section id="B3" style={bThreeSectionStyle} />
+					</ElementTrack>
 
-					{/* A3 */}
-					<Section id="A3" style={aThreeSectionStyle} />
+					{/* GUITAR */}
+					<ElementTrack id="A1" style={guitarTrack}>
 
-					{/* B4 */}
-					<Section id="B4" style={bFourSectionStyle} />
+						<Element_ON style={guitarON}>
+							<Element_ON_text>
+								guitar
+							</Element_ON_text>
+						</Element_ON>
 
-					{/* Final */}
-					<Section id="Final" style={finalSectionStyle} />
+						<Element_OFF style={guitarOFF} />
+
+
+						<Element_ON style={guitarON}>
+							<Element_ON_text>
+								guitar
+							</Element_ON_text>
+						</Element_ON>
+
+					</ElementTrack>
+
+					{/* BASS */}
+					<ElementTrack id="B1" style={bassTrack}>
+
+						<Element_OFF style={bassOFF} />
+						<Element_OFF style={bassOFF} />
+
+						<Element_ON style={bassON}>
+							<Element_ON_text>
+								bass
+							</Element_ON_text>
+						</Element_ON>
+
+					</ElementTrack>
+
+					{/* CHORUS */}
+					<ElementTrack id="Inter1" style={chorusTrack}>
+
+						<Element_OFF style={chorusOFF} />
+
+						<Element_ON style={chorusON}>
+							<Element_ON_text>
+								chorus
+							</Element_ON_text>
+						</Element_ON>
+
+						<Element_OFF style={chorusOFF} />
+
+						<Element_ON style={chorusON}>
+							<Element_ON_text>
+								chorus
+							</Element_ON_text>
+						</Element_ON>
+
+					</ElementTrack>
+
+					{/* DRUMS */}
+					<ElementTrack id="A2" style={drumsTrack}>
+
+						<Element_ON style={drumsON}>
+							<Element_ON_text>
+								drums
+							</Element_ON_text>
+						</Element_ON>
+
+
+						<Element_OFF style={drumsOFF} />
+
+
+						<Element_ON style={drumsON}>
+							<Element_ON_text>
+								drums
+							</Element_ON_text>
+						</Element_ON>
+
+
+					</ElementTrack>
+
+				</ElementTracksContainer>
 
 
 
+			</Container>
 
-					
 
-				</Container>
-
-				
 
 		);
 	}
