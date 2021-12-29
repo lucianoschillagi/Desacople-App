@@ -7,22 +7,57 @@ box-sizing: border-box;
 display: flex;
 width: 100%;
 height: 50vw;
+z-index: -3;
 `
 export const Section = styled.div`
 // border-left: solid;
 // border-width: thin;
 // width: 100%;
 // background-color: blue;
-
-
 @media ${device.large} {
 // background-color: red;
 }
-
 @media ${device.extraLarge} {
 width: 80%;
 flex-direction: row;
 }
+`
+
+// Song Elements
+export const ElementTracksContainer = styled.div`
+width: 100%;
+height: 50vw;
+display: flex;
+flex-direction: column;
+position: absoulte;
+left: 0px;
+top: 0px;
+z-index: -1;
+`
+export const ElementTrack = styled.div`
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 100px;
+z-index: 0;
+`
+export const Element_ON = styled.div`
+// height: 15px;
+// background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+`
+
+export const Element_ON_text = styled.p`
+font-size: 12px;
+color: white;
+`
+
+
+export const Element_OFF = styled.div`
+height: 10px;
 `
 
 
@@ -30,13 +65,11 @@ const TimelineAnimation = keyframes`
 100% {
 width: 100%;
 }
-
 `
 export const CurrentTimeLine = styled.div`
 width: 2px;
 height: 100%;
 background-color: white;
-position: absolute;
 -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
 -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
 -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
@@ -48,7 +81,8 @@ animation-timing-function: linear;
 animation-direction: normal;
 animation-play-state: paused;
 opacity: 0.25;
+position: absolute;
 left: 0px;
 top: 0px;
-z-index: 2;
+z-index: 1;
 ` 
