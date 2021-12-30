@@ -10,8 +10,11 @@ font-size: 0.8rem;
 text-align: center;
 // font-weight: lighter;
 font-family: ff-meta-correspondence-web-p, sans-serif;
-padding-top: 40px;
-// background-color: red;
+padding-top: 10px;
+
+@media ${device.extraLarge} {
+padding-top: 35px;
+}
 `
 
 export const Section = styled.div`
@@ -21,12 +24,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-
-
 @media ${device.large} {
 height: 60px;
 }
-
 
 &.intro {
    background: green; // <Thing> tagged with an additional CSS class ".something"
