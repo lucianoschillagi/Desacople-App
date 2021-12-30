@@ -6,6 +6,7 @@ width: 100%;
 opacity: 0.8;
 padding: 10px 0px 40px 0px;
 background-color: black;
+// height: 70vw;
 `
 
 export const ContainerCentered = styled.div`
@@ -19,11 +20,27 @@ border-style: solid;
 border-width: 2px;  
 border-color: white;
 border-radius: 18px;
+border-width: 4px;
+
+@media ${device.extraSmall} { 
+
+}
+
+@media ${device.small} { 
+
+}
+
+@media ${device.medium} { 
+
+}
 
 @media ${device.large} { 
 width: 80%;
-height: 40vw;
-border-width: 4px; 
+border-width: 10px;
+}
+
+@media ${device.extraLarge} { 
+
 }
 `
 

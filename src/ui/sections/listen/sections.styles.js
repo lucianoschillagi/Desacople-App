@@ -21,6 +21,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+
+
+@media ${device.large} {
+height: 60px;
+}
+
+
 &.intro {
    background: green; // <Thing> tagged with an additional CSS class ".something"
    width: 10%;
@@ -77,6 +84,8 @@ align-items: center;
    width: 20%;
    background: green;
 }
+
+
 ;
 
 

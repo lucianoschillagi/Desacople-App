@@ -8,6 +8,15 @@ display: flex;
 width: 100%;
 height: 50vw;
 z-index: -3;
+
+@media ${device.extraSmall} { 
+border-width: 10px;
+}
+
+@media ${device.large} { 
+border-width: 10px;
+height: 380px;
+}
 `
 export const Section = styled.div`
 // border-left: solid;
@@ -33,6 +42,12 @@ position: absoulte;
 left: 0px;
 top: 0px;
 z-index: -1;
+
+@media ${device.large} { 
+height: 400px;
+// background-color: orange;
+}
+
 `
 export const ElementTrack = styled.div`
 display: flex;
@@ -40,6 +55,16 @@ flex-direction: row;
 align-items: center;
 height: 100px;
 z-index: 0;
+
+@media ${device.extraSmall} { 
+// height: 50px;
+}
+
+@media ${device.large} { 
+// background-color: red;
+margin: 5px;
+}
+
 `
 export const Element_ON = styled.div`
 // height: 15px;
@@ -48,11 +73,20 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
+
+@media ${device.extraSmall} { 
+height: 25px;
+}
+
 `
 
 export const Element_ON_text = styled.p`
 font-size: 12px;
 color: white;
+
+@media ${device.extraLarge} { 
+font-size: 14px;
+}
 `
 
 

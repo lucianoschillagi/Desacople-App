@@ -120,8 +120,6 @@ class TimelineTotal extends React.Component {
 			backgroundColor: 'none'
 		};
 
-
-
 		return (
 
 			<Container>
