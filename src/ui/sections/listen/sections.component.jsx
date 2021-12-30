@@ -30,7 +30,7 @@ class Sections extends Component {
          case 0.5:
             var intro = document.getElementById("Intro");
             intro.style.borderBottom = borderBottomStyleOn
-            intro.style.opacity = tabLetterOpacity
+            // intro.style.opacity = tabLetterOpacity
             break;
 
          case 22.5:
@@ -39,11 +39,9 @@ class Sections extends Component {
             // A1.style.borderBottom = borderBottomStyleOn
             A1.style.opacity = tabLetterOpacity
             A1.style.fontWeight = "bold"
-            A1.style.backgroundColor = "black"
-            intro.style.borderBottom = borderBottomStyleOff
-            intro.style.color = "black"
-            // intro.innerHTML = "otra"
-            // intro.style.backgroundColor = "red"
+            // intro.style.borderRightStyle = "dotted"
+            intro.style.borderRightWidth = "4px"
+            intro.style.opacity = "0.2"
             break;
 
          case 40:
@@ -118,7 +116,6 @@ class Sections extends Component {
             B4.style.opacity = "0.2"
             break;
       }
-
 
       return (
 

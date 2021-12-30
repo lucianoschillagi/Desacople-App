@@ -18,8 +18,8 @@ padding-top: 35px;
 `
 
 export const Section = styled.div`
-// border-left: solid;
-// border-width: thin;
+border-left: solid;
+border-width: thin;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -29,62 +29,61 @@ height: 60px;
 }
 
 &.intro {
-   background: green; // <Thing> tagged with an additional CSS class ".something"
+   // background: green; // <Thing> tagged with an additional CSS class ".something"
    width: 10%;
 }
 
 &.a1 {
-   background: blue; // <Thing> tagged with an additional CSS class ".something"
+   // background: blue; // <Thing> tagged with an additional CSS class ".something"
    width: 20%;
 }
 
 &.b1 {
-   background: red; // <Thing> tagged with an additional CSS class ".something"
+   // background: red; // <Thing> tagged with an additional CSS class ".something"
    width: 10%;
 }
 
 &.inter1 {
    width: 10%;
-   background: green;
+   // background: green;
 }
 
 &.a2 {
    width: 5%;
-   background: blue;
+   // background: blue;
 }
 
 &.b2 {
    width: 10%;
-   background: red;
+   // background: red;
 }
 
 &.inter2 {
    width: 5%;
-   background: green;
+   // background: green;
 }
 
 &.b3 {
    width: 5%;
-   background: red;
+   // background: red;
 }
 
 &.a3 {
    width: 10%;
-   background: blue;
+   // background: blue;
 }
 
 
 &.b4 {
    width: 10%;
-   background: red;
+   // background: red;
 }
 
 
 &.final {
    width: 20%;
-   background: green;
+   // background: green;
 }
-
 
 ;
 
