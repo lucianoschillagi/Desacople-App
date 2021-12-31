@@ -23,11 +23,13 @@ class Another_ListenSection extends Component {
 
 				<ContainerCentered>
 
+					<Sections currentTimeSong={this.props.currentTimeSong}/>
+
                <TimelineTotal 
 			   		currentTimeSong={this.props.currentTimeSong}
                   timerOn={this.props.timerOn}/>
            
-               <Sections currentTimeSong={this.props.currentTimeSong}/>
+			 		 <Sections currentTimeSong={this.props.currentTimeSong}/>
 
                <SectionContent currentTimeSong={this.props.currentTimeSong}/>
 

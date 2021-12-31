@@ -10,7 +10,7 @@ font-size: 0.8rem;
 text-align: center;
 // font-weight: lighter;
 font-family: ff-meta-correspondence-web-p, sans-serif;
-padding-top: 10px;
+// padding-top: 10px;
 
 @media ${device.extraLarge} {
 padding-top: 35px;

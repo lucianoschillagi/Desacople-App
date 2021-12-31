@@ -14,13 +14,16 @@ display: flex;
 flex-direction: column;
 margin: 0 auto;
 width: 90%;
-padding: 20px 0px 20px 0px;
+padding: 5px 0px 0px 0px;
 font-size: 18px;
 border-style: solid;
 border-width: 2px;  
 border-color: white;
 border-radius: 18px;
 border-width: 4px;
+// background-color: #2f4870;
+z-index: -5;
+
 
 @media ${device.extraSmall} { 
 
