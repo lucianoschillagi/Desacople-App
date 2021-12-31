@@ -9,17 +9,6 @@ class Sections extends Component {
       // convierte el valor de 'currentTimeSong' en un nro con un sólo decimal. Ej: 3.4
       var currentTimeSongPrecision = Number(this.props.currentTimeSong.toFixed(1));
 
-      // Sections
-      const B1 = document.getElementById('B1');
-      const inter1 = document.getElementById('Inter1');
-      const A2 = document.getElementById('A2');
-      const B2 = document.getElementById('B2');
-      const inter2 = document.getElementById('Inter2');
-      const B3 = document.getElementById('B3');
-      const A3 = document.getElementById('A3');
-      const B4 = document.getElementById('B4');
-      const final = document.getElementById('Final');
-
       // CSS values
       const borderBottomStyleOff = "0.25px solid gray"
       const borderBottomStyleOn = "none"
@@ -45,6 +34,8 @@ class Sections extends Component {
             break;
 
          case 40:
+            var A1 = document.getElementById("A1");
+            var B1 = document.getElementById("B1");
             B1.style.borderBottom = borderBottomStyleOn
             B1.style.opacity = tabLetterOpacity
             B1.style.fontWeight = "bold"
@@ -53,6 +44,8 @@ class Sections extends Component {
             break;
 
          case 57.2:
+            var B1 = document.getElementById("B1");
+            var inter1 = document.getElementById("Inter1");
             inter1.style.borderBottom = borderBottomStyleOn
             inter1.style.opacity = tabLetterOpacity
             inter1.style.fontWeight = "bold"
@@ -61,6 +54,8 @@ class Sections extends Component {
             break;
 
          case 66:
+            var inter1 = document.getElementById("Inter1");
+            var A2 = document.getElementById("A2");
             A2.style.borderBottom = borderBottomStyleOn
             A2.style.opacity = tabLetterOpacity
             A2.style.fontWeight = "bold"
@@ -69,6 +64,8 @@ class Sections extends Component {
             break;
 
          case 84:
+            var A2 = document.getElementById("A2");
+            var B2 = document.getElementById("B2");
             B2.style.borderBottom = borderBottomStyleOn
             B2.style.opacity = tabLetterOpacity
             B2.style.fontWeight = "bold"
@@ -77,6 +74,8 @@ class Sections extends Component {
             break;
 
          case 101:
+            var B2 = document.getElementById("B2");
+            var inter2 = document.getElementById("Inter2");
             inter2.style.borderBottom = borderBottomStyleOn
             inter2.style.opacity = tabLetterOpacity
             inter2.style.fontWeight = "bold"
@@ -85,6 +84,8 @@ class Sections extends Component {
             break;
 
          case 140:
+            var inter2 = document.getElementById("Inter2");
+            var B3 = document.getElementById("B3");
             B3.style.borderBottom = borderBottomStyleOn
             B3.style.opacity = tabLetterOpacity
             B3.style.fontWeight = "bold"
@@ -93,6 +94,8 @@ class Sections extends Component {
             break;
 
          case 158:
+            var B3 = document.getElementById("B3");
+            var A3 = document.getElementById("A3");
             A3.style.borderBottom = borderBottomStyleOn
             A3.style.opacity = tabLetterOpacity
             A3.style.fontWeight = "bold"
@@ -101,6 +104,8 @@ class Sections extends Component {
             break;
 
          case 175:
+            var A3 = document.getElementById("A3");
+            var B4 = document.getElementById("B4");
             B4.style.borderBottom = borderBottomStyleOn
             B4.style.opacity = tabLetterOpacity
             B4.style.fontWeight = "bold"
@@ -109,6 +114,8 @@ class Sections extends Component {
             break;
 
          case 193:
+            var B4 = document.getElementById("B4");
+            var final = document.getElementById("Final");
             final.style.borderBottom = borderBottomStyleOn
             final.style.opacity = tabLetterOpacity
             final.style.fontWeight = "bold"
