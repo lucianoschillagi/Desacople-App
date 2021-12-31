@@ -24,8 +24,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+@media ${device.extraSmall} {
+font-size: 0.6rem;
+}
+
 @media ${device.large} {
-height: 60px;
+height: 40px;
+font-size: 0.9rem;
 }
 
 &.intro {
