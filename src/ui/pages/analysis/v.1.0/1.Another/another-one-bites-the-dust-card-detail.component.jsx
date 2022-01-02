@@ -3,7 +3,6 @@ import Music from './music';
 import { Container, 
 			CardDetailTitle, 
 			CardDetailDescription,
-			CardButton,
 			CardDetailPlayedBy } from '../../../../sections/actors/card-detail.styles.js';
 
 class Another_CardDetail extends React.Component {
@@ -36,6 +35,8 @@ class Another_CardDetail extends React.Component {
 				<CardDetailPlayedBy>
 					{this.props.cardPlayedBy}
 				</CardDetailPlayedBy>
+
+				
 
          </Container>
 		)
