@@ -12,3 +12,9 @@ html,body {
   color: white;
   background-color: #2f4870;
 }
+
+button {
+  background-color: #2f4870;
+  color: white;
+  border: none;
+}

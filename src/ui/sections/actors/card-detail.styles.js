@@ -75,7 +75,7 @@ export const CardDetailDescription = styled.div`
 // width: 85%;
 font-size: 0.9rem;
 font-weight: lighter;
-padding: 0px 20px 0px 20px;
+padding: 0px 20px 20px 20px;
 text-align: center;
 align-self: center;
 

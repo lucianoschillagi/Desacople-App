@@ -1,5 +1,5 @@
 import React from 'react';
-import Music from './music';
+import PlayPauseButton from './play-pause-button.component';
 import { Container, 
 			CardDetailTitle, 
 			CardDetailDescription,
@@ -30,7 +30,7 @@ class Another_CardDetail extends React.Component {
 					{this.props.cardDescription}
 				</CardDetailDescription>
 
-				<Music/>
+				<PlayPauseButton/>
 				 
 				<CardDetailPlayedBy>
 					{this.props.cardPlayedBy}

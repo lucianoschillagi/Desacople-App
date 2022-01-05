@@ -1,6 +1,6 @@
 import React from 'react';
-import { ReactComponent as PlayButton } from './play-button.svg';
-import { ReactComponent as PauseButton } from './pause-button.svg';
+import PlayArrowSharpIcon from '@mui/icons-material/PlayArrowSharp';
+import PauseSharpIcon from '@mui/icons-material/PauseSharp';
 
 // ref: https://stackoverflow.com/questions/47686345/playing-sound-in-react-js
 class PlayPauseButton extends React.Component {
@@ -28,9 +28,14 @@ class PlayPauseButton extends React.Component {
 	render() {
 		return (
 			<div>
-				<button onClick={this.togglePlay}>{this.state.play ? 
-					<PauseButton width={20} height={30} /> : 
-					<PlayButton width={20} height={30} />}
+				{/* <PlayArrowSharpIcon fontSize="large"/>
+				<PauseSharpIcon fontSize="large"/> */}
+				<button onClick={
+					this.togglePlay}>
+					{this.state.play ? 
+					<PauseSharpIcon fontSize="large"/> : 
+					<PlayArrowSharpIcon fontSize="large"/>
+					}
 				</button>
 			</div>
 		);
