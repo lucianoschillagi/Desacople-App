@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
-import { Container, 
-         ContainerDescription, 
-         Title, 
-         Content,
-         Where,
-         Segment } from '../../../../sections/highlighted/highlighted-item.styles.js';
+import React, { Component } from "react";
+import PlayPauseButton from "./play-pause-button.component";
+import {
+  Container,
+  Title,
+  Content,
+  Where,
+  Segment,
+} from "../../../../sections/highlighted/highlighted-item.styles.js";
 
-class Another_HighlightedItem extends Component {
-
-   render() {
-		return (
-			<Container>
-				<ContainerDescription>
-               <Title>{this.props.title}</Title>
-               <Content>{this.props.content}</Content>
-               <Where>Where?</Where>
-               <Segment>{this.props.segment}</Segment>
-            </ContainerDescription>
-			</Container>
-		)
-   }
+class AnotherHighlightedItem extends Component {
+  render() {
+    return (
+      <Container>
+          <Title>{this.props.title}</Title>
+          <Content>{this.props.content}</Content>
+          <Where>Where?</Where>
+          <Segment>{this.props.segment}</Segment>
+          <PlayPauseButton />
+      </Container>
+    );
+  }
 }
 
-export default Another_HighlightedItem;
+export default AnotherHighlightedItem;

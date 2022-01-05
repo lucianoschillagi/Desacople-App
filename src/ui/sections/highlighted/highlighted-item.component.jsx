@@ -1,21 +1,15 @@
-import React, { Component } from 'react'
-import { Container, 
-         ContainerDescription, 
-         Title, 
-         Content } from './highlighted-item.styles'
+import React, { Component } from "react";
+import { Container, Title, Content } from "./highlighted-item.styles";
 
 class HighlightedItem extends Component {
-
-   render() {
-		return (
-			<Container>
-				<ContainerDescription>
-               <Title>{this.props.highlightedSongTitle}</Title>
-               <Content>{this.props.highlightedSongContent}</Content>
-            </ContainerDescription>
-			</Container>
-		)
-   }
+  render() {
+    return (
+      <Container>
+        <Title>{this.props.highlightedSongTitle}</Title>
+        <Content>{this.props.highlightedSongContent}</Content>
+      </Container>
+    );
+  }
 }
 
-export default HighlightedItem
+export default HighlightedItem;
