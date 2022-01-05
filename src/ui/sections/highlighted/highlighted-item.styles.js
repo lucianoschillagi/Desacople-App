@@ -9,20 +9,22 @@ border-radius: 14px;
 padding: 11px;
 
 @media ${device.extraSmall} { 
+padding: 20px;
 // background-color: brown;
 }
 
-// @media ${device.small} { 
-// width: 260px;
-// }
+@media ${device.small} { 
+background-color: blue;
+}
 
 // @media ${device.medium} { 
 // width: 260px;
 // }
 
-// @media ${device.large} { 
-// width: 260px;
-// }
+@media ${device.large} { 
+padding: 40px;
+background-color: black;
+}
 
 // @media ${device.extraLarge} { 
 // width: 260px;
@@ -33,12 +35,21 @@ padding: 11px;
 // Title
 export const Title = styled.h4`
 color: white;
-opacity: 0.5;
+opacity: 0.7;
 
 @media ${device.extraSmall} { 
 width: 300px;
-height: 10%;
-// background-color: cyan;
+}
+
+@media ${device.small} { 
+width: 400px;
+}
+
+@media ${device.large} { 
+font-size: 2.4rem;
+color: black;
+background-color: red;
+border-radius: 6px;
 }
 `
 
@@ -50,8 +61,14 @@ padding-bottom: 20px;
 // height: 100px;
 
 @media ${device.extraSmall} { 
-// background-color: purple;
+height: 200px;
 }
+
+@media ${device.large} { 
+font-size: 1.2rem;
+height: 280px;
+}
+
 `
 
 // Where
